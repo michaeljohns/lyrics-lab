@@ -14,7 +14,7 @@
   * [Kevin's working notebook(s)](notebooks/kb) -- working area to avoid commit collisions
   * [Michael's working notebook(s)](notebooks/mj) -- working area to avoid commit collisions
   * [Scott's working notebook(s)](notebooks/ss) -- working area to avoid commit collisions
-* website (TODO)
+* website (TODO), maybe use [GitHub Pages](https://pages.github.com/)?
 
 ##Background and Motivation: Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
 
