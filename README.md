@@ -6,7 +6,8 @@
 
 ##Structure
 * proposal artifacts within [proposal](proposal) folder
-  * coordination for Proposal captured [here](https://github.com/michaeljohns/lyrics-lab/blob/master/proposal/LyricsLabProposalCoordination.pdf) with richer formatting.
+  * coordination for Proposal captured [here](https://github.com/michaeljohns/lyrics-lab/blob/master/proposal/LyricsLabProposalCoordination.pdf) with richer formatting
+* [minutes](minutes) from team and tf meetings
 * [provided](data/provided), [harvested](data/harvested), and [conditioned](data/conditioned) data within [data](data) folder
 * notebooks
   * [master](notebooks/master.ipynb) -- all meaningful results will be added here
