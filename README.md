@@ -4,7 +4,16 @@
 * Scott Stephens, @financedoc
 * Michael Johns, @michaeljohns
 
-Coordination for Proposal captured [here](https://github.com/michaeljohns/lyrics-lab/blob/master/proposal/LyricsLabProposalCoordination.pdf) with richer formatting.
+##Structure
+* proposal artifacts within [proposal](proposal) folder
+  * coordination for Proposal captured [here](https://github.com/michaeljohns/lyrics-lab/blob/master/proposal/LyricsLabProposalCoordination.pdf) with richer formatting.
+* [provided](data/provided), [harvested](data/harvested), and [conditioned](data/conditioned) data within [data](data) folder
+* notebooks
+  * [master](notebooks/master.ipynb) -- all meaningful results will be added here
+  * [Kevin's working notebook(s)](notebooks/kb) -- working area to avoid commit collisions
+  * [Michael's working notebook(s)](notebooks/mj) -- working area to avoid commit collisions
+  * [Scott's working notebook(s)](notebooks/ss) -- working area to avoid commit collisions
+* website (TODO)
 
 ##Background and Motivation: Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
 
@@ -16,14 +25,14 @@ In recent years, considerable effort has been devoted to studying and classifyin
 
 We expect to apply the tools of machine learning to extract thematic content from the lyrics of popular songs in the United States and, if possible, internationally, reaching as far back in time as we can get usable data. We hope to find themes that change over time and correlate them with significant historical events. And if it goes better than we expect, we may be able to produce a classifier that can accept text and predict its genre and era.
 
-We have not yet found an existing study that assembles a large corpus of lyrics and classifies them based on their semantic content. 
+We have not yet found an existing study that assembles a large corpus of lyrics and classifies them based on their semantic content.
 Studying song lyrics is different than general sentiment analysis of, say, a culture’s literature. Lyrics can have attributes that would be out of place in literature or formal prose, such as repetition, rhyming, and rhythmic delivery. Moreover, one might speculate that lyrics may have a higher tendency to be formulaic or even clichéd, making them more amenable to pattern analysis than prose generally.
 
 At this early stage, we do not offer much in the way of predictions about the results. We look forward to discovering them along the way.
 
 ##Project Objectives: What are the scientific and inferential goals for this project? What would you like to learn and accomplish? List the benefits.
 
-This project will focus on the lyrics of songs that have been elevated into the popular consciousness, considering hits from this and previous decades. While music is often layered with context and nuanced with subtext, this project hopes to uncover those themes and sentiments that both reflect and have served shape generations, to identify what is fleeting and what endures. 
+This project will focus on the lyrics of songs that have been elevated into the popular consciousness, considering hits from this and previous decades. While music is often layered with context and nuanced with subtext, this project hopes to uncover those themes and sentiments that both reflect and have served shape generations, to identify what is fleeting and what endures.
 
 Lyrics Lab will employ powerful tools of data science to myriad experiences and ideals as articulated in lyrics, to approximate how they express what it means to be human. It will leverage modern statistical prediction, machine learning, and data mining techniques to accomplish our objectives. A guiding intuition to our approach will be that vice and virtue are classifiable dividing lines in song lyrics. The nouns will give us the vice/virtue split while the adjectives will offer the positive/negative sentiment towards the referenced topic. Through careful design and documentation, our process will be able to iteratively incorporate new hits, or be re-implemented to train any conforming set of lyrics.
 
@@ -38,7 +47,7 @@ Here are secondary questions that Lyrics Lab could assist in answering:
 1.	Given any song’s lyrics, how well might the song perform in select year? Given a sample of text, can we infer what genre it fits, and in what time period?
 1.	What topics has an artist expressed? Does an artist consistently express any topics?
 1.	What are topic preferences for a given geographic area?
-1.	Do musical trends correlate to select cultural trends? Do musical trends correlate to select historic / marked events? 
+1.	Do musical trends correlate to select cultural trends? Do musical trends correlate to select historic / marked events?
 
 ##What Data? From where and how are you collecting your data? Is the data publicly available? How big is it?
 
@@ -50,10 +59,10 @@ Song lyrics offer an accessible corpus to analyze for topics and sentiments. Bil
   * Japan Number One Hits (available 2008-2015)
 *	Genre/Sub-Genre: Pop, Dance/Electronic, R&B/Hip-Hop, Country, Latin, Religious
 *	US Number One Artists (explore body of work)
- 
-We will need to obtain the lyrics for each identified song within the charts. LyricWiki has a public API that is most promising. For one-off gaps, we can use other sites such as songlyrics.com. 
 
-The project will be initially constrained to English songs, though the process could be followed or extended to accommodate any language. Also, for a portion of our analysis we will seek to establish a vice/virtue vocabulary of topics within songs, seeded from an existing word list, then tuned for actual vernacular used in modern songs. 
+We will need to obtain the lyrics for each identified song within the charts. LyricWiki has a public API that is most promising. For one-off gaps, we can use other sites such as songlyrics.com.
+
+The project will be initially constrained to English songs, though the process could be followed or extended to accommodate any language. Also, for a portion of our analysis we will seek to establish a vice/virtue vocabulary of topics within songs, seeded from an existing word list, then tuned for actual vernacular used in modern songs.
 
 ##Must-Have Features: These are features or calculations without which you would consider your project to be a failure.
 
@@ -102,7 +111,7 @@ Secondary Question 4: Do musical trends correlate to select cultural trends? Do 
 
 The table below depicts the methods we will heavily evaluate in our design phase. The features are listed in initial prioritized order. Those features which address secondary questions are stretch goals for the project. During the design phase, any of the features may be ultimately combined or re-imagined to better address standing project questions.
 
-We intend to take advantage of MPP using Spark for data conditioning and at least a portion of the machine learning. However, we will decide whether or not to use AWS resources when the project is further along and the processing requirements of the lyric corpus is better understood. 
+We intend to take advantage of MPP using Spark for data conditioning and at least a portion of the machine learning. However, we will decide whether or not to use AWS resources when the project is further along and the processing requirements of the lyric corpus is better understood.
 
 Overall Priority: 1
 Feature: Interactive N-Gram Component
@@ -125,7 +134,7 @@ Statistical and Computational Method
 * Topic Modeling
 * Intertopic Distance Map
 * n-fold cross-validation
-* SVM 
+* SVM
 
 Overall Priority: 3
 Feature: Interactive Recommender Component
@@ -136,7 +145,7 @@ Statistical and Computational Method
 * Ridge Regression
 * SVD
 * Latent Factors
- 
+
 Overall Priority: 4
 Feature: Song Prediction Component
 Question Level: Secondary
@@ -156,11 +165,11 @@ Verification will be conducted on a variety of levels. First and foremost common
 
 Automated approaches can be used for a variety of the factors. For example genre may be associated with a given song, artists also have associated genre(s). These can be cross referenced between various sources (Billboard, Wikipedia, lyrics). Similar cross references can be made for sales, artist income, and general song content/themes.
 
-Manual methods can also be employed for other results: spot checking lyric content and sentiment compared to findings; comparing literal word counts from lyrics to n-gram results to confirm they “make sense”; among other approaches depending on the specific methodologies that are ultimately used. 
+Manual methods can also be employed for other results: spot checking lyric content and sentiment compared to findings; comparing literal word counts from lyrics to n-gram results to confirm they “make sense”; among other approaches depending on the specific methodologies that are ultimately used.
 
 ##Visualization & Presentation: How will you visualize and communicate your results in your video and website?
 
-The most important feature of the final deliverables is telling a compelling narrative of results observed through our study. All visualizations will be selected to support the narrative which will only become clear during the analysis process. 
+The most important feature of the final deliverables is telling a compelling narrative of results observed through our study. All visualizations will be selected to support the narrative which will only become clear during the analysis process.
 
 For the website, from a high-level perspective, a single page will be used with clean modern design elements. Beginning with summary information and an engaging headline the users will be introduced to the topic. While scrolling from top to bottom the narrative will unfold giving insights that are comprised as major sections. This format will derive inspiration from infographics, but will expand into further detail and allow room for large charts and graphs. It will close out with key take-aways.
 
@@ -175,7 +184,7 @@ Date	Milestone	Lead	Detail
 11/16 - 11/22	Project Review:	N/A	Meet with Assigned TF
 11/22	Data Conditioning, Design Finalized, and Team Huddle:	Michael Johns	All charts, lyrics, and vocab ingested and available for analysis and design finalized
 11/29	Discovery and Analysis and Team Huddle:	All	All statistical and machine learning methods established
-12/06	Project Website Finalized and Team Huddle:	Kevin Buhrer	Summarize results 
+12/06	Project Website Finalized and Team Huddle:	Kevin Buhrer	Summarize results
 12/10	Project Due	Scott Stephens:	All required artifacts delivered (process book, screencast, and website)
 
 ##Team Member Contributions: List the contributions each team member will make.
@@ -186,4 +195,3 @@ All: Narrative writing, analysis and data exploration as divided by group, parti
 ●	Scott Stephens: Final project artifacts (screencast and summaries for website)
 
 Project proposals are due Nov 12. Final project process book (ipython notebooks) is due Dec 10. Project webpage and 2 minute screencast is due Dec 10. For more information on the milestones, deliverables and other due dates on the [course website](http://cs109.github.io/2015/pages/projects.html).
-
