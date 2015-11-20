@@ -10,7 +10,7 @@
 * [minutes](minutes) from team and tf meetings
 * [provided](data/provided), [harvested](data/harvested), and [conditioned](data/conditioned) data within [data](data) folder
 * notebooks
-  * [master](notebooks/master.ipynb) -- all meaningful results will be added here
+  * **[master](notebooks/master.ipynb) -- all meaningful results will be added or linked here**
   * [Kevin's working notebook(s)](notebooks/kb) -- working area to avoid commit collisions
   * [Michael's working notebook(s)](notebooks/mj) -- working area to avoid commit collisions
   * [Scott's working notebook(s)](notebooks/ss) -- working area to avoid commit collisions
