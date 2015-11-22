@@ -90,3 +90,5 @@ tempdata/
 
 ##MLJ Added for Spark
 .vagrant/
+data/conditioned/nsimatrix.p
+data/conditioned/asimatrix.p
