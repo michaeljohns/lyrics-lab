@@ -1,0 +1,27 @@
+{
+  "name": "lyrics-lab",
+  "version": "1.0.0",
+  "description": "Analysis page for CS109 Final Project (Fall 2015)",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljohns/lyrics-lab.git"
+  },
+  "keywords": [
+    "CS109",
+    "Lyrics",
+    "LDA",
+    "Harvard"
+  ],
+  "author": "Lyrics Lab Team (Kevin Buhrer, @cs109-kbuhrer; Scott Stephens, @financedoc; Michael Johns, @michaeljohns)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/michaeljohns/lyrics-lab/issues"
+  },
+  "homepage": "https://github.com/michaeljohns/lyrics-lab#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.1.0"
+  }
+}

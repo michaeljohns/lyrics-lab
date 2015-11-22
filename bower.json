@@ -1,0 +1,32 @@
+{
+  "name": "lyrics-lab",
+  "description": "Analysis page for CS109 Final Project (Fall 2015)",
+  "main": "index.html",
+  "authors": [
+    "Lyrics Lab Team (Kevin Buhrer",
+    "@cs109-kbuhrer; Scott Stephens",
+    "@financedoc; Michael Johns",
+    "@michaeljohns)"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "CS109",
+    "Lyrics",
+    "LDA",
+    "Harvard"
+  ],
+  "homepage": "https://github.com/michaeljohns/lyrics-lab",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "d3": "~3.5.9"
+  }
+}
