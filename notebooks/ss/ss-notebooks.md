@@ -1,2 +1,2 @@
 #Scott's Notebook(s)
-(TODO Explantation)
+First commit is the extension of the conditioned data to lda. The nounword2id index uses strings for keys and these had to be converted to integers. The size of our data is smaller than the HW5 example, so a smaller chunksize was chosen. It also appears to be relatively fast when passes is greater than one, but without (yet) understanding the rationale for doing that I left it alone. The lda is set to run with an arbitraty number of topics and print them out in readable format. There's something not right about the way the lda.get_document_topics(bow) function tries to access the nounid2words index. Figuring that out is what's next.   
