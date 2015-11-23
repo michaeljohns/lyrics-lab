@@ -92,3 +92,5 @@ tempdata/
 .vagrant/
 data/conditioned/nsimatrix.p
 data/conditioned/asimatrix.p
+data/harvested/lw-raw-lyrics
+data/harvested/lw-raw-lyrics-error
