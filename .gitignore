@@ -103,6 +103,8 @@ data/conditioned/*
 data/conditioned/archive/nsimatrix.p
 data/conditioned/archive/asimatrix.p
 
+data/conditioned/corpus_vocabs/*
+
 data/conditioned/decades/*
 !data/conditioned/decades/*.7z
 
