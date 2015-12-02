@@ -1,1 +1,115 @@
 @import "bootstrap.less";
+
+@pri: #303F9F;
+@sec: #00BCD4;
+@tri: #E91E63;
+
+.navbar {
+  border-radius: 0;
+  margin-top: -50px;
+  transition: margin 0s;
+
+  .navbar-brand {
+    padding-top: 2px;
+    padding-bottom: 0;
+  }
+
+  &.affix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    transition: margin 0.75s;
+  }
+}
+
+.page-lead {
+  background: linear-gradient(-10deg, @pri 0, @sec 100%);
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0,0,0,2);
+  padding: 50px;
+
+  .jumbotron {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  // Extra margin for navbar to help prevent jumping when switching to affix.
+  margin-bottom: 50px;
+}
+
+.section {
+  color: #444;
+  background-color: #f8f8f9;
+  padding: 20px 20px 50px;
+
+  &:nth-child(odd) {
+    //border-top: 25px solid @pri;
+    //border-bottom: 25px solid @sec;
+    background-color: #fff; //#f8f8f9;
+  }
+
+  h1 {
+    color: @pri;
+    font-variant: small-caps;
+  }
+
+  b {
+    color: #000;
+  }
+
+  &.aside {
+    background-color: @pri;
+    color: #eee;
+
+    h1 {
+      color: #fff;
+    }
+  }
+}
+
+footer {
+  background-color: #111;
+  color: @sec;
+  padding: 30px 0 50px;
+}
+
+.text-bubble {
+  @bubbleTriSize: 25px;
+
+  position: relative;
+  color: #fff;
+  background-color: @sec;
+  border-radius: 10px;
+  margin: 10px 10px (@bubbleTriSize + 10px) 10px;
+  padding: 20px;
+
+  font-size: 24px;
+  font-weight: lighter;
+  width: 50%;
+
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1 * @bubbleTriSize;
+    left: 30px;
+
+    border-top: 0 solid transparent;
+    border-bottom: @bubbleTriSize solid transparent;
+    border-left: @bubbleTriSize solid @sec;
+  }
+
+  &.right {
+    margin-left: 50%;
+
+    &::after {
+      border-left: none;
+      border-right: @bubbleTriSize solid @sec;
+      left: auto;
+      right: @bubbleTriSize;
+    }
+  }
+}
