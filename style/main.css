@@ -6801,6 +6801,9 @@ button.close {
 .section:nth-child(odd) {
   background-color: #fff;
 }
+.section.last {
+  padding-bottom: 100px;
+}
 .section h1 {
   color: #303F9F;
   font-variant: small-caps;
@@ -6816,17 +6819,23 @@ button.close {
   color: #fff;
 }
 footer {
-  background-color: #111;
+  border-top: 1px solid #080808;
+  background-color: #222;
   color: #00BCD4;
   padding: 30px 0 50px;
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.5);
+}
+.text-bubble,
+.note-box {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
 }
 .text-bubble {
   position: relative;
   color: #fff;
   background-color: #00BCD4;
-  border-radius: 10px;
-  margin: 10px 10px 35px 10px;
-  padding: 20px;
+  margin-bottom: 35px;
   font-size: 24px;
   font-weight: lighter;
   width: 50%;
@@ -6848,4 +6857,26 @@ footer {
   border-right: 25px solid #00BCD4;
   left: auto;
   right: 25px;
+}
+.note-box {
+  background-color: #ccc;
+  float: left;
+  max-width: 33%;
+}
+.note-box h1,
+.note-box h2,
+.note-box h3,
+.note-box h4,
+.note-box h5,
+.note-box h6 {
+  color: #444;
+  font-weight: normal;
+  margin-top: 0;
+}
+.note-box.right {
+  float: right;
+}
+.note-box ul {
+  margin-left: 0;
+  padding-left: 20px;
 }

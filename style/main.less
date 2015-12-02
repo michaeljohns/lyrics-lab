@@ -3,6 +3,7 @@
 @pri: #303F9F;
 @sec: #00BCD4;
 @tri: #E91E63;
+@mainText: #444;
 
 .navbar {
   border-radius: 0;
@@ -41,7 +42,7 @@
 }
 
 .section {
-  color: #444;
+  color: @mainText;
   background-color: #f8f8f9;
   padding: 20px 20px 50px;
 
@@ -49,6 +50,10 @@
     //border-top: 25px solid @pri;
     //border-bottom: 25px solid @sec;
     background-color: #fff; //#f8f8f9;
+  }
+
+  &.last {
+    padding-bottom: 100px; // Stand off before footer, but keep last section color visible.
   }
 
   h1 {
@@ -71,9 +76,22 @@
 }
 
 footer {
-  background-color: #111;
+  border-top: 1px solid #080808;
+  background-color: #222;
   color: @sec;
   padding: 30px 0 50px;
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.5);
+}
+
+@accentBorderRadius: 10px;
+@accentPadding: 20px;
+@accentMargin: 10px;
+
+.text-bubble,
+.note-box {
+  border-radius: @accentBorderRadius;
+  margin: @accentMargin;
+  padding: @accentPadding;
 }
 
 .text-bubble {
@@ -82,9 +100,7 @@ footer {
   position: relative;
   color: #fff;
   background-color: @sec;
-  border-radius: 10px;
-  margin: 10px 10px (@bubbleTriSize + 10px) 10px;
-  padding: 20px;
+  margin-bottom: (@bubbleTriSize + @accentMargin);
 
   font-size: 24px;
   font-weight: lighter;
@@ -111,5 +127,26 @@ footer {
       left: auto;
       right: @bubbleTriSize;
     }
+  }
+}
+
+.note-box {
+  background-color: #ccc;
+  float: left;
+  max-width: 33%;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: @mainText;
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  &.right {
+    float: right;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 20px;
   }
 }
