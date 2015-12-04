@@ -1,0 +1,127 @@
+@import 'vars.less';
+
+@accentBorderRadius: 10px;
+@accentPadding: 20px;
+@accentMargin: 10px;
+
+.text-bubble,
+.note-box {
+  border-radius: @accentBorderRadius;
+  margin: @accentMargin;
+  padding: @accentPadding;
+}
+
+.text-bubble {
+  @bubbleStemSize: 25px;
+
+  position: relative;
+  color: #fff;
+  background-color: @sec;
+  color: @supportTextLightEmphasis;
+  .palette-opts();
+
+  margin-bottom: (@bubbleStemSize + @accentMargin);
+  font-size: 24px;
+  font-weight: lighter;
+  width: 50%;
+
+  &.pri::after {
+    border-left-color: @pri;
+  }
+
+  &.sec::after {
+    border-left-color: @sec;
+  }
+
+  &.tri::after {
+    border-left-color: @tri;
+  }
+
+  &.dark::after {
+    border-left-color: @supportFillDark;
+  }
+
+  &.light::after {
+    border-left-color: @supportFillLight;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1 * @bubbleStemSize;
+    left: 30px;
+
+    border-top: 0 solid transparent;
+    border-bottom: @bubbleStemSize solid transparent;
+    border-left: @bubbleStemSize solid @sec;
+  }
+
+  &.right {
+    margin-left: 50%;
+
+    &.pri::after {
+      border-right-color: @pri;
+    }
+
+    &.sec::after {
+      border-right-color: @sec;
+    }
+
+    &.tri::after {
+      border-right-color: @tri;
+    }
+
+    &.dark::after {
+      border-right-color: @supportFillDark;
+    }
+
+    &.light::after {
+      border-right-color: @supportFillLight;
+    }
+
+    &::after {
+      border-left: none;
+      border-right: @bubbleStemSize solid @sec;
+      left: auto;
+      right: @bubbleStemSize;
+    }
+  }
+}
+
+.note-box {
+  background-color: @supportFillLight;
+  //color: @mainText;
+  float: left;
+  max-width: 33%;
+
+  .palette-opts();
+
+  .dark, .pri, .sec, .tri {
+    .header-color(#fff);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  &.right {
+    float: right;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 20px;
+  }
+}
+
+ul {
+  &.plain {
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+}

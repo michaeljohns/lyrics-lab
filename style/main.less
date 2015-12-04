@@ -1,33 +1,19 @@
-@import "bootstrap.less";
+@import 'vars.less';
+@import 'bootstrap-customize.less';
+@import 'accent-elements.less';
 
-@pri: #303F9F;
-@sec: #00BCD4;
-@tri: #E91E63;
-@mainText: #444;
+footer {
+  border-top: 1px solid @navbar-inverse-bg; //#080808; /// Match Bootstrap's Inverse colors
+  background-color: @navbar-inverse-border;
+  color: @supportTextLight;
+  padding: 30px 0 50px;
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.5);
 
-.navbar {
-  border-radius: 0;
-  margin-top: -50px;
-  transition: margin 0s;
-
-  .navbar-brand {
-    padding-top: 2px;
-    padding-bottom: 0;
-  }
-
-  &.affix {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
-    margin-top: 0;
-    transition: margin 0.75s;
-  }
+  .header-color(@sec);
 }
 
 .page-lead {
-  background: linear-gradient(-10deg, @pri 0, @sec 100%);
+  background: linear-gradient(-10deg, @pri 10%, @sec 90%);
   text-align: center;
   text-shadow: 0 1px 4px rgba(0,0,0,2);
   padding: 50px;
@@ -41,15 +27,22 @@
   margin-bottom: 50px;
 }
 
+.section,
+.aside {
+    transition: .5s padding ease-in .25s;
+
+    .container {
+      transition: .5s opacity ease-in .25s;
+    }
+}
+
 .section {
   color: @mainText;
-  background-color: #f8f8f9;
+  background-color: @sectionFill;
   padding: 20px 20px 50px;
 
   &:nth-child(odd) {
-    //border-top: 25px solid @pri;
-    //border-bottom: 25px solid @sec;
-    background-color: #fff; //#f8f8f9;
+    background-color: @sectionFillAlt;
   }
 
   &.last {
@@ -59,94 +52,105 @@
   h1 {
     color: @pri;
     font-variant: small-caps;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
   }
 
-  b {
-    color: #000;
+  b,
+  i {
+    color: @mainTextEmphasis;
   }
+}
 
-  &.aside {
-    background-color: @pri;
-    color: #eee;
+.aside {
+  background-color: @supportFillDark;
+  color: @supportTextLight;
+  padding: 20px 20px 50px;
 
-    h1 {
-      color: #fff;
+  .palette-opts();
+  .header-color(@supportTextLightEmphasis);
+
+  &.light {
+    .header-color(@mainText);
+
+    b,
+    i {
+      color: @mainTextEmphasis;
     }
   }
-}
 
-footer {
-  border-top: 1px solid #080808;
-  background-color: #222;
-  color: @sec;
-  padding: 30px 0 50px;
-  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.5);
-}
-
-@accentBorderRadius: 10px;
-@accentPadding: 20px;
-@accentMargin: 10px;
-
-.text-bubble,
-.note-box {
-  border-radius: @accentBorderRadius;
-  margin: @accentMargin;
-  padding: @accentPadding;
-}
-
-.text-bubble {
-  @bubbleTriSize: 25px;
-
-  position: relative;
-  color: #fff;
-  background-color: @sec;
-  margin-bottom: (@bubbleTriSize + @accentMargin);
-
-  font-size: 24px;
-  font-weight: lighter;
-  width: 50%;
-
-
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -1 * @bubbleTriSize;
-    left: 30px;
-
-    border-top: 0 solid transparent;
-    border-bottom: @bubbleTriSize solid transparent;
-    border-left: @bubbleTriSize solid @sec;
-  }
-
-  &.right {
-    margin-left: 50%;
-
-    &::after {
-      border-left: none;
-      border-right: @bubbleTriSize solid @sec;
-      left: auto;
-      right: @bubbleTriSize;
-    }
-  }
-}
-
-.note-box {
-  background-color: #ccc;
-  float: left;
-  max-width: 33%;
-
-  h1, h2, h3, h4, h5, h6 {
-    color: @mainText;
+  h1 {
+    padding-bottom: 10px;
     font-weight: normal;
-    margin-top: 0;
   }
 
-  &.right {
-    float: right;
+  b,
+  i {
+    color: @supportTextLightEmphasis;
   }
 
-  ul {
-    margin-left: 0;
-    padding-left: 20px;
+  &.no-header {
+    padding-bottom: 20px;
   }
+}
+
+.vspace {
+  height: 50px;
+}
+
+.visible-delay {
+  padding-top: 70px;
+
+  .container {
+    opacity: 0;
+  }
+}
+
+
+.bar-chart {
+  // rect.extent {
+  //   fill: @sec;
+  //   fill-opacity: 0.125;
+  // }
+
+  // text {
+  //   fill: #999;
+  //   font: 10px sans-serif;
+  //   text-anchor: end;
+  //
+  //   &.bar-outer-label {
+  //     fill: black;
+  //   }
+  // }
+
+  .background.bar {
+    fill: #ccc;
+  }
+
+  .foreground.bar {
+    fill: @tri;
+  }
+
+  .axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  .axis text {
+    font: 10px sans-serif;
+  }
+
+  .brush rect.extent {
+    fill: @sec;
+    fill-opacity: .125;
+  }
+
+  .brush .resize path {
+    fill: #444;
+    stroke: transparent;
+  }
+}
+
+#chart-yasc {
+  width: 920px;
 }

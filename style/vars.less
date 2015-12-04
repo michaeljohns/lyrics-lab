@@ -1,0 +1,45 @@
+@pri: #303F9F;
+@sec: #00BCD4;
+@tri: #E91E63;
+@mainText: #444;
+@mainTextEmphasis: #000;
+@supportFillLight: #ddd;
+@supportFillDark: #444;
+@supportTextLight: #eee;
+@supportTextLightEmphasis: #fff;
+
+@sectionFill: #f8f8f9;
+@sectionFillAlt: #fff;
+
+.palette-opts() {
+  &.light {
+    background-color: @supportFillLight;
+    color: @mainText;
+  }
+
+  &.dark, &.pri, &.sec, &.tri {
+    color: @supportTextLight;
+  }
+
+  &.dark {
+    background-color: @supportFillDark;
+  }
+
+  &.pri {
+    background-color: @pri;
+  }
+
+  &.sec {
+    background-color: @sec;
+  }
+
+  &.tri {
+    background-color: @tri;
+  }
+}
+
+.header-color(@c) {
+  h1, h2, h3, h4, h5, h6 {
+    color: @c;
+  }
+}

@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "d3": "~3.5.9"
+    "d3": "~3.5.9",
+    "throttle-debounce": "~0.1.1"
   }
 }

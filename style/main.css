@@ -6782,8 +6782,188 @@ button.close {
   margin-top: 0;
   transition: margin 0.75s;
 }
+.table-hover > tbody > tr:hover {
+  background-color: #00BCD4;
+  color: #fff;
+}
+.text-bubble,
+.note-box {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+.text-bubble {
+  position: relative;
+  background-color: #00BCD4;
+  color: #fff;
+  margin-bottom: 35px;
+  font-size: 24px;
+  font-weight: lighter;
+  width: 50%;
+}
+.text-bubble.light {
+  background-color: #ddd;
+  color: #444;
+}
+.text-bubble.dark,
+.text-bubble.pri,
+.text-bubble.sec,
+.text-bubble.tri {
+  color: #eee;
+}
+.text-bubble.dark {
+  background-color: #444;
+}
+.text-bubble.pri {
+  background-color: #303F9F;
+}
+.text-bubble.sec {
+  background-color: #00BCD4;
+}
+.text-bubble.tri {
+  background-color: #E91E63;
+}
+.text-bubble.pri::after {
+  border-left-color: #303F9F;
+}
+.text-bubble.sec::after {
+  border-left-color: #00BCD4;
+}
+.text-bubble.tri::after {
+  border-left-color: #E91E63;
+}
+.text-bubble.dark::after {
+  border-left-color: #444;
+}
+.text-bubble.light::after {
+  border-left-color: #ddd;
+}
+.text-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 30px;
+  border-top: 0 solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #00BCD4;
+}
+.text-bubble.right {
+  margin-left: 50%;
+}
+.text-bubble.right.pri::after {
+  border-right-color: #303F9F;
+}
+.text-bubble.right.sec::after {
+  border-right-color: #00BCD4;
+}
+.text-bubble.right.tri::after {
+  border-right-color: #E91E63;
+}
+.text-bubble.right.dark::after {
+  border-right-color: #444;
+}
+.text-bubble.right.light::after {
+  border-right-color: #ddd;
+}
+.text-bubble.right::after {
+  border-left: none;
+  border-right: 25px solid #00BCD4;
+  left: auto;
+  right: 25px;
+}
+.note-box {
+  background-color: #ddd;
+  float: left;
+  max-width: 33%;
+}
+.note-box.light {
+  background-color: #ddd;
+  color: #444;
+}
+.note-box.dark,
+.note-box.pri,
+.note-box.sec,
+.note-box.tri {
+  color: #eee;
+}
+.note-box.dark {
+  background-color: #444;
+}
+.note-box.pri {
+  background-color: #303F9F;
+}
+.note-box.sec {
+  background-color: #00BCD4;
+}
+.note-box.tri {
+  background-color: #E91E63;
+}
+.note-box .dark h1,
+.note-box .pri h1,
+.note-box .sec h1,
+.note-box .tri h1,
+.note-box .dark h2,
+.note-box .pri h2,
+.note-box .sec h2,
+.note-box .tri h2,
+.note-box .dark h3,
+.note-box .pri h3,
+.note-box .sec h3,
+.note-box .tri h3,
+.note-box .dark h4,
+.note-box .pri h4,
+.note-box .sec h4,
+.note-box .tri h4,
+.note-box .dark h5,
+.note-box .pri h5,
+.note-box .sec h5,
+.note-box .tri h5,
+.note-box .dark h6,
+.note-box .pri h6,
+.note-box .sec h6,
+.note-box .tri h6 {
+  color: #fff;
+}
+.note-box h1,
+.note-box h2,
+.note-box h3,
+.note-box h4,
+.note-box h5,
+.note-box h6 {
+  font-weight: normal;
+  margin-top: 0;
+}
+.note-box.right {
+  float: right;
+}
+.note-box ul {
+  margin-left: 0;
+  padding-left: 20px;
+}
+ul.plain {
+  margin-left: 0;
+  padding-left: 0;
+}
+ul.plain li {
+  list-style: none;
+}
+footer {
+  border-top: 1px solid #222;
+  background-color: #080808;
+  color: #eee;
+  padding: 30px 0 50px;
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.5);
+}
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+  color: #00BCD4;
+}
 .page-lead {
-  background: linear-gradient(-10deg, #303F9F 0, #00BCD4 100%);
+  background: linear-gradient(-10deg, #303F9F 10%, #00BCD4 90%);
   text-align: center;
   text-shadow: 0 1px 4px #000000;
   padding: 50px;
@@ -6792,6 +6972,14 @@ button.close {
 .page-lead .jumbotron {
   background-color: transparent;
   color: #fff;
+}
+.section,
+.aside {
+  transition: 0.5s padding ease-in 0.25s;
+}
+.section .container,
+.aside .container {
+  transition: 0.5s opacity ease-in 0.25s;
 }
 .section {
   color: #444;
@@ -6807,76 +6995,103 @@ button.close {
 .section h1 {
   color: #303F9F;
   font-variant: small-caps;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
-.section b {
+.section b,
+.section i {
   color: #000;
 }
-.section.aside {
-  background-color: #303F9F;
+.aside {
+  background-color: #444;
+  color: #eee;
+  padding: 20px 20px 50px;
+}
+.aside.light {
+  background-color: #ddd;
+  color: #444;
+}
+.aside.dark,
+.aside.pri,
+.aside.sec,
+.aside.tri {
   color: #eee;
 }
-.section.aside h1 {
-  color: #fff;
+.aside.dark {
+  background-color: #444;
 }
-footer {
-  border-top: 1px solid #080808;
-  background-color: #222;
-  color: #00BCD4;
-  padding: 30px 0 50px;
-  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.5);
+.aside.pri {
+  background-color: #303F9F;
 }
-.text-bubble,
-.note-box {
-  border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-}
-.text-bubble {
-  position: relative;
-  color: #fff;
+.aside.sec {
   background-color: #00BCD4;
-  margin-bottom: 35px;
-  font-size: 24px;
-  font-weight: lighter;
-  width: 50%;
 }
-.text-bubble::after {
-  content: '';
-  position: absolute;
-  bottom: -25px;
-  left: 30px;
-  border-top: 0 solid transparent;
-  border-bottom: 25px solid transparent;
-  border-left: 25px solid #00BCD4;
+.aside.tri {
+  background-color: #E91E63;
 }
-.text-bubble.right {
-  margin-left: 50%;
+.aside h1,
+.aside h2,
+.aside h3,
+.aside h4,
+.aside h5,
+.aside h6 {
+  color: #fff;
 }
-.text-bubble.right::after {
-  border-left: none;
-  border-right: 25px solid #00BCD4;
-  left: auto;
-  right: 25px;
-}
-.note-box {
-  background-color: #ccc;
-  float: left;
-  max-width: 33%;
-}
-.note-box h1,
-.note-box h2,
-.note-box h3,
-.note-box h4,
-.note-box h5,
-.note-box h6 {
+.aside.light h1,
+.aside.light h2,
+.aside.light h3,
+.aside.light h4,
+.aside.light h5,
+.aside.light h6 {
   color: #444;
+}
+.aside.light b,
+.aside.light i {
+  color: #000;
+}
+.aside h1 {
+  padding-bottom: 10px;
   font-weight: normal;
-  margin-top: 0;
 }
-.note-box.right {
-  float: right;
+.aside b,
+.aside i {
+  color: #fff;
 }
-.note-box ul {
-  margin-left: 0;
-  padding-left: 20px;
+.aside.no-header {
+  padding-bottom: 20px;
+}
+.vspace {
+  height: 50px;
+}
+.visible-delay {
+  padding-top: 70px;
+}
+.visible-delay .container {
+  opacity: 0;
+}
+.bar-chart .background.bar {
+  fill: #ccc;
+}
+.bar-chart .foreground.bar {
+  fill: #E91E63;
+}
+.bar-chart .axis path,
+.bar-chart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.bar-chart .axis text {
+  font: 10px sans-serif;
+}
+.bar-chart .brush rect.extent {
+  fill: #00BCD4;
+  fill-opacity: .125;
+}
+.bar-chart .brush .resize path {
+  fill: #444;
+  stroke: transparent;
+}
+#chart-yasc {
+  width: 920px;
 }

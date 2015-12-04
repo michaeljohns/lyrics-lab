@@ -1,0 +1,3407 @@
+,artist,count,year
+0,Ace of Base,1,1998
+1,ABC,1,1985
+2,Lou Gramm,1,1987
+3,The Pussycat Dolls,1,2005
+4,Toto,1,1979
+5,Paul Anka,1,1974
+6,Jerry Reed,2,1971
+7,The Pretenders,1,1987
+8,Real McCoy,1,1994
+9,Kid Cudi,1,2009
+10,Looking Glass,1,1972
+11,Colbie Caillat,1,2007
+12,The Honey Cone,1,1971
+13,The Human League,1,1982
+14,Daryl Hall and John Oates,2,1985
+15,Black Box,1,1990
+16,Anne Murray,2,1974
+17,Pitbull,1,2014
+18,Ludacris,1,2004
+19,8th Day,1,1971
+20,Poison,1,1989
+21,Eiffel 65,1,2000
+22,Brad Paisley,1,2009
+23,Tee Set,1,1970
+24,Nitty Gritty Dirt Band,1,1971
+25,Rod Stewart,2,1993
+26,Rex Smith,1,1979
+27,UB40,1,1988
+28,Bread,1,1977
+29,All-4-One,1,1995
+30,Steve Winwood,3,1988
+31,Ricky Martin,2,1999
+32,Carly Simon,1,1977
+33,Santana,1,1981
+34,Smash Mouth,1,2000
+35,David Gates,1,1978
+36,"Ray, Goodman and Brown",1,1980
+37,Focus,1,1973
+38,Luke Bryan,2,2013
+39,Captain and Tennille,1,1977
+40,Total,1,1999
+41,Yvonne Elliman,1,1978
+42,Sylvia,1,1973
+43,Michael Bolton,2,1992
+44,The Four Tops,1,1973
+45,Kenny Chesney,1,2001
+46,Ghost Town DJ's,1,1996
+47,Missy Elliott,1,2003
+48,Jay-Z,2,2004
+49,Young Jeezy,1,2006
+50,fun.,1,2012
+51,Seal,1,1994
+52,Jodeci,1,1992
+53,Irene Cara,1,1983
+54,Five for Fighting,1,2004
+55,Jennifer Lopez,1,2000
+56,The Jeff Healey Band,1,1989
+57,Snoop Dogg,1,2003
+58,Patti LaBelle,1,1986
+59,Gene Chandler,1,1970
+60,The-Dream,1,2008
+61,Faith Hill,1,2001
+62,The Beach Boys,1,1981
+63,Toby Keith,1,2003
+64,The New Seekers,1,1972
+65,Tommy Tutone,1,1982
+66,GQ,2,1979
+67,Prince,1,1994
+68,John Denver,1,1971
+69,Rose Royce,2,1977
+70,The Beginning of the End,1,1971
+71,20 Fingers,1,1995
+72,Jagged Edge,2,2000
+73,Kanye West,1,2011
+74,Bee Gees,2,1976
+75,C+C Music Factory,3,1991
+76,John Lennon,3,1981
+77,ABBA,1,1981
+78,Erykah Badu,1,1997
+79,Lloyd,1,2004
+80,Tim McGraw,1,2001
+81,Bad English,1,1989
+82,Lou Bega,1,1999
+83,Busta Rhymes,1,1996
+84,"Crosby, Stills, Nash and Young",1,1970
+85,LSG,1,1998
+86,Billy Squier,1,1981
+87,Drake,2,2009
+88,Animotion,1,1985
+89,Madonna,3,1986
+90,General Public,1,1994
+91,112,1,1999
+92,Debbie Gibson,1,1989
+93,Bananarama,1,1984
+94,Debbie Gibson,3,1988
+95,John Travolta,2,1978
+96,Ringo Starr,2,1974
+97,En Vogue,3,1992
+98,Ice Cube,1,1994
+99,Wreckx-n-Effect,1,1993
+100,Tim McGraw,1,1997
+101,Johnny Mathis,1,1978
+102,Charlie Rich,2,1974
+103,Biz Markie,1,1990
+104,Bobby Brown,5,1989
+105,Uncle Sam,1,1998
+106,Lil' Bow Wow,1,2000
+107,Natural Selection,1,1991
+108,Madonna,1,2006
+109,Chicago,1,1976
+110,Hanson,1,1998
+111,Simple Minds,1,1985
+112,Anne Murray,1,1978
+113,Matchbox 20,1,1999
+114,Isaac Hayes,1,1971
+115,Dionne Warwick,1,1979
+116,Boys Club,1,1989
+117,Rihanna,2,2013
+118,Honey Cone,1,1971
+119,The O'Jays,2,1974
+120,Dexys Midnight Runners,1,1983
+121,Ed Sheeran,1,2013
+122,Olivia Newton-John,2,1975
+123,Damn Yankees,1,1991
+124,Peter Gabriel,1,1986
+125,Men at Work,3,1983
+126,Mariah Carey,1,2013
+127,Montell Jordan,1,1998
+128,The Babys,1,1979
+129,Sheryl Crow,1,2004
+130,Thalía,1,2003
+131,Kanye West,1,2006
+132,Jive Bunny and the Mastermixers,1,1990
+133,Taylor Hicks,1,2006
+134,The Cars,1,1982
+135,The Main Ingredient,1,1972
+136,Donna Summer,1,1976
+137,10cc,1,1977
+138,Toto,2,1983
+139,Scorpions,1,1991
+140,Air Supply,2,1980
+141,Billy Currington,1,2009
+142,Daryl Hall and John Oates,1,1988
+143,Del Amitri,1,1995
+144,Boyz II Men,2,1998
+145,D'Angelo,1,1995
+146,Timmy Thomas,1,1973
+147,The Moody Blues,1,1972
+148,Jamie Walters,1,1995
+149,Cat Stevens,1,1972
+150,Rihanna,2,2006
+151,Hurricane Chris,1,2007
+152,Karyn White,1,1992
+153,Madonna,2,1994
+154,David Guetta,2,2011
+155,Miranda Lambert,1,2013
+156,The 5th Dimension,1,1971
+157,Bobby Caldwell,1,1979
+158,Red Hot Chili Peppers,1,2000
+159,Avicii,2,2014
+160,Seduction,1,1990
+161,En Vogue,1,1990
+162,The System,1,1987
+163,Billy Preston,1,1972
+164,Ray Stevens,1,1975
+165,Ludacris,2,2010
+166,Richard Marx,1,1994
+167,Blaque,1,1999
+168,Celine Dion,1,2002
+169,Elton John,1,1992
+170,Pink,2,2011
+171,Teena Marie,1,1985
+172,112,1,1997
+173,Total,2,1996
+174,Enrique Iglesias,1,2002
+175,Colbie Caillat,1,2009
+176,Tom Jones,1,1970
+177,Duran Duran,1,1989
+178,Will Smith,1,1998
+179,Michael Buble,1,2010
+180,Meredith Brooks,1,1997
+181,Bon Jovi,1,1988
+182,Kenny Chesney,1,1999
+183,Jamie Foxx,1,2009
+184,Sheena Easton,3,1981
+185,INXS,1,1991
+186,Backstreet Boys,2,1998
+187,Steve Winwood,1,1981
+188,George Harrison,1,1973
+189,Chingy,1,2006
+190,Dave Edmunds,1,1971
+191,Diana Ross,1,1974
+192,Madonna,1,2008
+193,Toby Keith,1,2000
+194,Color Me Badd,1,1996
+195,Phil Collins,4,1990
+196,Michael Jackson,1,1993
+197,Kenny Loggins,1,1987
+198,Donny,1,1975
+199,Katrina and the Waves,1,1985
+200,Boz Scaggs,1,1981
+201,Ying Yang Twins,1,2005
+202,Coolio,2,1996
+203,Paul Simon,1,1978
+204,Ronnie Milsap,1,1977
+205,Bee Gees,3,1978
+206,Creed,1,2001
+207,Young Gunz,1,2003
+208,Dino,1,1989
+209,Melissa Manchester,1,1979
+210,Tina Turner,1,1993
+211,Todd Rundgren,1,1974
+212,The Police,2,1981
+213,The Pointer Sisters,1,1981
+214,Jann Arden,1,1996
+215,Savage Garden,1,1998
+216,Lady Gaga,1,2013
+217,Michael Jackson,1,1989
+218,Kanye West,1,2009
+219,Jessie J,1,2012
+220,Take That,1,1996
+221,Dr. Hook and The Medicine Show,1,1973
+222,Of Monsters and Men,1,2013
+223,Jimmy Cliff,1,1994
+224,Ke$ha,1,2012
+225,4 P.M.,1,1995
+226,Son by Four,1,2000
+227,Keyshia Cole,1,2006
+228,Deep Purple,1,1973
+229,Sister Sledge,2,1979
+230,Floetry,1,2003
+231,Mike Posner,1,2011
+232,Miley Cyrus,2,2008
+233,James Ingram,1,1990
+234,The Moments,1,1970
+235,Macklemore and Ryan Lewis,1,2014
+236,OneRepublic,1,2011
+237,Fat Joe,1,2005
+238,Joey Scarbury,1,1981
+239,Olivia Newton-John,2,1982
+240,Sting,1,1988
+241,Big Sean,1,2012
+242,Elvis Presley,1,1970
+243,Prince,1,1993
+244,Elton John,3,1975
+245,Pablo Cruise,1,1977
+246,112,1,1996
+247,Air Supply,2,1981
+248,Jay Z,1,2013
+249,Styx,1,1980
+250,Mr. Cheeks,1,2002
+251,Anne Murray,2,1980
+252,The Bangles,1,1986
+253,Hammer,2,1992
+254,Lloyd,2,2007
+255,Linda Ronstadt,1,1987
+256,Bon Jovi,1,1986
+257,Rome,1,1997
+258,Anne Murray,1,1973
+259,Larry Groce,1,1976
+260,The Osmonds,2,1971
+261,Madonna,4,1987
+262,Toni Braxton,1,2000
+263,Soul Asylum,1,1995
+264,Dr. Hook and The Medicine Show,1,1972
+265,Dolly Parton,1,1981
+266,Santana,1,2003
+267,Gavin DeGraw,1,2008
+268,Avril Lavigne,2,2007
+269,The Spinners,2,1980
+270,Boys Like Girls,1,2007
+271,Billy Idol,2,1987
+272,Smokey Robinson,1,1987
+273,Guns N' Roses,1,1988
+274,Barbra Streisand,1,1980
+275,The Clash,1,1983
+276,Bon Jovi,1,2006
+277,Three Dog Night,1,1974
+278,Leo Sayer,1,1981
+279,3 Doors Down,2,2003
+280,Olivia Newton-John,1,1981
+281,The Go-Go's,3,1982
+282,Johnny Rivers,1,1973
+283,Estelle,1,2008
+284,Aerosmith,2,1993
+285,Brad Paisley,1,2011
+286,The Beach Boys,1,1988
+287,Audioslave,1,2003
+288,Eagles,3,1980
+289,Aerosmith,1,2001
+290,Miguel,1,2012
+291,'N Sync,1,1998
+292,Aerosmith,1,1977
+293,Brandy,1,1998
+294,Madonna,3,1984
+295,Drake,2,2014
+296,Kim Carnes,1,1980
+297,Skee-Lo,1,1995
+298,Keith Sweat,2,1997
+299,Glen Campbell,1,1977
+300,Kenny Chesney,2,2004
+301,Melanie,1,1972
+302,The Cars,1,1986
+303,Don McLean,1,1981
+304,Eminem,2,2010
+305,DJ Sammy,1,2002
+306,Hi-Five,2,1991
+307,Maroon 5,1,2004
+308,OneRepublic,1,2008
+309,Faith Evans,1,2002
+310,Sheryl Crow,1,1997
+311,Shania Twain,1,2003
+312,Queen,1,1976
+313,The Isley Brothers,1,1973
+314,Billy Joel,2,1990
+315,Thompson Square,1,2011
+316,a-ha,1,1985
+317,The KLF,1,1992
+318,Lord Tariq and Peter Gunz,1,1998
+319,Curtis Mayfield,1,1973
+320,Keith Sweat,1,1990
+321,The Grass Roots,1,1971
+322,Billy Ocean,1,1988
+323,Donell Jones,2,2000
+324,Genesis,3,1992
+325,Robin McNamara,1,1970
+326,R. Kelly,1,2004
+327,The Carpenters,2,1973
+328,Dino,1,1993
+329,Dr. Buzzard's Original Savannah Band,1,1977
+330,MKTO,1,2014
+331,Kansas,1,1977
+332,Cherish,1,2006
+333,The Black Eyed Peas,4,2010
+334,Nick Gilder,1,1978
+335,Moving Pictures,1,1983
+336,Billy Preston,1,1980
+337,Bananarama,1,1987
+338,Ryan Cabrera,1,2005
+339,Little Big Town,1,2012
+340,T-Pain,1,2012
+341,Alan Jackson,1,2003
+342,Kris Kristofferson,1,1973
+343,The Alan Parsons Project,1,1982
+344,Rupert Holmes,2,1980
+345,Chris Brown,3,2006
+346,Prince,1,1989
+347,Ariana Grande,1,2013
+348,Sting,1,1991
+349,Nelly,1,2006
+350,Das EFX,1,1992
+351,Snoop Dogg,1,2004
+352,Sweet,1,1975
+353,Bruce Springsteen,3,1985
+354,Duran Duran,2,1993
+355,Don Henley,1,1989
+356,Carly Simon,1,1973
+357,Selena Gomez and the Scene,1,2011
+358,Jewel,1,1996
+359,Peter Gabriel,1,1987
+360,The Allman Brothers Band,1,1973
+361,Timmy T,1,1991
+362,Kool and the Gang,2,1982
+363,Jay-Z,2,1999
+364,Ginuwine,1,2002
+365,Junior M.A.F.I.A.,1,1996
+366,Kiss,1,1990
+367,Badfinger,1,1970
+368,Eminem,1,2004
+369,Snap!,1,1990
+370,The Blackout All-Stars,1,1997
+371,America,1,1982
+372,Mariah Carey,1,1997
+373,Da Brat,1,2000
+374,Michael Johnson,1,1978
+375,Cypress Hill,1,1993
+376,Steely Dan,1,1974
+377,'N Sync,1,2001
+378,The Lumineers,1,2012
+379,DNA,1,1991
+380,Helen Reddy,1,1971
+381,Cliff Richard,1,1981
+382,The Veronicas,1,2009
+383,Brownsville Station,1,1974
+384,Dan Fogelberg,1,1982
+385,10cc,1,1975
+386,Daryl Hall and John Oates,2,1984
+387,Amber,1,1996
+388,Tierra,1,1981
+389,Crime Mob,1,2007
+390,Lionel Richie,1,1985
+391,Da Brat,1,1995
+392,Gavin Rossdale,1,2008
+393,Raspberries,1,1972
+394,The Spinners,2,1973
+395,Disclosure,1,2014
+396,Kool and the Gang,2,1974
+397,ABC,1,1987
+398,Chris Brown,3,2011
+399,DRS,1,1994
+400,Michael Jackson,2,1972
+401,Corina,1,1991
+402,Charlie Rich,1,1973
+403,Mystikal,1,2001
+404,The Temptations,2,1973
+405,Maria Muldaur,1,1974
+406,Neil Diamond,1,1979
+407,Alice Deejay,1,2000
+408,Vicki Sue Robinson,1,1976
+409,Kim Wilde,1,1987
+410,Eric Benet,1,1999
+411,Prince,2,1983
+412,Will to Power,1,1989
+413,Journey,1,1981
+414,Terri Gibbs,1,1981
+415,Chicago,1,1971
+416,Glen Campbell,1,1975
+417,Pink,2,2013
+418,Eli Young Band,1,2011
+419,Paul McCartney and Wings,1,1975
+420,INXS,1,1986
+421,Rhythm Heritage,1,1976
+422,Wiz Khalifa,2,2011
+423,Shop Boyz,1,2007
+424,Silk,1,1999
+425,Bon Jovi,2,1987
+426,Eddie Rabbitt,1,1983
+427,The Cars,3,1984
+428,Tina Turner,1,1986
+429,Bad Company,1,1975
+430,Sergio Mendes,1,1983
+431,Gwen Stefani,2,2007
+432,Joey McIntyre,1,1999
+433,Cher Lloyd,1,2012
+434,R. Kelly,2,1994
+435,Stories,1,1973
+436,Boz Scaggs,2,1980
+437,Kelly Clarkson,1,2012
+438,Blue Ridge Rangers,1,1973
+439,Creed,1,2000
+440,Kajagoogoo,1,1983
+441,Tal Bachman,1,1999
+442,Freda Payne,1,1970
+443,Hall and Oates,2,1976
+444,Mellow Man Ace,1,1990
+445,Cher,2,1989
+446,Rixton,1,2014
+447,Lita Ford,1,1989
+448,Fabolous,1,2009
+449,T.I.,1,2014
+450,Kenny Rogers,2,1979
+451,Starbuck,1,1976
+452,Daughtry,2,2007
+453,The Click Five,1,2005
+454,John Denver,2,1975
+455,New Kids on the Block,4,1989
+456,Andy Kim,1,1974
+457,CeCe Peniston,3,1992
+458,Tracy Chapman,1,1988
+459,Philip Bailey,1,1985
+460,Celine Dion,1,1996
+461,Maureen McGovern,1,1973
+462,Evan and Jaron,1,2001
+463,J. Cole,1,2013
+464,The Jacksons,1,1979
+465,N.O.R.E.,1,2002
+466,Blue Magic,1,1974
+467,Montell Jordan,1,1997
+468,Jamie Foxx,1,2006
+469,Alicia Keys,1,2007
+470,Bruce Hornsby and the Range,2,1987
+471,Dixie Chicks,1,2002
+472,Positive K,1,1993
+473,War,1,1975
+474,Miley Cyrus,1,2013
+475,Luscious Jackson,1,1997
+476,Charli XCX,1,2014
+477,Pet Shop Boys,2,1988
+478,Edison Lighthouse,1,1970
+479,Ace of Base,1,1996
+480,Jeremih,1,2009
+481,Henry Gross,1,1976
+482,Snoop Dogg,1,2008
+483,Alan Jackson,2,2002
+484,Olly Murs,1,2013
+485,A Flock of Seagulls,1,1982
+486,Mungo Jerry,1,1970
+487,Karyn White,2,1989
+488,Janet Jackson,5,1990
+489,B.J. Thomas,2,1970
+490,Kip Moore,1,2012
+491,David Essex,1,1974
+492,702,1,1997
+493,Blue Swede,1,1974
+494,Uncle Kracker,1,2003
+495,Dottie West,1,1981
+496,Rythm Syndicate,1,1991
+497,Jordin Sparks,1,2009
+498,Christina Perri,1,2012
+499,Pretty Ricky,2,2005
+500,Ja Rule,1,2005
+501,Denise LaSalle,1,1971
+502,Deborah Cox,1,1996
+503,Jennifer Lopez,2,2002
+504,Darryl Worley,1,2003
+505,USA for Africa,1,1985
+506,Taylor Dayne,3,1988
+507,Gloria Estefan,1,1989
+508,Cam'ron,2,2002
+509,Alicia Keys,3,2004
+510,Miguel,1,2011
+511,Boston,1,1978
+512,Bow Wow,2,2007
+513,Sly Fox,1,1986
+514,Bobby Boris Pickett,1,1973
+515,"Hamilton, Joe Frank and Reynolds",1,1975
+516,Little River Band,1,1978
+517,Tyler Collins,1,1990
+518,Roberta Flack,1,1982
+519,Bay City Rollers,2,1976
+520,Samantha Fox,1,1988
+521,Lonestar,1,1999
+522,Heart,2,1986
+523,Natalie,1,2005
+524,Heart,1,1981
+525,Commodores,1,1979
+526,Gloria Estefan and Miami Sound Machine,3,1988
+527,Huey Lewis and the News,1,1982
+528,Santana,1,1970
+529,Mariah Carey,1,1993
+530,Gloria Estefan,1,1995
+531,Ja Rule,2,2002
+532,Bon Jovi,3,1989
+533,Grand Funk,1,1975
+534,Macklemore,3,2013
+535,Grand Funk Railroad,1,1973
+536,Mike Posner,1,2010
+537,Bobby Shmurda,1,2014
+538,Van Halen,1,1984
+539,Ace of Base,2,1994
+540,Lady Antebellum,1,2014
+541,Carrie Underwood,1,2007
+542,Jake Owen,1,2014
+543,Bloodstone,1,1973
+544,Fergie,1,2006
+545,Steve Holy,1,2002
+546,Lil Jon,1,2006
+547,Britney Spears,2,2004
+548,Lifehouse,1,2006
+549,Karyn White,1,1991
+550,No Doubt,3,2002
+551,The Originals,1,1970
+552,Marc Anthony,1,2000
+553,Rob Thomas,1,2005
+554,Eric Burdon,1,1970
+555,Tyga,1,2012
+556,Heavy D and the Boyz,1,1991
+557,Lady Antebellum,1,2009
+558,Sheena Easton,2,1985
+559,Chris Brown,1,2007
+560,Eagles,2,1975
+561,Mickey Gilley,1,1980
+562,Debelah Morgan,1,2001
+563,James Taylor,1,1970
+564,Pat Benatar,2,1981
+565,Eddie Holman,1,1970
+566,Daddy Yankee,1,2006
+567,Dionne Warwick,1,1980
+568,Derek and the Dominos,1,1972
+569,Vanessa Williams,1,1993
+570,Kylie Minogue,1,2002
+571,Rocky Burnette,1,1980
+572,Aaliyah,1,1996
+573,Scritti Politti,1,1986
+574,Case,1,2001
+575,Alice Cooper,1,1979
+576,Bryan Adams,2,1994
+577,One Direction,1,2013
+578,Donna Summer,4,1979
+579,Diamond Rio,1,2001
+580,George Michael,2,1992
+581,The Pretenders,1,1983
+582,Helen Reddy,1,1977
+583,D4L,1,2006
+584,Joe Tex,1,1972
+585,Barbra Streisand,1,1982
+586,The Miracles,1,1976
+587,Alex Clare,1,2012
+588,Johnnie Taylor,1,1976
+589,The KLF,1,1991
+590,The Pointer Sisters,1,1985
+591,Chaka Khan,1,1985
+592,Vanity Fare,1,1970
+593,Lifehouse,1,2001
+594,Chris Brown,2,2008
+595,Craig Mack,1,1994
+596,Avril Lavigne,2,2004
+597,98 Degrees,1,1998
+598,The Neighbourhood,1,2014
+599,Brownstone,1,1995
+600,Dorothy Moore,1,1976
+601,Commodores,1,1978
+602,The Doobie Brothers,1,1979
+603,George Michael,1,1987
+604,Brian McKnight,1,1999
+605,Robert John,1,1979
+606,Taylor Swift,3,2010
+607,David Naughton,1,1979
+608,The Rolling Stones,1,1984
+609,Gretchen Wilson,1,2004
+610,Bob Seger and The Silver Bullet Band,1,1983
+611,Nivea,1,2003
+612,Sara Bareilles,1,2013
+613,Prince,2,1987
+614,No Doubt,1,1996
+615,Jessica Simpson,1,2004
+616,Eric Weissberg,1,1973
+617,Juvenile,1,1999
+618,Ozark Mountain Daredevils,1,1975
+619,Climax Blues Band,1,1977
+620,Bruce Springsteen,1,1994
+621,Chad Brock,1,2000
+622,Master P,2,1998
+623,Daryl Hall and John Oates,3,1982
+624,Next,1,2000
+625,Mary J. Blige,1,1996
+626,Simple Minds,1,1986
+627,Andy Gibb,1,1980
+628,2Pac,1,1994
+629,Soft Cell,1,1982
+630,Vanessa Williams,1,1992
+631,Jackson Browne,1,1978
+632,Sam Smith,1,2014
+633,Keith Sweat,1,1996
+634,Dawn,1,1970
+635,Orianthi,1,2010
+636,AWOLNATION,1,2013
+637,Neil Diamond,1,1972
+638,Brandy,3,1995
+639,Jerrod Niemann,1,2010
+640,Prince,2,1984
+641,Eric Clapton,1,1974
+642,David Lee Roth,1,1988
+643,Boyz II Men,1,1991
+644,Maroon 5,1,2010
+645,Prince,1,1990
+646,Jason Aldean,2,2012
+647,Bertie Higgins,1,1982
+648,Wayne Wonder,1,2003
+649,Neil Sedaka,1,1976
+650,Chuck Mangione,1,1978
+651,4 Non Blondes,1,1993
+652,Jessica Simpson,1,2001
+653,Eddie Rabbitt,1,1980
+654,The Pointer Sisters,1,1979
+655,Michael Bolton,1,1993
+656,Shanice,1,1993
+657,Melanie,1,1970
+658,Chad Kroeger,1,2002
+659,Hinder,2,2007
+660,Outkast,3,2004
+661,Raydio,1,1979
+662,Bill Withers,1,1971
+663,Poison,1,1990
+664,Jackson Browne,1,1972
+665,Donny Osmond,1,1972
+666,Marty Balin,1,1981
+667,ScHoolboy Q,1,2014
+668,Ahmad,1,1994
+669,Boy Meets Girl,1,1989
+670,Mountain,1,1970
+671,Commander Cody and His Lost Planet Airmen,1,1972
+672,Rosanne Cash,1,1981
+673,Sly and the Family Stone,1,1970
+674,Better Than Ezra,1,1995
+675,Baby Boy da Prince,1,2007
+676,Mr. Mister,2,1986
+677,Tracey Ullman,1,1984
+678,Jennifer Lopez,1,1999
+679,Eddie Money,1,1986
+680,David Banner,1,2008
+681,Hanson,1,1997
+682,T-Pain,1,2008
+683,Jon Secada,1,1994
+684,The Beatles,1,1976
+685,Delbert McClinton,1,1981
+686,Whitney Houston,2,1991
+687,Rick Astley,1,1989
+688,Pras Michel,1,1998
+689,Petey Pablo,1,2004
+690,Alabama,1,1999
+691,Big Sean,1,2011
+692,Jason Derulo,3,2010
+693,Gladys Knight and the Pips,2,1973
+694,Maxi Priest,1,1996
+695,Sean Kingston,1,2008
+696,Omarion,1,2005
+697,Elvin Bishop,1,1976
+698,Wet Willie,1,1974
+699,The Rolling Stones,1,1980
+700,Donna Summer,1,1982
+701,The Stampeders,1,1971
+702,Air Supply,3,1982
+703,Tears for Fears,3,1985
+704,Commodores,1,1977
+705,Minnie Riperton,1,1975
+706,Daughtry,1,2008
+707,Paul,1,1971
+708,Stevie Nicks,1,1983
+709,Zac Brown Band,2,2009
+710,Peter Frampton,2,1976
+711,Pet Shop Boys,1,1986
+712,Elton John,2,1982
+713,"Earth, Wind and Fire",2,1976
+714,Maxwell,1,2009
+715,Alan O'Day,1,1977
+716,DeBarge,1,1983
+717,Sean Kingston,1,2007
+718,Eddie Rabbitt,2,1981
+719,Paul Davis,1,1978
+720,Duice,1,1993
+721,Sister Janet Mead,1,1974
+722,Parliament,1,1978
+723,Peter Cetera,1,1988
+724,beyonce,2,2007
+725,The Killers,1,2005
+726,Stevie Wonder,1,1975
+727,Mike + The Mechanics,2,1986
+728,Total,1,1995
+729,The Isley Brothers,1,2001
+730,Ambrosia,1,1980
+731,B.T. Express,2,1975
+732,Howie Day,1,2005
+733,Starship,1,1985
+734,"Crosby, Stills and Nash",1,1977
+735,Prince,1,1980
+736,Kim Carnes,1,1981
+737,Jim Jones,1,2007
+738,Immature,1,1995
+739,Joni Mitchell,1,1974
+740,Kid Ink,1,2014
+741,Shaun Cassidy,2,1977
+742,Helen Reddy,1,1975
+743,Colbie Caillat,1,2008
+744,Brantley Gilbert,1,2014
+745,Kathy Troccoli,1,1992
+746,Everything but the Girl,1,1996
+747,Manfred Mann's Earth Band,1,1977
+748,Olivia Newton-John,1,1980
+749,Foreigner,2,1977
+750,Donna Fargo,1,1972
+751,Carl Douglas,1,1975
+752,Gnarls Barkley,1,2006
+753,Kyper,1,1990
+754,Peaches and Herb,1,1980
+755,Phil Collins,4,1985
+756,Vanessa Williams,2,1995
+757,Flo Rida,2,2009
+758,Billy Joel,1,1978
+759,Pseudo Echo,1,1987
+760,Drake,2,2012
+761,Karmin,1,2012
+762,Jon B.,1,1995
+763,Pink,1,2012
+764,2Pac,1,2003
+765,Lil Jon,1,2005
+766,Rufus,1,1976
+767,Madonna,3,1989
+768,"Hamilton, Joe Frank and Reynolds",1,1971
+769,Tinashe,1,2014
+770,Mýa,1,2000
+771,Steve Winwood,1,1987
+772,George Strait,1,2002
+773,Club Nouveau,1,1987
+774,Pointer Sisters,2,1984
+775,Pitbull,2,2011
+776,J. Cole,1,2012
+777,John Cougar Mellencamp,2,1986
+778,Jody Watley,1,1988
+779,Craig David,1,2001
+780,Mr. Big,2,1992
+781,Survivor,2,1985
+782,Smash Mouth,1,1999
+783,Little River Band,2,1982
+784,The Outfield,1,1986
+785,The Alan Parsons Project,2,1981
+786,The Three Degrees,1,1975
+787,Styx,1,1978
+788,Crowded House,2,1987
+789,Do or Die,1,1996
+790,Hot Butter,1,1972
+791,Amerie,1,2005
+792,Beyonce,1,2003
+793,Sean Paul,1,2005
+794,Michael Franti and Spearhead,1,2009
+795,Patti Austin,1,1983
+796,David Bowie,2,1983
+797,Paul McCartney,1,1985
+798,Jan Hammer,1,1985
+799,Da Brat,1,1994
+800,Electric Light Orchestra,2,1978
+801,Queen,1,1977
+802,Janet Jackson,3,1993
+803,Gloria Estefan,1,1990
+804,Bobby Brown,1,1992
+805,Keith Sweat,1,1991
+806,Rick Astley,1,1991
+807,Elvis Presley,1,1977
+808,Monica,1,1998
+809,Martika,1,1989
+810,Eddie Kendricks,1,1975
+811,Lonestar,1,2003
+812,Elton John,1,1995
+813,Busta Rhymes,1,1999
+814,Wings,1,1979
+815,Dem Franchize Boyz,2,2006
+816,P. Diddy,2,2002
+817,Janet Jackson,1,1989
+818,The Temptations,1,1971
+819,Billy Squier,1,1984
+820,Bee Gees,3,1979
+821,Donna Summer,1,1978
+822,Kylie Minogue,1,1988
+823,Jesus Jones,2,1991
+824,Maxwell,1,1999
+825,Starpoint,1,1986
+826,Golden Earring,1,1983
+827,Todd Rundgren,1,1972
+828,Emeli Sande,1,2013
+829,Mocedades,1,1974
+830,Lynyrd Skynyrd,1,1978
+831,Gerald Levert,1,1998
+832,Tinie Tempah,1,2011
+833,Default,1,2002
+834,Seal,1,1996
+835,Pat Benatar,1,1984
+836,Amy Winehouse,1,2007
+837,Jason Mraz,1,2003
+838,Snoop Dogg,1,2012
+839,The Bells,1,1971
+840,Terence Trent D'Arby,2,1988
+841,Chic,3,1979
+842,Everlast,1,1999
+843,Elton John,1,1980
+844,Goo Goo Dolls,1,2000
+845,Papa Roach,1,2005
+846,Adele,4,2012
+847,Lisa Stansfield,1,1990
+848,Rocko,1,2013
+849,Yung Joc,2,2006
+850,Cat Stevens,1,1974
+851,Tavares,1,1976
+852,Missy Elliott,1,2005
+853,Jason Derulo,1,2013
+854,Patrick Swayze,1,1988
+855,Lionel Richie,3,1986
+856,Paul Stookey,1,1971
+857,Redbone,1,1972
+858,Selena Gomez and the Scene,1,2010
+859,Madonna,2,1998
+860,Five for Fighting,1,2002
+861,Jennifer Lopez,1,2011
+862,Thomas Dolby,1,1983
+863,Pharrell Williams,1,2014
+864,Idina Menzel,1,2014
+865,Truth Hurts,1,2002
+866,Swedish House Mafia,1,2013
+867,The Police,1,1984
+868,Paul Anka,1,1976
+869,Shaggy,1,1995
+870,Elton John,1,1994
+871,Jewel,1,1998
+872,Harry Chapin,1,1972
+873,Diana Ross,1,1980
+874,The Sylvers,1,1976
+875,INXS,4,1988
+876,Arrested Development,2,1992
+877,Laura Branigan,2,1983
+878,JoJo,1,2006
+879,Matchbox Twenty,1,2001
+880,ASAP Rocky,1,2013
+881,Young Jeezy,1,2008
+882,DJ Jazzy Jeff and The Fresh Prince,1,1991
+883,The Sandpipers,1,1970
+884,Toby Keith,1,2002
+885,Lisa Loeb and Nine Stories,1,1994
+886,Keri Hilson,2,2009
+887,Rod Stewart,1,1971
+888,Bryan Adams,1,1983
+889,Chic,1,1978
+890,Dino,1,1990
+891,Kenny Loggins,1,1986
+892,Mike WiLL Made-It,1,2014
+893,Ginuwine,1,1999
+894,Maroon 5,3,2013
+895,Andy Williams,1,1971
+896,Dido,1,2001
+897,Cheap Trick,1,1979
+898,Matthews Southern Comfort,1,1971
+899,P.M. Dawn,2,1992
+900,B-Rock and the Bizz,1,1997
+901,Chingy,1,2003
+902,Zhane,1,1994
+903,Brenda and the Tabulations,1,1971
+904,LFO,1,2000
+905,James Brown,1,1972
+906,Champaign,1,1983
+907,Champaign,1,1981
+908,R. Kelly,2,2007
+909,Paul Revere and the Raiders,1,1971
+910,The Hues Corporation,1,1974
+911,Joe Cocker,1,1983
+912,Jay Ferguson,1,1978
+913,Asher Roth,1,2009
+914,Gary Wright,2,1976
+915,Adina Howard,1,1995
+916,Kardinal Offishall,1,2008
+917,ZZ Top,1,1986
+918,Three Dog Night,1,1970
+919,Calvin Harris,2,2013
+920,Asia,1,1982
+921,Katy Perry,3,2014
+922,Enrique Iglesias,1,2000
+923,La Roux,1,2010
+924,Fuel,1,2001
+925,Donny,1,1976
+926,Miranda Lambert,1,2014
+927,Xscape,2,1994
+928,The Beach Boys,1,1976
+929,Crazy Town,1,2001
+930,The Police,1,1982
+931,Fine Young Cannibals,2,1989
+932,Jay-Z,2,2001
+933,Christine McVie,1,1984
+934,Sara Bareilles,1,2010
+935,Passenger,1,2013
+936,Jesse Powell,1,1999
+937,Robert Palmer,2,1986
+938,Salt-n-Pepa,2,1994
+939,Lee Michaels,1,1971
+940,Chris de Burgh,1,1987
+941,Queen Latifah,1,1994
+942,Marmalade,1,1970
+943,Bobby Valentino,1,2005
+944,Gin Blossoms,1,1994
+945,Madonna,1,2000
+946,Jodeci,1,1993
+947,Kiss,1,1979
+948,Jessie J,1,2011
+949,Randy VanWarmer,1,1979
+950,Flo Rida,3,2012
+951,Europe,1,1987
+952,Phillip Phillips,1,2012
+953,Alanis Morissette,2,1996
+954,The Chi-Lites,1,1972
+955,LL Cool J,1,2002
+956,Soul Asylum,1,1993
+957,Joan Baez,1,1971
+958,George Harrison,1,1988
+959,Avant,1,2004
+960,The First Class,1,1974
+961,Paul Davis,2,1982
+962,Silk,1,1993
+963,The Pointer Sisters,1,1973
+964,Red Hot Chili Peppers,1,2006
+965,Chris Isaak,1,1991
+966,Shakespears Sister,1,1992
+967,Debbie Gibson,1,1987
+968,Quiet Riot,1,1984
+969,Keith Carradine,1,1976
+970,Nelson,1,1990
+971,Arlo Guthrie,1,1972
+972,Mase,3,1998
+973,Tim McGraw,1,2000
+974,Mariah Carey,3,1992
+975,Katy Perry,2,2008
+976,Coldplay,1,2005
+977,Phil Collins,1,1984
+978,Busta Rhymes,2,1998
+979,Pussycat Dolls,1,2008
+980,REO Speedwagon,1,1982
+981,Jay-Z,1,2010
+982,Lionel Richie,4,1984
+983,Ciara,1,2013
+984,Extreme,2,1991
+985,112,2,2001
+986,Prince,1,1985
+987,Wild Cherry,1,1976
+988,Tim McGraw,1,1999
+989,Darius Rucker,1,2013
+990,Rufus,1,1975
+991,Stevie Nicks,1,1986
+992,Stevie Wonder,1,1971
+993,Burton Cummings,1,1977
+994,Eagle-Eye Cherry,1,1999
+995,38 Special,1,1989
+996,Natasha Bedingfield,2,2008
+997,Barry Manilow,1,1981
+998,Fastball,1,1999
+999,Justin Bieber,1,2013
+1000,Rick Springfield,1,1981
+1001,El DeBarge,1,1986
+1002,T.I.,2,2009
+1003,Ciara,1,2006
+1004,2Pac,1,1998
+1005,Justin Bieber,1,2010
+1006,Tommy James,1,1971
+1007,Paula Cole,1,1997
+1008,DJ Snake,1,2014
+1009,Jason Mraz,1,2012
+1010,KC and the Sunshine Band,1,1984
+1011,Maroon 5,1,2007
+1012,Simply Red,1,1986
+1013,Bubba Sparxxx,1,2006
+1014,Sonny and Cher,1,1972
+1015,Sheryl Crow,1,1996
+1016,INOJ,2,1998
+1017,Rod Stewart,1,1984
+1018,Ike and Tina Turner,1,1971
+1019,Kenny Loggins,1,1984
+1020,High Inergy,1,1978
+1021,Bread,1,1970
+1022,Whitney Houston,2,1996
+1023,Stevie Wonder,1,1970
+1024,Donna Summer,2,1980
+1025,Stevie Wonder,2,1974
+1026,Monica,1,2003
+1027,Michael Jackson,5,1983
+1028,Al Green,1,1975
+1029,Dionne Farris,1,1995
+1030,Blondie,2,1981
+1031,Carl Thomas,1,2000
+1032,Busta Rhymes,1,2002
+1033,Corey Hart,1,1984
+1034,Ocean,1,1971
+1035,Vicki Lawrence,1,1973
+1036,D12,1,2004
+1037,Sister Hazel,1,1998
+1038,Shakira,2,2002
+1039,DJ Jazzy Jeff and The Fresh Prince,1,1993
+1040,Linkin Park,1,2009
+1041,Collective Soul,1,1994
+1042,Bobby Brown,1,1993
+1043,Kenny Loggins,1,1983
+1044,Lupe Fiasco,1,2008
+1045,Sean Kingston,1,2009
+1046,Barry Manilow,2,1976
+1047,Dr. Dre,2,1993
+1048,Glenn Medeiros,1,1987
+1049,Harold Faltermeyer,1,1985
+1050,Tears for Fears,1,1989
+1051,Billy Ray Cyrus,1,1992
+1052,M.I.A.,1,2008
+1053,Mark Wills,1,2003
+1054,David Ruffin,1,1976
+1055,Eminem,2,2006
+1056,Joe Walsh,1,1980
+1057,Marky Mark and the Funky Bunch,1,1991
+1058,Kim Wilde,1,1982
+1059,James Ingram,1,1984
+1060,J. Holiday,1,2007
+1061,Miranda Lambert,1,2010
+1062,Red Hot Chili Peppers,1,2007
+1063,Diddy – Dirty Money,1,2011
+1064,Kool and The Gang,1,1984
+1065,Paula DeAnda,1,2007
+1066,beyonce,4,2009
+1067,Nelly Furtado,1,2007
+1068,The LOX,1,1998
+1069,Sugarloaf,1,1970
+1070,JoJo,1,2004
+1071,Mr. President,1,1997
+1072,Coldplay,1,2009
+1073,Billy Paul,1,1973
+1074,Paramore,1,2013
+1075,Third Eye Blind,2,1998
+1076,Gym Class Heroes,1,2007
+1077,Jim Croce,1,1973
+1078,Melissa Etheridge,1,1995
+1079,Howard Jones,1,1985
+1080,The 5th Dimension,1,1972
+1081,Mary J. Blige,1,2001
+1082,3 Doors Down,2,2001
+1083,Paul McCartney and Wings,3,1974
+1084,Mariah Carey,1,2000
+1085,Tony Orlando and Dawn,1,1971
+1086,Bobby Sherman,2,1970
+1087,Mariah Carey,2,1990
+1088,Kenny Rogers,1,1970
+1089,Jon B.,1,1998
+1090,Charlene,1,1982
+1091,Drake,1,2013
+1092,Three Dog Night,2,1971
+1093,Aaliyah,2,2002
+1094,Cher,1,1972
+1095,Glenn Frey,2,1985
+1096,R. Kelly,3,1996
+1097,Mint Condition,1,1992
+1098,Kool and the Gang,1,1987
+1099,Method Man,1,1995
+1100,Eternal,1,1994
+1101,The Whispers,1,1987
+1102,Kenny G,1,1993
+1103,Jennifer Warnes,1,1977
+1104,Def Leppard,1,1983
+1105,Coldplay,1,2012
+1106,Tyrese,1,2003
+1107,Gordon Lightfoot,1,1971
+1108,PSY,1,2013
+1109,U2,2,1992
+1110,Great White,1,1989
+1111,The J. Geils Band,2,1982
+1112,Baby Bash,1,2007
+1113,Bobby Goldsboro,1,1971
+1114,Kenny Nolan,2,1977
+1115,Lou Rawls,1,1976
+1116,Tina Turner,1,1984
+1117,Toni Braxton,2,1994
+1118,Sly and the Family Stone,1,1972
+1119,"Grover Washington, Jr.",1,1981
+1120,Foster the People,1,2011
+1121,T.I.,1,2008
+1122,Willie Nelson,1,1982
+1123,JT Money,1,1999
+1124,Rita Coolidge,1,1977
+1125,Christina Aguilera,1,1999
+1126,Sheryl Crow,2,1995
+1127,Peabo Bryson,1,1984
+1128,Genesis,2,1986
+1129,Moby,1,2001
+1130,Thelma Houston,1,1977
+1131,The Bellamy Brothers,1,1976
+1132,Rick Springfield,1,1983
+1133,The Carpenters,1,1974
+1134,Cher,1,1971
+1135,Andy Gibb,1,1977
+1136,Raydio,1,1978
+1137,Waka Flocka Flame,1,2011
+1138,2Pac,1,1996
+1139,Brandy,2,1999
+1140,Edwin Starr,1,1970
+1141,Lil Wayne,3,2011
+1142,Barbra Streisand,3,1981
+1143,Cee Lo Green,1,2011
+1144,Christie,1,1970
+1145,The Proclaimers,1,1993
+1146,Naughty by Nature,1,1993
+1147,Dave Loggins,1,1974
+1148,Diana Ross,1,1985
+1149,Barbra Streisand,1,1997
+1150,Sean Kingston,1,2010
+1151,Sheena Easton,1,1982
+1152,Miley Cyrus,1,2009
+1153,Nickelback,3,2007
+1154,Frank Mills,1,1979
+1155,Mo Thugs,1,1999
+1156,Meco,1,1977
+1157,Akon,1,2006
+1158,Wyclef Jean,1,1998
+1159,Outkast,1,1996
+1160,James Taylor,1,1977
+1161,Don Henley,1,1983
+1162,Gino Vannelli,1,1979
+1163,New Edition,1,1988
+1164,Natalie Merchant,2,1996
+1165,Rihanna,3,2007
+1166,Goo Goo Dolls,1,1996
+1167,Lil Wayne,4,2008
+1168,KC and the Sunshine Band,2,1977
+1169,LeBlanc,1,1978
+1170,Eddie Rabbitt,1,1979
+1171,Vanessa Williams,1,1989
+1172,Nina Sky,1,2004
+1173,Matchbox Twenty,1,2000
+1174,Ylvis,1,2013
+1175,Chicago,1,1972
+1176,The Carpenters,2,1970
+1177,Dixie Chicks,1,2000
+1178,The B-52's,1,1989
+1179,Bonnie Tyler,1,1978
+1180,The Four Tops,1,1970
+1181,Pink,3,2002
+1182,Roberta Flack,1,1978
+1183,Erykah Badu,1,2000
+1184,Christina Aguilera,1,2006
+1185,Whitney Houston,4,1999
+1186,Isaac Hayes,1,1980
+1187,The Rolling Stones,1,1973
+1188,Jay Sean,2,2010
+1189,Carly Rae Jepsen,1,2012
+1190,Erasure,1,1994
+1191,Natalie Cole,1,1978
+1192,The Script,1,2011
+1193,KT Tunstall,1,2006
+1194,Jade,1,1995
+1195,Fat Joe,2,2002
+1196,Sarah McLachlan,1,1998
+1197,Pink,3,2009
+1198,The Heights,1,1993
+1199,Blues Traveler,1,1995
+1200,Kenny Chesney,1,2011
+1201,John Cafferty and The Beaver Brown Band,1,1984
+1202,Hootie and the Blowfish,2,1995
+1203,Whitney Houston,2,1986
+1204,Miami Sound Machine,3,1986
+1205,The Free Movement,1,1971
+1206,Alannah Myles,1,1990
+1207,Men Without Hats,1,1983
+1208,Luther Vandross,1,1990
+1209,98 Degrees,1,2000
+1210,George Harrison,1,1971
+1211,Katy Perry,4,2011
+1212,Steve Miller Band,2,1977
+1213,Janet Jackson,1,1996
+1214,K. P. and Envyi,1,1998
+1215,Michael Jackson,2,1995
+1216,Pearl Jam,1,1999
+1217,Journey,1,1997
+1218,Aerosmith,2,1990
+1219,LL Cool J,1,1998
+1220,Bo Donaldson and The Heywoods,1,1974
+1221,George McCrae,1,1974
+1222,Sweet,1,1976
+1223,Bob Seger,1,1987
+1224,Bad English,1,1990
+1225,Bread,1,1972
+1226,Ne-Yo,1,2007
+1227,Mary MacGregor,1,1977
+1228,Hootie and the Blowfish,3,1996
+1229,Sweet,1,1973
+1230,E-40,1,2006
+1231,The Carpenters,1,1972
+1232,Bob Seger,1,1980
+1233,Phil Collins,1,1983
+1234,Toad the Wet Sprocket,1,1992
+1235,Ne-Yo,1,2013
+1236,Nelly,2,2004
+1237,Little River Band,2,1979
+1238,Ace of Base,1,1993
+1239,The Romantics,1,1984
+1240,King Floyd,1,1971
+1241,Alice Cooper,1,1989
+1242,Frankie J,1,2005
+1243,Kenny Loggins,1,1980
+1244,Jesse McCartney,1,2009
+1245,Guns N' Roses,1,1992
+1246,Ja Rule,2,2001
+1247,Blackstreet,1,1999
+1248,Goo Goo Dolls,1,2002
+1249,Nelly,2,2003
+1250,The-Dream,1,2009
+1251,Starship,1,1987
+1252,Sean Paul,2,2006
+1253,Rita Coolidge,1,1978
+1254,The Wanted,1,2012
+1255,John Lennon,1,1970
+1256,3OH!3,1,2010
+1257,Tone Lōc,2,1989
+1258,Alabama,1,1981
+1259,Gloria Gaynor,1,1979
+1260,Taylor Swift,1,2009
+1261,Cassie,1,2006
+1262,Aaliyah,2,2000
+1263,Aretha Franklin,1,1970
+1264,The Carpenters,3,1971
+1265,Duncan Sheik,1,1997
+1266,Charley Pride,1,1972
+1267,Lamont Dozier,1,1974
+1268,B.J. Thomas,1,1975
+1269,Naughty by Nature,1,1999
+1270,War,1,1972
+1271,Norah Jones,1,2003
+1272,Joe Simon,1,1975
+1273,Iggy Azalea,2,2014
+1274,Michael Jackson,1,1979
+1275,Katy Perry,1,2009
+1276,R. Kelly,2,1997
+1277,Jake Owen,1,2011
+1278,Survivor,1,1986
+1279,The Dramatics,1,1971
+1280,Morris Albert,1,1975
+1281,Colby O'Donis,1,2008
+1282,The Beatles,2,1970
+1283,Savage Garden,2,2000
+1284,George Strait,1,2000
+1285,2 Pistols,1,2008
+1286,A'me Lorain,1,1990
+1287,Steely Dan,2,1978
+1288,Whitney Houston,3,1988
+1289,Cameo,1,1986
+1290,Stevie Wonder,2,1982
+1291,Styx,2,1981
+1292,Justin Timberlake,2,2003
+1293,Donny,1,1974
+1294,Dave Matthews Band,1,2001
+1295,Pretty Ricky,1,2007
+1296,Nena,1,1984
+1297,David Bowie,1,1975
+1298,Bazuka,1,1975
+1299,Anne Murray,1,1979
+1300,A Taste of Honey,1,1981
+1301,Rick Astley,2,1988
+1302,Trey Songz,1,2014
+1303,Fancy,1,1974
+1304,Neon Trees,1,2012
+1305,Sugarland,1,2010
+1306,Macy Gray,1,2000
+1307,Little River Band,1,1980
+1308,Chris Brown,1,2010
+1309,Stephen Bishop,1,1977
+1310,Ace Frehley,1,1979
+1311,100 Proof (Aged in Soul),1,1970
+1312,Luke Bryan,2,2012
+1313,Richard Marx,3,1992
+1314,SWV,3,1993
+1315,Peabo Bryson,1,1993
+1316,Katy Perry,1,2010
+1317,LeAnn Rimes,1,2000
+1318,Carol Douglas,1,1975
+1319,Kelly Clarkson,1,2007
+1320,Pacific Gas and Electric,1,1970
+1321,Teddy Geiger,1,2006
+1322,Heart,1,1977
+1323,Brandy,2,2002
+1324,Sailcat,1,1972
+1325,702,1,1999
+1326,Leif Garrett,1,1979
+1327,Jennifer Lopez,1,2005
+1328,Alicia Keys,1,2008
+1329,The Ides of March,1,1970
+1330,Rihanna,4,2011
+1331,Supertramp,1,1979
+1332,London Symphony Orchestra,1,1977
+1333,Paula Abdul,3,1989
+1334,Phoebe Snow,1,1975
+1335,Hall and Oates,3,1981
+1336,Elton John,1,1997
+1337,Celine Dion,2,1992
+1338,Run–D.M.C.,1,1986
+1339,O-Town,1,2001
+1340,Stealers Wheel,1,1973
+1341,When in Rome,1,1989
+1342,Bee Gees,2,1971
+1343,Steve Miller Band,1,1974
+1344,Dan Hill,1,1987
+1345,Marvin Gaye,1,1983
+1346,Madonna,1,2001
+1347,Red Hot Chili Peppers,1,1999
+1348,Flo Rida,2,2008
+1349,Another Bad Creation,1,1991
+1350,The Emotions,1,1977
+1351,Toni Braxton,1,1996
+1352,The Pretenders,1,1980
+1353,Leo Sayer,3,1977
+1354,Babyface,1,1997
+1355,Tim McGraw,2,1994
+1356,Kenny Rogers,1,1983
+1357,Wings,1,1978
+1358,Young Money,1,2009
+1359,Foxy Brown,1,1997
+1360,Billy Ocean,2,1986
+1361,Mac Davis,1,1972
+1362,Sting,1,2000
+1363,Eminem,1,2013
+1364,Deep Blue Something,1,1996
+1365,B2K,1,2002
+1366,Linda Ronstadt,2,1980
+1367,Avril Lavigne,1,2003
+1368,Tom Cochrane,1,1992
+1369,John Cougar,1,1982
+1370,The Main Ingredient,1,1974
+1371,Captain Hollywood Project,1,1993
+1372,Electric Light Orchestra,2,1979
+1373,Young Jeezy,1,2007
+1374,Orchestral Manoeuvres in the Dark,1,1986
+1375,Aaron Neville,1,1991
+1376,Glen Campbell,1,1976
+1377,Will Smith,2,1999
+1378,Albert Hammond,1,1973
+1379,Van Halen,1,1979
+1380,Tove Lo,1,2014
+1381,Lil' Flip,2,2004
+1382,Keith Sweat,1,1988
+1383,Kandi,1,2000
+1384,3T,1,1996
+1385,Shai,3,1993
+1386,The Jets,1,1986
+1387,Berlin,1,1986
+1388,Marvin Gaye,1,1977
+1389,Dr. Hook,2,1976
+1390,Duran Duran,3,1984
+1391,Amy Grant,3,1992
+1392,Atlanta Rhythm Section,1,1978
+1393,Trick Daddy,1,2001
+1394,Atlantic Starr,1,1986
+1395,Justin Bieber,2,2012
+1396,Lisa Loeb,1,1998
+1397,U2,2,1987
+1398,R.E.M.,1,1989
+1399,Shaun Cassidy,1,1978
+1400,Van Halen,1,1988
+1401,Bette Midler,2,1973
+1402,Jordin Sparks,3,2008
+1403,Backstreet Boys,1,2000
+1404,Daryl Hall and John Oates,3,1983
+1405,Cher,1,1979
+1406,Jason Mraz,1,2008
+1407,Brooks and Dunn,1,2001
+1408,Night Ranger,1,1985
+1409,Whitesnake,1,1988
+1410,Toni Braxton,1,1993
+1411,KC and the Sunshine Band,1,1980
+1412,The Charlie Daniels Band,1,1979
+1413,Lil Wayne,1,2014
+1414,98 Degrees,1,1997
+1415,The Pipkins,1,1970
+1416,Steve Perry,1,1984
+1417,Stevie Wonder,2,1977
+1418,Royal Philharmonic Orchestra,1,1982
+1419,Bad Meets Evil,1,2011
+1420,Tony Orlando and Dawn,2,1973
+1421,The Black Eyed Peas,2,2011
+1422,Amazing Rhythm Aces,1,1975
+1423,Tyrese,1,1999
+1424,Exile,1,1978
+1425,Dionne Warwick,1,1970
+1426,Atlanta Rhythm Section,1,1977
+1427,Steve Miller Band,1,1976
+1428,Billy Ocean,2,1985
+1429,Ike and Tina Turner,1,1970
+1430,John Parr,1,1985
+1431,Jason Aldean,2,2011
+1432,Florida Georgia Line,2,2013
+1433,"Earth, Wind and Fire",1,1978
+1434,Hot Chocolate,1,1979
+1435,Chicago,1,1973
+1436,Barry Manilow,2,1978
+1437,Pitbull,2,2009
+1438,Cher,1,1990
+1439,Destiny's Child,1,1999
+1440,Jody Watley,1,1987
+1441,Taylor Swift,1,2007
+1442,Jermaine Jackson,1,1985
+1443,Eli Young Band,1,2012
+1444,Jackson Browne,1,1982
+1445,Huey Lewis and the News,1,1986
+1446,Kool and the Gang,1,1981
+1447,Ben E. King,1,1987
+1448,Gilbert O'Sullivan,1,1972
+1449,Metallica,1,1996
+1450,Total,1,1997
+1451,Blake Shelton,1,2001
+1452,Missy Elliott,2,2001
+1453,Tiffany,1,1988
+1454,The Oak Ridge Boys,1,1981
+1455,David Guetta,1,2010
+1456,Tom Petty and the Heartbreakers,2,1980
+1457,Sweet,1,1978
+1458,The Jaggerz,1,1970
+1459,Green Day,3,2005
+1460,Paula Abdul,2,1991
+1461,The Notorious B.I.G.,2,1997
+1462,Jay-Z,1,2005
+1463,Sara Bareilles,1,2008
+1464,Clay Aiken,1,2003
+1465,Randy Houser,1,2013
+1466,Joe Cocker,1,1975
+1467,Cheryl Lynn,1,1979
+1468,Glass Tiger,1,1987
+1469,Bruno Mars,1,2010
+1470,Justin Timberlake,1,2014
+1471,The Fray,2,2009
+1472,Lady Gaga,1,2014
+1473,TQ,1,1998
+1474,Dean Friedman,1,1977
+1475,Baauer,1,2013
+1476,Maxine Nightingale,1,1979
+1477,Kenny Rogers,3,1980
+1478,Cat Stevens,1,1971
+1479,Nelly Furtado,1,2001
+1480,Christina Aguilera,1,2001
+1481,Madonna,5,1985
+1482,Miley Cyrus,2,2014
+1483,Vanilla Ice,1,1990
+1484,Akon,2,2009
+1485,Disco-Tex and the Sex-O-Lettes,1,1975
+1486,Commodores,1,1985
+1487,Mario Winans,1,2004
+1488,Donna Summer,1,1983
+1489,Seal,1,1997
+1490,Tevin Campbell,1,1992
+1491,Kenny Rogers,2,1982
+1492,Al Green,3,1972
+1493,Spice Girls,3,1997
+1494,Busta Rhymes,1,2003
+1495,YoungBloodZ,1,2004
+1496,Joan Jett and the Blackhearts,1,1988
+1497,Tag Team,1,1994
+1498,Blondie,1,1979
+1499,New Edition,1,1997
+1500,Busta Rhymes,1,2006
+1501,Milli Vanilli,2,1990
+1502,Paul Anka,2,1975
+1503,Jimmy Castor Bunch,1,1972
+1504,Big Tymers,1,2002
+1505,TLC,3,1992
+1506,Jethro Tull,1,1975
+1507,Linda Ronstadt,2,1975
+1508,Peter Cetera,1,1987
+1509,Jagged Edge,1,2004
+1510,3 Doors Down,1,2005
+1511,Pure Prairie League,1,1980
+1512,Paul Carrack,1,1988
+1513,Phil Collins,1,1994
+1514,Mary J. Blige,1,1992
+1515,Mýa,1,2003
+1516,Van McCoy,1,1975
+1517,Ariana Grande,2,2014
+1518,Dire Straits,1,1985
+1519,U2,1,2001
+1520,Gary Wright,1,1981
+1521,Santana,1,2000
+1522,Lauryn Hill,2,1999
+1523,Houston,1,2004
+1524,Christopher Cross,1,1982
+1525,The Delfonics,1,1970
+1526,The Greg Kihn Band,1,1983
+1527,5 Seconds of Summer,2,2014
+1528,Barry White,1,1973
+1529,The Human League,1,1983
+1530,Celine Dion,1,1994
+1531,Subway,1,1995
+1532,Ronnie Dyson,1,1970
+1533,Monica,1,1997
+1534,Deniece Williams,1,1982
+1535,Ashlee Simpson,1,2004
+1536,Bruce Springsteen,2,1984
+1537,Bob Seger and The Silver Bullet Band,1,1979
+1538,Chris Rea,1,1978
+1539,John Lennon,1,1984
+1540,Havana Brown,1,2012
+1541,Marky Mark and the Funky Bunch,1,1992
+1542,Janet Jackson,1,1995
+1543,Fabolous,2,2003
+1544,Rod Stewart,1,1990
+1545,LL Cool J,3,1996
+1546,Michael Jackson,3,1988
+1547,Calvin Harris,2,2012
+1548,Aerosmith,1,1998
+1549,Zedd,1,2013
+1550,OutKast,1,2001
+1551,2Pac,1,1995
+1552,Breakfast Club,1,1987
+1553,Lonestar,1,2001
+1554,Neon Trees,1,2011
+1555,Al B. Sure!,1,1988
+1556,Herb Alpert,1,1987
+1557,Quad City DJ's,1,1996
+1558,Huey,1,2007
+1559,Gloria Estefan,1,1991
+1560,Babyface,3,1994
+1561,Finger Eleven,1,2004
+1562,Wilson Phillips,2,1990
+1563,FireHouse,1,1991
+1564,Tony! Toni! Tone!,2,1993
+1565,Gino Vannelli,1,1981
+1566,Lee Ann Womack,1,2000
+1567,Faith Hill,2,2000
+1568,Corey Hart,1,1985
+1569,Gary U.S. Bonds,1,1981
+1570,Secondhand Serenade,1,2008
+1571,Luke Bryan,1,2014
+1572,Tracie Spencer,1,1991
+1573,Alabama,1,1982
+1574,Kelis,1,2006
+1575,Nicole,1,1998
+1576,George Benson,1,1980
+1577,Real McCoy,1,1997
+1578,Travie McCoy,1,2010
+1579,Lipps Inc,1,1980
+1580,Joe,1,1997
+1581,Digable Planets,1,1993
+1582,Peter Cetera,1,1986
+1583,Vangelis,1,1982
+1584,Alicia Keys,1,2002
+1585,Jordan Knight,1,1999
+1586,Poison,1,1991
+1587,Matthew Wilder,1,1984
+1588,Domino,1,1994
+1589,Rich Boy,1,2007
+1590,Imagine Dragons,1,2012
+1591,Keyshia Cole,1,2007
+1592,Sting,2,1985
+1593,Cyndi Lauper,3,1984
+1594,Westlife,1,2000
+1595,Boys Like Girls,1,2009
+1596,Bee Gees,1,1975
+1597,Brenda K. Starr,1,1988
+1598,Toby Keith,1,2012
+1599,Rickie Lee Jones,1,1979
+1600,Kris Kross,1,1993
+1601,Commodores,1,1980
+1602,Celine Dion,1,2000
+1603,John Mellencamp,1,1994
+1604,Ringo Starr,1,1971
+1605,Celine Dion,1,1998
+1606,Adam Ant,1,1983
+1607,Falco,1,1986
+1608,Harry Chapin,1,1975
+1609,Seal,1,1995
+1610,MC Lyte,1,1997
+1611,The Motels,1,1982
+1612,Lady Gaga,4,2010
+1613,Changing Faces,1,1994
+1614,Shalamar,1,1980
+1615,Freda Payne,1,1971
+1616,Kelly Clarkson,3,2009
+1617,Enrique Iglesias,1,1999
+1618,Barbra Streisand,2,1977
+1619,Mystikal,1,2000
+1620,Robin Thicke,1,2014
+1621,Mary J. Blige,2,2002
+1622,Beverly Bremers,1,1972
+1623,Olivia Newton-John,1,1984
+1624,Chicago,1,1987
+1625,Janet Jackson,3,1986
+1626,Johnny Gill,1,1990
+1627,Don Henley,2,1985
+1628,Tower of Power,1,1973
+1629,Firefall,1,1979
+1630,Kenny Rogers,1,1984
+1631,Dierks Bentley,1,2014
+1632,Mötley Crue,1,1990
+1633,Bon Jovi,1,1993
+1634,Regina,1,1986
+1635,Five,1,1998
+1636,Kelly Clarkson,3,2005
+1637,Eruption,1,1978
+1638,Michael W. Smith,1,1991
+1639,Tim McGraw,1,2013
+1640,Expose,1,1989
+1641,Corona,1,1995
+1642,Mariah Carey,3,1996
+1643,beyonce,1,2011
+1644,Maroon 5,1,2005
+1645,Chicago,2,1970
+1646,Devo,1,1981
+1647,James Taylor,1,1975
+1648,Belinda Carlisle,1,1986
+1649,Frijid Pink,1,1970
+1650,Robyn,1,1998
+1651,Blaque,1,2000
+1652,Warren G,1,1997
+1653,Deborah Cox,1,1998
+1654,Charles and Eddie,1,1992
+1655,Cyndi Lauper,1,1987
+1656,Soul II Soul,1,1990
+1657,Simon and Garfunkel,2,1970
+1658,Moody Blues,1,1986
+1659,Celine Dion,2,1997
+1660,Lil Wayne,1,2013
+1661,Heart,1,1990
+1662,Raphael Saadiq,1,1995
+1663,Christopher Cross,2,1980
+1664,Atlantic Starr,1,1992
+1665,The Tony Rich Project,1,1996
+1666,,1,1982
+1667,Santana,1,2004
+1668,Michael Bolton,1,1997
+1669,Olivia Newton-John,1,1978
+1670,Usher,2,2012
+1671,2Pac,1,1993
+1672,Staind,1,2001
+1673,Train,2,2012
+1674,98 Degrees,2,1999
+1675,Pablo Cruise,1,1981
+1676,Rod Stewart,1,1978
+1677,Tavares,1,1975
+1678,Laura Branigan,1,1984
+1679,Dev,1,2011
+1680,Average White Band,2,1975
+1681,The Black Eyed Peas,2,2005
+1682,Odyssey,1,1978
+1683,Junior M.A.F.I.A.,1,1995
+1684,Jackson Browne,1,1983
+1685,Tears for Fears,1,1993
+1686,Plies,1,2007
+1687,Pussycat Dolls,1,2009
+1688,Billy Vera and the Beaters,1,1987
+1689,Atlantic Starr,1,1987
+1690,Nelson,1,1991
+1691,Goo Goo Dolls,3,1999
+1692,Donny Osmond,1,1973
+1693,Case,2,1999
+1694,Tiffany,1,1987
+1695,Lorde,2,2014
+1696,'N Sync,2,2000
+1697,Al Stewart,1,1977
+1698,"Crosby, Stills and Nash",1,1982
+1699,Deodato,1,1973
+1700,Donny Osmond,1,1989
+1701,LMFAO,1,2011
+1702,Divinyls,1,1991
+1703,Tweet,1,2002
+1704,Jewel,1,1999
+1705,Zedd,1,2014
+1706,Level 42,1,1986
+1707,Pink,1,2001
+1708,Zac Brown Band,2,2011
+1709,Big Mountain,1,1994
+1710,Rednex,1,1995
+1711,Trillville,1,2005
+1712,Dream Academy,1,1986
+1713,Ludacris,2,2007
+1714,The All-American Rejects,1,2007
+1715,Ruben Studdard,1,2003
+1716,Clarence Carter,1,1970
+1717,Blues Image,1,1970
+1718,Aaliyah,2,1994
+1719,George Harrison,1,1981
+1720,Jesse McCartney,1,2005
+1721,Lobo,1,1971
+1722,The Poppy Family,1,1970
+1723,Jay-Z,2,2009
+1724,Chicago,1,1990
+1725,Lumidee,1,2003
+1726,Pebbles,2,1988
+1727,Carrie Underwood,1,2006
+1728,Charlie Daniels Band,1,1980
+1729,Real McCoy,2,1995
+1730,Mokenstef,1,1995
+1731,Lady Antebellum,2,2010
+1732,Freak Nasty,1,1997
+1733,Rod Stewart,1,1989
+1734,Sheryl Crow,1,2002
+1735,N II U,1,1995
+1736,The Escape Club,1,1991
+1737,Linear,1,1990
+1738,Omarion,1,2007
+1739,Twista,2,2004
+1740,,1,2010
+1741,112,1,2005
+1742,Edward Bear,1,1973
+1743,Heatwave,2,1978
+1744,Cher,1,1974
+1745,Next,3,1998
+1746,TLC,1,1996
+1747,Cher,1,1999
+1748,The Guess Who,1,1974
+1749,Nelly,2,2001
+1750,Iyaz,1,2009
+1751,Skid Row,1,1990
+1752,The Righteous Brothers,1,1974
+1753,Toni Braxton,2,1997
+1754,Usher,3,2004
+1755,Rockwell,1,1984
+1756,Huey Lewis and the News,1,1988
+1757,Kanye West,1,2007
+1758,The Buoys,1,1971
+1759,Anita Baker,1,1989
+1760,Coolio,1,1994
+1761,Billy Idol,1,1984
+1762,Will Smith,1,2005
+1763,Usher,1,2008
+1764,The Jackson 5,4,1970
+1765,Yes,1,1984
+1766,Ruben Studdard,1,2004
+1767,beyonce,2,2006
+1768,Taylor Dayne,1,1993
+1769,Shalamar,1,1983
+1770,Brick,1,1977
+1771,Diana Ross,2,1976
+1772,Foreigner,1,1981
+1773,Bone Thugs-n-Harmony,1,1997
+1774,Natasha Bedingfield,1,2006
+1775,Los Lonely Boys,1,2004
+1776,Naughty by Nature,1,1991
+1777,Mike Reno,1,1984
+1778,The Four Seasons,1,1994
+1779,Usher,3,2010
+1780,Meat Loaf,2,1994
+1781,Eddie Murphy,1,1986
+1782,The New Seekers,1,1970
+1783,The Guess Who,2,1970
+1784,Akon,1,2004
+1785,Jaheim,1,2003
+1786,Foo Fighters,1,2005
+1787,Mike Oldfield,1,1974
+1788,Pilot,1,1975
+1789,Gin Blossoms,1,1996
+1790,Ryan Cabrera,1,2004
+1791,Coldplay,1,2014
+1792,Boyz II Men,4,1995
+1793,Clean Bandit,1,2014
+1794,Mariah Carey,1,2009
+1795,Aretha Franklin,1,1998
+1796,Ace,1,1975
+1797,Jeremih,1,2014
+1798,Eric Clapton,1,1997
+1799,Michael Jackson,3,1980
+1800,Technotronic,2,1990
+1801,P.M. Dawn,1,1993
+1802,Monica,1,2004
+1803,Bruce Springsteen,1,1987
+1804,Shawn Colvin,1,1997
+1805,Starship,1,1986
+1806,Usher,3,1998
+1807,Nas,1,2001
+1808,Three 6 Mafia,1,2006
+1809,Shania Twain,1,1998
+1810,Nicolette Larson,1,1979
+1811,Eric Church,1,2012
+1812,Collective Soul,1,1996
+1813,OneRepublic,1,2013
+1814,Ke$ha,2,2011
+1815,Olivia Newton-John,1,1979
+1816,Mac and Katie Kissoon,1,1971
+1817,The Stylistics,1,1973
+1818,Fabolous,1,2007
+1819,John Michael Montgomery,1,2004
+1820,Tim McGraw,1,2003
+1821,Leo Sayer,1,1975
+1822,Ja Rule,1,2003
+1823,Nicki Minaj,1,2010
+1824,The Greg Kihn Band,1,1981
+1825,Spice Girls,2,1998
+1826,Genesis,1,1984
+1827,The Chakachas,1,1972
+1828,OneRepublic,1,2014
+1829,Kris Kross,1,1996
+1830,Craig David,1,2002
+1831,Whitesnake,1,1987
+1832,Wilson Pickett,1,1971
+1833,T.I.,1,2007
+1834,Mariah Carey,1,2006
+1835,Queen,1,1978
+1836,Barbra Streisand,1,1979
+1837,Ne-Yo,1,2008
+1838,B.o.B,1,2012
+1839,Bryan Adams,3,1985
+1840,Jermaine Stewart,1,1986
+1841,Nirvana,1,1992
+1842,Lenny Kravitz,1,1999
+1843,Robert John,1,1972
+1844,Eminem,3,2002
+1845,Owl City,1,2009
+1846,Air Supply,1,1983
+1847,Rod Stewart,1,1977
+1848,Big Pun,1,1998
+1849,Tom Jones,1,1971
+1850,DJ Khaled,1,2011
+1851,Mariah Carey,1,2008
+1852,Janet,2,2001
+1853,Janet Jackson,1,1998
+1854,Michael Sembello,1,1983
+1855,Jodeci,1,1995
+1856,Planet Soul,1,1996
+1857,Jane Child,1,1990
+1858,Bonnie Raitt,1,1992
+1859,Greg Guidry,1,1982
+1860,Flo Rida,1,2010
+1861,Sir Mix-a-Lot,1,1992
+1862,Barry Manilow,1,1979
+1863,Information Society,1,1988
+1864,Right Said Fred,1,1992
+1865,Donny Osmond,2,1971
+1866,Kiss,1,1976
+1867,Don McLean,2,1972
+1868,Luke Bryan,1,2011
+1869,Blackstreet,1,1995
+1870,Five Man Electrical Band,1,1971
+1871,Ashanti,3,2002
+1872,Rich Gang,1,2014
+1873,Daughtry,1,2009
+1874,Winger,1,1991
+1875,George Michael,1,1996
+1876,Lenny Kravitz,1,2001
+1877,Nickelback,2,2009
+1878,"10,000 Maniacs",1,1994
+1879,Cornelius Brothers and Sister Rose,1,1972
+1880,James Taylor,1,1971
+1881,Charlie Dore,1,1980
+1882,The Staple Singers,1,1972
+1883,Puff Daddy,2,1997
+1884,Bobby Womack,1,1974
+1885,Taylor Swift,1,2012
+1886,Captain and Tennille,1,1975
+1887,The Calling,1,2002
+1888,Juvenile,1,2004
+1889,Samantha Sang,1,1978
+1890,War,3,1973
+1891,The Verve,1,1998
+1892,Phillip Phillips,1,2013
+1893,Raydio,1,1981
+1894,Howard Jones,1,1986
+1895,Rick Springfield,1,1984
+1896,Dru Hill,1,1999
+1897,White Plains,1,1970
+1898,Chicago,1,1982
+1899,Heart,1,1985
+1900,Cheap Trick,2,1988
+1901,New Edition,1,1985
+1902,The Smashing Pumpkins,1,1996
+1903,The Fortunes,1,1971
+1904,Bruno Mars,3,2013
+1905,Bill Conti,1,1977
+1906,Anne Murray,1,1970
+1907,John Travolta,1,1976
+1908,Technotronic,1,1992
+1909,Chairmen of the Board,1,1970
+1910,Commodores,1,1982
+1911,Kenny Chesney,1,2012
+1912,Milli Vanilli,3,1989
+1913,Captain and Tennille,2,1976
+1914,Creed,2,2002
+1915,Trey Songz,1,2012
+1916,MC Lyte,1,1996
+1917,Nick Cannon,1,2004
+1918,Barbra Streisand,1,1974
+1919,Ying Yang Twins,1,2004
+1920,Mac Davis,1,1974
+1921,Pink Floyd,1,1973
+1922,Donna Fargo,1,1973
+1923,Vanilla Ice,1,1991
+1924,Edie Brickell and New Bohemians,1,1989
+1925,Meat Loaf,1,1978
+1926,Chumbawamba,1,1997
+1927,Fall Out Boy,2,2007
+1928,En Vogue,1,1993
+1929,Dru Hill,2,1998
+1930,Frankie Valli,1,1978
+1931,will.i.am,2,2013
+1932,Franke and the Knockouts,1,1981
+1933,Al Stewart,1,1979
+1934,Natalie Cole,1,1989
+1935,Bill Medley,1,1987
+1936,Elton John,1,1977
+1937,Sheila E.,1,1984
+1938,John Legend,1,2014
+1939,Sinead O'Connor,1,1990
+1940,Daniel Bedingfield,1,2003
+1941,Judy Collins,1,1971
+1942,The Fuzz,1,1971
+1943,McFadden and Whitehead,1,1979
+1944,Laura Branigan,1,1982
+1945,John Legend,1,2005
+1946,Heavy D,1,1997
+1947,LL Cool J,1,1991
+1948,Ruff Endz,1,2000
+1949,Aerosmith,1,1988
+1950,Blues Traveler,1,1996
+1951,Christina Aguilera,3,2003
+1952,Lady Gaga,3,2011
+1953,Tom T. Hall,1,1974
+1954,The Jackson 5,2,1971
+1955,Anita Baker,1,1986
+1956,Tyrone Davis,1,1970
+1957,B.J. Thomas,1,1977
+1958,Kelis,1,2004
+1959,Bonnie Raitt,1,1991
+1960,B.B. King,1,1970
+1961,Dream,1,2001
+1962,Shania Twain,3,1999
+1963,Missy Elliott,1,2002
+1964,Shocking Blue,1,1970
+1965,The Floaters,1,1977
+1966,Patrick Hernandez,1,1979
+1967,Player,2,1978
+1968,Loggins and Messina,1,1973
+1969,Michael Jackson,1,2002
+1970,Far East Movement,2,2011
+1971,George Michael,5,1988
+1972,Christopher Cross,1,1984
+1973,Peter Brown,1,1978
+1974,Sheena Easton,1,1989
+1975,Hi-Five,1,1992
+1976,Rick Ross,1,2008
+1977,The All-American Rejects,2,2006
+1978,Mark Chesnutt,1,1999
+1979,Wings,1,1975
+1980,Natasha Bedingfield,1,2005
+1981,Neil Diamond,1,1980
+1982,Ohio Players,2,1976
+1983,Bob Seger and the Silver Bullet Band,1,1980
+1984,Billy Preston,1,1974
+1985,Trick Daddy,1,2005
+1986,Nelly,2,2002
+1987,Eric Clapton,1,1979
+1988,Expose,1,1988
+1989,Lionel Richie,3,1983
+1990,Paula Abdul,1,1992
+1991,Swing Out Sister,1,1987
+1992,Diana Ross,2,1982
+1993,Ray J,1,2006
+1994,'N Sync,2,1999
+1995,Hunter Hayes,2,2013
+1996,Janis Joplin,1,1971
+1997,Stevie Wonder,1,1985
+1998,Britney Spears,2,2000
+1999,Sammi Smith,1,1971
+2000,John Mellencamp,1,1996
+2001,Bone Thugs-n-Harmony,1,1996
+2002,Cutting Crew,2,1987
+2003,Kevin Lyttle,1,2004
+2004,Shakira,1,2009
+2005,Aaliyah,1,1998
+2006,American Authors,1,2014
+2007,R. Kelly,2,2001
+2008,Natalie Cole,1,1988
+2009,Samantha Fox,1,1989
+2010,Jason Derulo,1,2011
+2011,Elton John,2,1976
+2012,Peter Schilling,1,1984
+2013,Fantasia,1,2005
+2014,Drake,2,2010
+2015,Lindsey Buckingham,1,1982
+2016,Usher,2,2011
+2017,Madonna,1,1995
+2018,Kool and the Gang,1,1984
+2019,Gordon Lightfoot,1,1974
+2020,Johnny Hates Jazz,1,1988
+2021,Enigma,1,1991
+2022,Stephen Bishop,1,1983
+2023,Free,1,1970
+2024,Ready for the World,1,1985
+2025,George Benson,1,1982
+2026,LMFAO,1,2012
+2027,Dixie Chicks,1,2003
+2028,Bob Seger and The Silver Bullet Band,1,1977
+2029,Lloyd Banks,1,2004
+2030,Hall and Oates,1,1977
+2031,George Michael,1,1991
+2032,Marc Anthony,1,1999
+2033,The Pointer Sisters,1,1982
+2034,Weezer,1,2005
+2035,John Cougar Mellencamp,1,1984
+2036,T-Pain,2,2006
+2037,Kool and the Gang,2,1980
+2038,T.I.,2,2005
+2039,ABBA,2,1977
+2040,Dan Hartman,1,1984
+2041,Stacey Q,1,1986
+2042,Rod Stewart,1,1981
+2043,R. Kelly,2,1999
+2044,Kansas,1,1978
+2045,Toto,1,1986
+2046,David Lee Roth,1,1985
+2047,Robbie Dupree,1,1980
+2048,Ellie Goulding,1,2014
+2049,One Direction,1,2012
+2050,Trey Songz,1,2008
+2051,Sting,2,1993
+2052,Becky G,1,2014
+2053,Musiq Soulchild,1,2002
+2054,Hot,1,1977
+2055,New Boyz,1,2011
+2056,Kelly Clarkson,2,2006
+2057,Usher,1,2001
+2058,Dazz Band,1,1982
+2059,Bryan Adams,1,1987
+2060,Karla Bonoff,1,1982
+2061,Carole King,1,1971
+2062,Go West,1,1990
+2063,2 Chainz,1,2012
+2064,Ratt,1,1984
+2065,Taylor Swift,1,2011
+2066,Paper Lace,1,1974
+2067,Night Ranger,2,1984
+2068,Rihanna,3,2008
+2069,Lisa Lisa and Cult Jam,2,1987
+2070,Jewel,1,2002
+2071,Aretha Franklin,1,1972
+2072,Johnny Nash,1,1972
+2073,Trace Adkins,1,2008
+2074,Kenny Rogers,1,1977
+2075,Duran Duran,1,1987
+2076,Mariah Carey,1,2001
+2077,Naked Eyes,2,1983
+2078,Deee-Lite,1,1991
+2079,Teri DeSario,1,1980
+2080,Backstreet Boys,1,2005
+2081,Paul Young,1,1985
+2082,City High,1,2002
+2083,Nickelback,1,2005
+2084,Gym Class Heroes,2,2012
+2085,Aqua,1,1997
+2086,The Bangles,1,1988
+2087,Michael Bolton,3,1990
+2088,Tom Petty and the Heartbreakers,1,1994
+2089,Finger Eleven,1,2007
+2090,Shakira,1,2006
+2091,Stevie Wonder,1,1980
+2092,Glen Campbell,1,1970
+2093,Joe,1,1996
+2094,Taylor Swift,2,2013
+2095,Akon,1,2005
+2096,soulDecision,1,2000
+2097,S Club 7,1,2001
+2098,The Stylistics,1,1972
+2099,Al Wilson,1,1974
+2100,Janis Ian,1,1975
+2101,Boyz II Men,3,1992
+2102,REO Speedwagon,2,1981
+2103,La Bouche,2,1996
+2104,Peaches and Herb,2,1979
+2105,Sunshine Anderson,1,2001
+2106,Scarface,1,1997
+2107,Lady Antebellum,1,2013
+2108,The Partridge Family,2,1971
+2109,Timbaland,1,2008
+2110,The O'Jays,1,1978
+2111,Bad Company,1,1979
+2112,Bastille,1,2014
+2113,The Game,1,2008
+2114,Sean Paul,1,2004
+2115,Madonna,1,1996
+2116,Fergie,2,2007
+2117,Mario,1,2002
+2118,Wang Chung,1,1984
+2119,The Cranberries,1,1997
+2120,Jo Dee Messina,1,2000
+2121,Natalie Cole,1,1977
+2122,Faith Evans,2,1999
+2123,America,2,1975
+2124,Eddie Money,1,1989
+2125,Barry Manilow,1,1980
+2126,Chris Brown,2,2012
+2127,Matchbox Twenty,1,2003
+2128,Eminem,1,2014
+2129,'Til Tuesday,1,1985
+2130,Immature,1,1994
+2131,Timex Social Club,1,1986
+2132,Eric Clapton,1,1981
+2133,Dr. John,1,1973
+2134,D Mob,1,1990
+2135,Roxette,2,1991
+2136,Bruce Willis,1,1987
+2137,A Great Big World,1,2014
+2138,Nico and Vinz,1,2014
+2139,Dirty Vegas,1,2002
+2140,Silver,1,1976
+2141,Luther Vandross,1,1992
+2142,Bill Withers,2,1972
+2143,Thompson Twins,1,1985
+2144,Joe,1,2000
+2145,The Bangles,2,1989
+2146,Ian Matthews,1,1979
+2147,Elvis Presley,1,1972
+2148,Power Station,1,1985
+2149,Britney Spears,3,2011
+2150,Timbaland,2,2007
+2151,Chicago,1,1984
+2152,David Archuleta,1,2008
+2153,Julian Lennon,2,1985
+2154,Frida,1,1983
+2155,Jason Aldean,1,2009
+2156,Donna Lewis,1,1997
+2157,John Schneider,1,1981
+2158,REO Speedwagon,1,1985
+2159,Mike + The Mechanics,1,1989
+2160,Joey Lawrence,1,1993
+2161,Dobie Gray,1,1973
+2162,Janet Jackson,2,1994
+2163,Spin Doctors,1,1993
+2164,Journey,2,1982
+2165,Train,1,2000
+2166,M,1,1980
+2167,Ashanti,2,2003
+2168,The Fray,2,2006
+2169,Neil Young,1,1972
+2170,Elton John,2,1988
+2171,Culture Club,3,1983
+2172,Peabo Bryson,1,1983
+2173,Wham!,1,1986
+2174,Keith Sweat,1,1992
+2175,Neneh Cherry,1,1989
+2176,B2K,1,2003
+2177,Brian McKnight,1,1993
+2178,Andy Gibb,3,1978
+2179,Outkast,1,2001
+2180,Jade,2,1993
+2181,Avril Lavigne,1,2011
+2182,The Red Jumpsuit Apparatus,1,2007
+2183,Van Halen,1,1995
+2184,Eve 6,1,2001
+2185,Electric Light Orchestra,2,1977
+2186,Florida Georgia Line,2,2014
+2187,John Cougar,1,1981
+2188,Eddy Grant,1,1983
+2189,Jean Knight,1,1971
+2190,Amy Grant,2,1991
+2191,C.J. and Company,1,1977
+2192,No Doubt,1,2004
+2193,Nine Days,1,2000
+2194,Culture Club,3,1984
+2195,Thompson Twins,1,1984
+2196,The O'Jays,1,1972
+2197,Captain and Tennille,1,1980
+2198,Expose,3,1987
+2199,69 Boyz,1,1994
+2200,Sammy Hagar,1,1983
+2201,KONGOS,1,2014
+2202,Tim McGraw,1,2004
+2203,Erick Sermon,1,2001
+2204,The Marshall Tucker Band,1,1977
+2205,Seals and Crofts,1,1973
+2206,Perry Como,1,1971
+2207,Marcy Playground,1,1998
+2208,Missy Elliott,1,1998
+2209,Stevie Wonder,1,1984
+2210,LFO,1,1999
+2211,Miley Cyrus,1,2010
+2212,Norman Greenbaum,1,1970
+2213,Will to Power,1,1991
+2214,Bob Welch,2,1978
+2215,Len,1,1999
+2216,New Edition,1,1996
+2217,Annie Lennox,1,1995
+2218,Blink 182,1,2000
+2219,Groove Theory,1,1995
+2220,The Pointer Sisters,1,1984
+2221,Lil Wayne,1,2010
+2222,Lady Antebellum,1,2011
+2223,The Sylvers,2,1977
+2224,Paul Simon,1,1976
+2225,Enrique Iglesias,1,2001
+2226,Erykah Badu,1,2003
+2227,Pink,1,2000
+2228,Michael Jackson,1,2014
+2229,Wadsworth Mansion,1,1971
+2230,Major Harris,1,1975
+2231,OneRepublic,2,2010
+2232,Janet Jackson,2,1987
+2233,Surface,1,1991
+2234,Harold Melvin and the Blue Notes,1,1976
+2235,A Taste of Honey,1,1978
+2236,Jessica Andrews,1,2001
+2237,Phil Collins,1,1988
+2238,Fall Out Boy,1,2013
+2239,Eric Clapton,1,1983
+2240,Cascada,1,2006
+2241,Paul Simon,1,1972
+2242,Michael Damian,1,1989
+2243,J-Kwon,1,2004
+2244,Elton John,2,1984
+2245,The Cure,1,1992
+2246,The Dirt Band,1,1980
+2247,Gloria Estefan and Miami Sound Machine,1,1987
+2248,Go West,1,1993
+2249,Samantha Fox,1,1987
+2250,Tara Kemp,2,1991
+2251,Eve,1,2001
+2252,Alicia Bridges,1,1978
+2253,Elton John,2,1973
+2254,Alan Jackson,1,2004
+2255,Queen,1,1980
+2256,Ludacris,1,2001
+2257,Ricky Nelson,1,1972
+2258,The Doobie Brothers,1,1973
+2259,Alive N Kickin',1,1970
+2260,The Who,1,1971
+2261,Color Me Badd,3,1992
+2262,Destiny's Child,2,2001
+2263,Styx,1,1975
+2264,The Pretenders,1,1995
+2265,Brooke Valentine,1,2005
+2266,Ca$h Out,1,2012
+2267,Eden's Crush,1,2001
+2268,Boston,1,1986
+2269,Billy Idol,1,1990
+2270,Justin Timberlake,1,2002
+2271,Mims,1,2007
+2272,James Blunt,1,2006
+2273,Puddle of Mudd,1,2003
+2274,Hall and Oates,1,1980
+2275,Whitney Houston,3,1993
+2276,Red Hot Chili Peppers,1,1992
+2277,Soul II Soul,1,1989
+2278,The Carpenters,2,1975
+2279,Mary Mary,1,2000
+2280,John Denver,2,1974
+2281,The Manhattan Transfer,1,1981
+2282,Robyn,1,1997
+2283,Foreigner,1,1985
+2284,Simply Red,1,1989
+2285,U2,1,1988
+2286,Hurricane Smith,1,1973
+2287,Joe Simon,2,1972
+2288,Pink,1,2006
+2289,Jim Stafford,3,1974
+2290,Linkin Park,1,2002
+2291,Santana,1,2008
+2292,Imagine Dragons,1,2013
+2293,Kelly Clarkson,1,2013
+2294,Eric Clapton,1,1978
+2295,The Black Eyed Peas,1,2003
+2296,Dr. Hook,2,1980
+2297,LeAnn Rimes,1,2002
+2298,Taio Cruz,1,2010
+2299,Tom Petty and the Heartbreakers,1,1983
+2300,"Earth, Wind and Fire",1,1983
+2301,Nickelback,1,2002
+2302,Tiffany,1,1989
+2303,Neil Diamond,1,1982
+2304,David Bowie,1,1973
+2305,Haddaway,1,1994
+2306,Nu Shooz,1,1986
+2307,Jagged Edge,2,2001
+2308,Wings,2,1976
+2309,Webbie,1,2005
+2310,Mel and Tim,1,1972
+2311,Crystal Waters,1,1995
+2312,fun.,2,2013
+2313,Gotye,1,2012
+2314,Vertical Horizon,1,2000
+2315,Train,1,2001
+2316,Monica,2,1996
+2317,Aerosmith,2,1994
+2318,Guns N' Roses,3,1989
+2319,Fleetwood Mac,2,1987
+2320,Third Eye Blind,1,2000
+2321,Us3,1,1994
+2322,Danity Kane,1,2006
+2323,Orleans,1,1975
+2324,Black Box,1,1991
+2325,Elton John,1,1972
+2326,Roberta Flack,1,1974
+2327,Chesney Hawkes,1,1991
+2328,Tina Turner,3,1985
+2329,Ciara,1,2004
+2330,Neil,1,1980
+2331,Dire Straits,1,1986
+2332,Eagles,1,1976
+2333,Musical Youth,1,1983
+2334,Jimmy Buffett,1,1977
+2335,Bryan Adams,2,1992
+2336,Paul McCartney,2,1982
+2337,3 Doors Down,1,2008
+2338,Hellogoodbye,1,2007
+2339,Lifehouse,1,2007
+2340,Eurythmics,1,1985
+2341,Kelly Clarkson,1,2003
+2342,The Jacksons,1,1977
+2343,Pitbull,2,2012
+2344,Richard Marx,2,1989
+2345,Somethin' for the People,1,1998
+2346,The Undisputed Truth,1,1971
+2347,All Saints,1,1998
+2348,AZ,1,1995
+2349,Daryl Hall,1,1986
+2350,Steve Forbert,1,1980
+2351,DJ Kool,1,1997
+2352,Foxy,1,1978
+2353,Delaney and Bonnie,1,1971
+2354,Portrait,1,1993
+2355,MFSB,1,1974
+2356,Angie Martinez,1,2002
+2357,G-Unit,1,2004
+2358,Crucial Conflict,1,1996
+2359,Jibbs,1,2006
+2360,SWV,1,1996
+2361,Bobby Vinton,1,1972
+2362,Usher,1,1997
+2363,Linda Ronstadt,2,1978
+2364,Lenny Kravitz,1,1991
+2365,Frank Stallone,1,1983
+2366,Backstreet Boys,2,1999
+2367,Jonathan Edwards,1,1972
+2368,Carole King,1,1980
+2369,Christina Perri,1,2011
+2370,Destiny's Child,1,1998
+2371,Anna Kendrick,1,2013
+2372,Naughty by Nature,1,1995
+2373,Supertramp,1,1980
+2374,Nelly Furtado,1,2006
+2375,Sammie,1,2000
+2376,Blake Shelton,2,2013
+2377,The Isley Brothers,1,1975
+2378,Leona Lewis,2,2008
+2379,Fat Joe,1,2007
+2380,Rascal Flatts,2,2006
+2381,Diana Ross,1,1970
+2382,Def Leppard,1,1993
+2383,The Kinks,1,1970
+2384,Glass Tiger,1,1986
+2385,Lonestar,1,2000
+2386,Voices of Theory,1,1998
+2387,Thompson Twins,1,1986
+2388,Billy Joel,3,1984
+2389,Ugly Kid Joe,1,1993
+2390,Train,1,2010
+2391,Kanye West,1,2012
+2392,Oasis,1,1996
+2393,Stars on 45,1,1981
+2394,Faith Evans,1,1996
+2395,Jud Strunk,1,1973
+2396,Freddy Fender,2,1975
+2397,Rare Earth,1,1971
+2398,Alanis Morissette,1,2002
+2399,Nicki Minaj,2,2011
+2400,Keith Urban,1,2004
+2401,Justin Bieber,1,2009
+2402,Uncle Kracker,1,2001
+2403,beyonce,2,2014
+2404,Eminem,1,2005
+2405,Danity Kane,1,2008
+2406,Chuck Berry,1,1972
+2407,Billy Joel,1,1993
+2408,Ricky Martin,1,2001
+2409,Diana Ross,3,1981
+2410,Trapt,1,2003
+2411,Bonnie Tyler,1,1983
+2412,50 Cent,1,2007
+2413,Electric Light Orchestra,1,1975
+2414,The Verve Pipe,1,1997
+2415,The Stylistics,2,1974
+2416,Johnny Nash,1,1973
+2417,Julio Iglesias,1,1984
+2418,Andrea True Connection,1,1976
+2419,Billy Joel,2,1980
+2420,ABBA,1,1974
+2421,The Go-Go's,1,1984
+2422,Gladys Knight and the Pips,3,1974
+2423,Salt-n-Pepa,1,1991
+2424,TLC,2,1999
+2425,Flo Rida,1,2013
+2426,Londonbeat,1,1991
+2427,The Spinners,1,1974
+2428,The Blackbyrds,1,1975
+2429,Restless Heart,1,1993
+2430,Lobo,1,1973
+2431,Neil Sedaka,2,1975
+2432,Climax,1,1972
+2433,Cher,1,1973
+2434,R.E.M.,2,1991
+2435,Montell Jordan,1,1995
+2436,Stray Cats,2,1983
+2437,Kelly Price,1,1998
+2438,Pete Townshend,1,1980
+2439,Pablo Cruise,1,1978
+2440,Toto,1,1982
+2441,Helen Reddy,2,1974
+2442,LL Cool J,1,2004
+2443,Field Mob,1,2003
+2444,YG,1,2014
+2445,Linda Ronstadt,1,1979
+2446,Gloria Gaynor,1,1975
+2447,Seals and Crofts,1,1976
+2448,Aretha Franklin,2,1971
+2449,Ugly Kid Joe,1,1992
+2450,The Isley Brothers,1,1972
+2451,Men at Work,1,1982
+2452,Suzanne Vega,1,1987
+2453,Edward Maya,1,2011
+2454,Paul McCartney,1,1980
+2455,Paula Cole,1,1998
+2456,Elton John,1,1979
+2457,Dru Hill,2,1997
+2458,Martin Garrix,1,2014
+2459,Elton John,1,1983
+2460,Jermaine Jackson,1,1973
+2461,The Jets,2,1987
+2462,Ice Cube,2,1993
+2463,DeBarge,2,1985
+2464,Climax Blues Band,1,1981
+2465,Onyx,1,1993
+2466,Prince,1,1986
+2467,Juelz Santana,1,2006
+2468,Keri Hilson,1,2011
+2469,Linkin Park,1,2008
+2470,John Legend,1,2009
+2471,Roxette,2,1990
+2472,John Denver,1,1973
+2473,Sam Hunt,1,2014
+2474,Monica,1,1995
+2475,Supertramp,1,1977
+2476,Dire Straits,1,1979
+2477,Pat Benatar,1,1985
+2478,Shontelle,1,2010
+2479,Breathe,1,1988
+2480,Queensrÿche,1,1991
+2481,J.D. Souther,1,1980
+2482,Benny Mardones,1,1980
+2483,David Soul,1,1977
+2484,beyonce,3,2004
+2485,L.T.D.,1,1978
+2486,Cher,1,1988
+2487,Poison,1,1988
+2488,Dan Fogelberg,1,1980
+2489,Madonna,1,1990
+2490,Thomas Rhett,1,2013
+2491,Nelly Furtado,1,2002
+2492,Pussycat Dolls,3,2006
+2493,The B-52s,2,1990
+2494,The Detroit Emeralds,1,1972
+2495,Diana Ross,1,1973
+2496,Stevie Wonder,1,1986
+2497,Boz Scaggs,1,1976
+2498,Echosmith,1,2014
+2499,Alice Cooper,1,1975
+2500,DeBarge,1,1984
+2501,Commodores,1,1976
+2502,Murray Head,1,1985
+2503,Michael Martin Murphey,1,1975
+2504,Ralph Tresvant,1,1991
+2505,Ed Sheeran,2,2014
+2506,Shannon,1,1984
+2507,Lil' Kim,2,1997
+2508,King Harvest,1,1973
+2509,Helen Reddy,2,1973
+2510,Survivor,1,1982
+2511,Sarah McLachlan,2,1999
+2512,Sheila E.,1,1986
+2513,Belinda Carlisle,2,1988
+2514,Jade,1,1992
+2515,Paramore,1,2010
+2516,Foreigner,2,1988
+2517,Hot Chocolate,1,1976
+2518,Public Announcement,1,1998
+2519,DJ Khaled,1,2010
+2520,KC and the Sunshine Band,1,1975
+2521,Hoobastank,1,2004
+2522,Kenny Rogers,2,1981
+2523,Roberta Flack,2,1972
+2524,Fleetwood Mac,2,1980
+2525,City High,1,2001
+2526,John Mayer,1,2002
+2527,Adam Clayton,1,1996
+2528,Jewel,1,2003
+2529,Capital Cities,1,2013
+2530,Green Jellÿ,1,1993
+2531,Kirko Bangz,1,2012
+2532,Johnny Bristol,1,1974
+2533,The Cranberries,1,1994
+2534,Sanford-Townsend Band,1,1977
+2535,Styx,2,1983
+2536,Wilson Phillips,2,1991
+2537,Mike Post,1,1975
+2538,Kendrick Lamar,1,2013
+2539,Brewer and Shipley,1,1971
+2540,Britney Spears,2,2008
+2541,Zhane,1,1993
+2542,Eddie Kendricks,1,1973
+2543,Shakira,1,2014
+2544,B.o.B,3,2010
+2545,Carly Simon,1,1972
+2546,Meghan Trainor,1,2014
+2547,Whitney Houston,2,1985
+2548,Nick Lachey,1,2006
+2549,Puddle of Mudd,1,2002
+2550,Roger Voudouris,1,1979
+2551,Mark Lindsay,1,1970
+2552,The Hillside Singers,1,1972
+2553,Rihanna,1,2009
+2554,Barenaked Ladies,1,1998
+2555,Parliament,1,1976
+2556,Klymaxx,1,1986
+2557,Survivor,1,1987
+2558,Bette Midler,1,1989
+2559,Heatwave,1,1977
+2560,Jon Secada,2,1993
+2561,Charles Wright and the Watts 103rd Street Rhythm Band,2,1970
+2562,EMF,1,1991
+2563,Grand Funk Railroad,1,1975
+2564,Rodney Atkins,1,2011
+2565,Jim Jones,1,2009
+2566,The Friends of Distinction,1,1970
+2567,Pink Floyd,1,1980
+2568,Heart,2,1987
+2569,England Dan and John Ford Coley,1,1979
+2570,The Brothers Johnson,1,1976
+2571,Breathe,1,1989
+2572,U2,1,1995
+2573,Stevie Wonder,3,1973
+2574,Neil Diamond,1,1970
+2575,All-4-One,2,1994
+2576,Rufus,1,1974
+2577,Samantha Mumba,1,2000
+2578,Jay-Z,2,2003
+2579,Alice Cooper,1,1972
+2580,Aerosmith,1,1989
+2581,Bette Midler,1,1980
+2582,White Lion,1,1988
+2583,Jefferson Starship,1,1976
+2584,Madonna,2,1993
+2585,Elton John,1,1998
+2586,Edgar Winter Group,2,1973
+2587,Daddy Dewdrop,1,1971
+2588,Billy Idol,1,1982
+2589,Bonnie Raitt,1,1994
+2590,Celine Dion,1,1991
+2591,Adele,1,2011
+2592,Nickelback,1,2006
+2593,Luther Vandross,1,1991
+2594,Soulja Boy Tell 'Em,2,2009
+2595,95 South,1,1993
+2596,Brandy,1,1994
+2597,Frankie Valli,2,1975
+2598,Jesse McCartney,1,2008
+2599,Janet Jackson,1,2000
+2600,Plies,2,2008
+2601,Ready for the World,1,1987
+2602,After 7,2,1990
+2603,Olivia Newton-John,1,1971
+2604,Keyshia Cole,2,2008
+2605,John Mayer,1,2003
+2606,The Script,1,2013
+2607,Jeremy Jordan,1,1993
+2608,The Knack,1,1979
+2609,Soulja Boy Tell 'Em,1,2008
+2610,Evanescence,1,2003
+2611,Nigel Olsson,1,1979
+2612,Nelly,1,2011
+2613,Kenny Chesney,1,2003
+2614,Def Leppard,1,1989
+2615,Calloway,1,1990
+2616,Jimmy Ray,1,1998
+2617,Changing Faces,1,1997
+2618,Field Mob,1,2006
+2619,Jay-Z,1,2012
+2620,B.W. Stevenson,1,1973
+2621,Snoop Dogg,1,2007
+2622,Alicia Keys,1,2001
+2623,Joe South,1,1970
+2624,David Bowie,1,1976
+2625,Mark Morrison,1,1997
+2626,Taco,1,1983
+2627,Jody Watley,1,1990
+2628,Color Me Badd,2,1991
+2629,Irene Cara,1,1984
+2630,Bette Midler,1,1991
+2631,Cali Swag District,1,2010
+2632,Freddie Hart,1,1971
+2633,The Osmonds,1,1972
+2634,Melissa Etheridge,2,1994
+2635,Dwight Twilley Band,1,1975
+2636,Faith Hill,1,1998
+2637,Santa Esmeralda,1,1978
+2638,Cliff Richard,1,1980
+2639,The Notorious B.I.G.,2,1995
+2640,After the Fire,1,1983
+2641,Lupe Fiasco,1,2011
+2642,Trey Songz,1,2011
+2643,Prince,1,1992
+2644,Bruno Mars,2,2011
+2645,Willa Ford,1,2001
+2646,Avril Lavigne,2,2002
+2647,TLC,3,1995
+2648,Cobra Starship,1,2009
+2649,Faith No More,1,1990
+2650,Filter,1,2000
+2651,Spandau Ballet,1,1983
+2652,Johnnie Taylor,1,1973
+2653,House of Pain,1,1992
+2654,Pat Benatar,1,1980
+2655,Jim Croce,1,1972
+2656,Joe Tex,1,1977
+2657,Bruce Hornsby and the Range,1,1988
+2658,Eurythmics,1,1983
+2659,Paramore,1,2014
+2660,George Michael,1,1990
+2661,Coldplay,1,2003
+2662,Wing and a Prayer Fife and Drum Corps,1,1976
+2663,Lee Brice,1,2012
+2664,Taylor Dayne,3,1990
+2665,Chicago,1,1989
+2666,Peter McCann,1,1977
+2667,Evanescence,1,2006
+2668,50 Cent,4,2003
+2669,Billie Myers,1,1998
+2670,Bow Wow,2,2005
+2671,Jessie J,1,2014
+2672,Ke$ha,4,2010
+2673,Al Green,1,1973
+2674,Eurythmics,1,1984
+2675,Demi Lovato,1,2013
+2676,Sheriff,1,1989
+2677,Three Dog Night,1,1973
+2678,Richard Marx,1,1987
+2679,Bone Thugs-n-Harmony,1,2007
+2680,Curtis Mayfield,1,1972
+2681,Rod Stewart,1,1986
+2682,Nazareth,1,1976
+2683,"Ray Parker, Jr.",2,1984
+2684,Roger Troutman,1,1988
+2685,beyonce,1,2010
+2686,John Mayer,1,2005
+2687,Young Money,1,2010
+2688,Arrested Development,1,1993
+2689,Train,1,2003
+2690,The Tubes,1,1983
+2691,Ray Stevens,1,1970
+2692,Queen,1,1975
+2693,Gary Numan,1,1980
+2694,Huey Lewis and the News,3,1984
+2695,George Strait,1,1999
+2696,Monifah,1,1998
+2697,The Cover Girls,1,1990
+2698,Drake,1,2011
+2699,Jack Wagner,1,1985
+2700,Faith Hill,1,2005
+2701,Daniel Powter,1,2006
+2702,Owl City,1,2012
+2703,John Stewart,1,1979
+2704,Michael Bolton,2,1991
+2705,Marilyn McCoo,1,1977
+2706,Toya,1,2002
+2707,Joe Walsh,1,1978
+2708,Pebbles,1,1990
+2709,Bachman-Turner Overdrive,1,1974
+2710,Jody Watley,1,1989
+2711,Calvin Harris,1,2014
+2712,Electric Light Orchestra,1,1976
+2713,The Doobie Brothers,1,1975
+2714,Ronnie Milsap,2,1981
+2715,Collective Soul,1,1995
+2716,Joan Jett and The Blackhearts,1,1982
+2717,Beastie Boys,1,1987
+2718,Cornelius Brothers and Sister Rose,1,1971
+2719,Johnny Rivers,1,1977
+2720,DHT,1,2005
+2721,D'Angelo,1,1996
+2722,Boyz II Men,1,1993
+2723,Monica,1,1999
+2724,Ginuwine,2,2003
+2725,Des'ree,1,1995
+2726,Richard Marx,3,1988
+2727,Love and Rockets,1,1989
+2728,Dr. Dre,1,2011
+2729,Mariah Carey,1,1998
+2730,Ellie Goulding,1,2012
+2731,America,1,1972
+2732,Lil' Mo,1,2001
+2733,Nelly,1,2000
+2734,Chicago,1,1988
+2735,Linkin Park,1,2007
+2736,Robert Palmer,1,1978
+2737,Chris Brown,2,2014
+2738,Aerosmith,1,1976
+2739,Gerardo,1,1991
+2740,David Banner,1,2005
+2741,Tevin Campbell,3,1994
+2742,Ne-Yo,2,2009
+2743,Eric Carmen,1,1976
+2744,Selena Gomez,1,2013
+2745,Gladys Knight and the Pips,1,1975
+2746,Rick James,1,1978
+2747,Dr. Hook and The Medicine Show,2,1979
+2748,DMX,1,2000
+2749,Alice Cooper,2,1977
+2750,Yes,1,1972
+2751,Three Dog Night,2,1972
+2752,Aaron Hall,1,1994
+2753,Gavin DeGraw,1,2012
+2754,Kanye West,3,2008
+2755,Barry Manilow,2,1977
+2756,"Earth, Wind and Fire",1,1982
+2757,R. Dean Taylor,1,1970
+2758,Lisa Lisa and Cult Jam,1,1986
+2759,Jessi Colter,1,1975
+2760,Eamon,1,2004
+2761,Baby Bash,1,2005
+2762,Jo Dee Messina,1,1999
+2763,Travis Tritt,1,2001
+2764,Babyface,1,1989
+2765,War,1,1976
+2766,Naughty Boy,1,2014
+2767,Marvin Gaye,1,1973
+2768,Taylor Swift,2,2008
+2769,Jennifer Lopez,2,2003
+2770,Rod Stewart,1,1979
+2771,Third Eye Blind,1,1999
+2772,Argent,1,1972
+2773,Blue October,1,2006
+2774,Melissa Etheridge,1,1996
+2775,Ashford and Simpson,1,1985
+2776,Martin Page,1,1995
+2777,The Escape Club,1,1988
+2778,Sarah McLachlan,1,1997
+2779,One Direction,1,2014
+2780,Starland Vocal Band,1,1976
+2781,ZZ Top,1,1984
+2782,C. W. McCall,1,1976
+2783,Kid Rock,1,2008
+2784,Eric Clapton,1,1992
+2785,The Hollies,1,1974
+2786,Dierks Bentley,1,2003
+2787,The All-American Rejects,1,2009
+2788,White Town,1,1997
+2789,Roxette,2,1989
+2790,Eve,1,2002
+2791,3OH!3,1,2009
+2792,Bruce Springsteen,1,1981
+2793,Aaliyah,2,2003
+2794,Tony Orlando and Dawn,1,1975
+2795,3LW,1,2001
+2796,Queen,1,1981
+2797,Ludacris,2,2002
+2798,Dido,1,2004
+2799,Kenny G,1,1987
+2800,Montell Jordan,1,2000
+2801,KWS,1,1992
+2802,Chante Moore,1,1999
+2803,Snap!,1,1992
+2804,John Cougar Mellencamp,1,1985
+2805,Steely Dan,1,1981
+2806,Young MC,1,1989
+2807,Michelle Branch,1,2003
+2808,Engelbert Humperdinck,1,1977
+2809,Ambrosia,1,1979
+2810,The Jackson 5,1,1974
+2811,Sweet Sensation,1,1990
+2812,Fleetwood Mac,2,1976
+2813,Britney Spears,3,2009
+2814,MC Hammer,2,1990
+2815,Rick Springfield,1,1972
+2816,Joan Jett and the Blackhearts,1,1982
+2817,Faith Evans,1,1995
+2818,Irene Cara,1,1980
+2819,Kool and the Gang,3,1985
+2820,Styx,1,1991
+2821,Shaggy,2,2001
+2822,Styx,1,1979
+2823,Carrie Underwood,1,2005
+2824,Akon,2,2007
+2825,After 7,1,1995
+2826,Steely Dan,2,1973
+2827,Ne-Yo,3,2006
+2828,Dishwalla,1,1996
+2829,Michael McDonald,1,1986
+2830,Mariah Carey,3,1994
+2831,Foreigner,1,1982
+2832,Ohio Players,1,1973
+2833,Little River Band,1,1983
+2834,Phil Collins,1,1986
+2835,Linkin Park,1,2012
+2836,Rihanna,4,2012
+2837,Tevin Campbell,1,1991
+2838,The Spinners,1,1977
+2839,Christina Milian,1,2004
+2840,Natalie Merchant,1,1995
+2841,Cathy Dennis,3,1991
+2842,Donna Summer,1,1989
+2843,Village People,2,1979
+2844,Sean Paul,2,2003
+2845,Skid Row,1,1989
+2846,Smokey Robinson,1,1981
+2847,The Trammps,1,1978
+2848,Los Lobos,1,1987
+2849,Gabrielle,1,1994
+2850,Billy Joel,2,1983
+2851,Eddie Kendricks,1,1974
+2852,The Black Eyed Peas,1,2009
+2853,Eminem,1,2000
+2854,Barry White,1,1975
+2855,Marvin Hamlisch,1,1974
+2856,Kelly Rowland,1,2011
+2857,Stevie Wonder,2,1981
+2858,Bell Biv DeVoe,2,1990
+2859,Melissa Manchester,1,1975
+2860,Kanye West,3,2004
+2861,Young Dro,1,2006
+2862,Shalamar,1,1984
+2863,Gloria Loring,1,1986
+2864,Deon Estus,1,1989
+2865,Ciara,2,2005
+2866,Thin Lizzy,1,1976
+2867,Madonna,1,1991
+2868,Kris Kross,2,1992
+2869,The Who,1,1976
+2870,Deniece Williams,1,1984
+2871,ABBA,2,1978
+2872,Diddy,1,2007
+2873,Crash Test Dummies,1,1994
+2874,Wiz Khalifa,1,2012
+2875,Terror Squad,1,2004
+2876,Bon Jovi,1,1994
+2877,Joe,1,2001
+2878,Jermaine Dupri,1,1998
+2879,Phil Collins,1,1989
+2880,Evanescence,1,2004
+2881,Rick Springfield,1,1982
+2882,Daniel Bedingfield,1,2002
+2883,Usher,2,2002
+2884,Wayne Newton,1,1972
+2885,Savage Garden,1,1997
+2886,Jennifer Paige,1,1998
+2887,Robbie Nevil,1,1987
+2888,T'Pau,1,1987
+2889,R. Kelly,3,2003
+2890,FireHouse,1,1992
+2891,Alicia Keys,1,2013
+2892,Plain White T's,1,2007
+2893,Magic!,1,2014
+2894,John Mayer,1,2006
+2895,Jet,1,2004
+2896,Electric Light Orchestra,1,1981
+2897,Soul for Real,2,1995
+2898,Lee Brice,1,2014
+2899,Justin Timberlake,2,2013
+2900,Sammy Johns,1,1975
+2901,Uncle Kracker,1,2010
+2902,George Benson,1,1976
+2903,Roberta Flack,1,1973
+2904,Janet,1,1998
+2905,Toby Keith,1,2005
+2906,Gina G,1,1997
+2907,Toni Basil,1,1983
+2908,Smokey Robinson,1,1980
+2909,Tom Petty,1,1990
+2910,The Hollies,1,1972
+2911,The Temptations,2,1970
+2912,Madonna,1,1992
+2913,Saving Abel,1,2008
+2914,George Duke,1,1981
+2915,Imagine Dragons,1,2014
+2916,Kelly Clarkson,1,2002
+2917,,1,1997
+2918,Ginuwine,1,1996
+2919,Xscape,1,1998
+2920,En Vogue,1,1997
+2921,Panic! at the Disco,1,2006
+2922,Ringo Starr,2,1975
+2923,Timbaland and Magoo,1,1997
+2924,Aloe Blacc,1,2014
+2925,Divine,1,1998
+2926,New York City,1,1973
+2927,Puff Daddy,3,1998
+2928,Sly and the Family Stone,1,1973
+2929,Warrant,1,1989
+2930,Bonnie Pointer,1,1979
+2931,Gilbert O'Sullivan,2,1973
+2932,Bon Jovi,1,1995
+2933,Pharrell,1,2003
+2934,Genesis,1,1980
+2935,Boys Like Girls,1,2010
+2936,Bone Thugs-n-Harmony,1,1995
+2937,Billy Ocean,1,1984
+2938,Jonas Brothers,1,2008
+2939,Brook Benton,1,1970
+2940,Chicago,1,1985
+2941,Ronnie Milsap,1,1982
+2942,'N Sync,2,2002
+2943,Steve Winwood,1,1986
+2944,Jaheim,1,2002
+2945,Coolio,1,1997
+2946,Shinedown,1,2009
+2947,David Guetta,2,2012
+2948,Maxi Priest,1,1990
+2949,Citizen King,1,1999
+2950,White Lion,1,1989
+2951,John Mayer,1,2008
+2952,Joe Cocker,1,1970
+2953,Warren G,2,1994
+2954,"Ray Parker, Jr.",1,1982
+2955,Marvin Gaye,2,1971
+2956,Toby Beau,1,1978
+2957,Mýa,1,1998
+2958,Stevie B,1,1991
+2959,Harry Nilsson,2,1972
+2960,Katy Perry,3,2012
+2961,Loverboy,1,1982
+2962,Destiny's Child,3,2005
+2963,Shakira,1,2005
+2964,Brenda Russell,1,1988
+2965,Blake Shelton,2,2011
+2966,Enrique Iglesias,1,2011
+2967,Seal,1,1991
+2968,Tom Petty,1,1995
+2969,Carly Simon,1,1978
+2970,Glenn Medeiros,1,1990
+2971,William DeVaughn,1,1974
+2972,Betty Wright,1,1972
+2973,Sa-Fire,1,1989
+2974,Jerry Butler,1,1972
+2975,Michael McDonald,1,1982
+2976,Loreena McKennitt,1,1998
+2977,Dionne Warwick,1,1986
+2978,Fort Minor,1,2006
+2979,Elton John,1,1986
+2980,Randy Newman,1,1978
+2981,Baltimora,1,1986
+2982,Duran Duran,2,1983
+2983,Amii Stewart,1,1979
+2984,Icehouse,1,1988
+2985,The Doors,2,1971
+2986,Andy Gibb,1,1979
+2987,Carrie Underwood,2,2012
+2988,Sophie B. Hawkins,1,1996
+2989,Adam Lambert,1,2010
+2990,Georgia Satellites,1,1987
+2991,Nu Flavor,1,1998
+2992,Lionel Richie,1,1987
+2993,Arcadia,1,1986
+2994,The Black Eyed Peas,2,2006
+2995,Stevie B,1,1995
+2996,Nickelback,1,2004
+2997,Gavin DeGraw,2,2005
+2998,K-Ci and JoJo,1,1999
+2999,Wham!,4,1985
+3000,Los del Río,1,1996
+3001,Eddie Money,1,1978
+3002,Anita Ward,1,1979
+3003,Juice Newton,2,1982
+3004,England Dan and John Ford Coley,1,1976
+3005,Rihanna,3,2010
+3006,Bread,1,1971
+3007,Missy Elliott,1,2000
+3008,Jermaine Jackson,1,1980
+3009,Dr. Dre,2,2000
+3010,Lynn Anderson,1,1971
+3011,Def Leppard,2,1992
+3012,Sugarloaf,1,1975
+3013,Apollo 100,1,1972
+3014,Carly Simon,1,1971
+3015,Jay-Z,1,2000
+3016,Everclear,1,2000
+3017,Kevon Edmonds,1,2000
+3018,Love Unlimited Orchestra,1,1974
+3019,Melissa Manchester,1,1982
+3020,The Band Perry,1,2010
+3021,Avant,1,2000
+3022,Kevin Rudolf,1,2008
+3023,.38 Special,1,1982
+3024,Snow Patrol,1,2007
+3025,SWV,1,1994
+3026,John Sebastian,1,1976
+3027,Sixpence None the Richer,1,1999
+3028,Loverboy,1,1983
+3029,The Manhattans,1,1976
+3030,The Rolling Stones,1,1971
+3031,Puff Daddy,1,1999
+3032,Foreigner,1,1979
+3033,Lou Gramm,1,1990
+3034,Christopher Cross,1,1983
+3035,Cliff Richard,1,1976
+3036,The Game,2,2005
+3037,Debby Boone,1,1978
+3038,Daughtry,1,2010
+3039,Beenie Man,1,2004
+3040,Snow,1,1993
+3041,Chamillionaire,1,2006
+3042,Rare Earth,2,1970
+3043,Mariah Carey,2,1999
+3044,Jessica Simpson,1,2000
+3045,Allure,1,1998
+3046,John Paul Young,1,1978
+3047,Billy Preston,1,1973
+3048,Ray Stevens,1,1974
+3049,Gwen Stefani,3,2005
+3050,Rod Stewart,2,1991
+3051,The SOS Band,1,1980
+3052,Ray J,1,1997
+3053,The Time,1,1985
+3054,Skylark,1,1973
+3055,The Kinks,1,1983
+3056,Huey Lewis and the News,1,1985
+3057,Snoop Doggy Dogg,2,1994
+3058,Elton John,3,1974
+3059,Labelle,1,1975
+3060,Ace Hood,1,2013
+3061,Orleans,1,1976
+3062,Mario,1,2005
+3063,Kenny Chesney,1,2014
+3064,Sean Paul,1,2002
+3065,Fleetwood Mac,3,1977
+3066,Chingy,2,2004
+3067,Sugar Ray,1,2001
+3068,Neil Diamond,3,1981
+3069,Case,1,1996
+3070,The Staple Singers,1,1976
+3071,Three 6 Mafia,1,2008
+3072,Michael Jackson,3,1992
+3073,Enrique Iglesias,1,2010
+3074,Carrie Underwood,1,2010
+3075,Daniel Boone,1,1972
+3076,Quarterflash,1,1982
+3077,Nicki Minaj,1,2014
+3078,Christina Aguilera,3,2000
+3079,Pearl Jam,1,1996
+3080,The Spinners,1,1970
+3081,Merril Bainbridge,1,1996
+3082,Buckcherry,1,2008
+3083,Gallery,1,1972
+3084,Rick Dees,1,1976
+3085,Bryan Adams,2,1991
+3086,Force MDs,1,1986
+3087,T-Pain,2,2007
+3088,Terry Jacks,1,1974
+3089,Tracy Chapman,1,1996
+3090,Metro Station,1,2008
+3091,Joe Public,1,1992
+3092,Justin Timberlake,1,2006
+3093,Rod Stewart,1,1982
+3094,No Mercy,1,1997
+3095,Jon Secada,1,1992
+3096,Scandal,1,1984
+3097,Baby Bash,1,2003
+3098,Oleta Adams,1,1991
+3099,Bananarama,1,1986
+3100,Green Day,1,2009
+3101,Brandy,1,1996
+3102,Bruce Springsteen,1,1997
+3103,The Brothers Johnson,1,1977
+3104,Whitney Houston,1,1997
+3105,George Benson,1,1978
+3106,Kelly Clarkson,1,2004
+3107,Blondie,1,1980
+3108,Usher,2,2005
+3109,Sylk-E. Fyne,1,1998
+3110,Kings of Leon,1,2010
+3111,The Cure,1,1989
+3112,Bruno Mars,1,2012
+3113,Jason Derulo,3,2014
+3114,Evelyn Champagne King,1,1978
+3115,Patty Smyth,1,1992
+3116,Kenny Loggins,1,1978
+3117,Andy Gibb,1,1981
+3118,Foreigner,1,1978
+3119,Cobra Starship,1,2011
+3120,Blessid Union of Souls,1,1995
+3121,Shawn Mullins,1,1999
+3122,Luniz,1,1995
+3123,"Earth, Wind and Fire",2,1975
+3124,Destiny's Child,3,2000
+3125,BBMak,1,2000
+3126,Jimmy Eat World,1,2002
+3127,Steve Miller Band,1,1982
+3128,George Michael,1,1986
+3129,Bay City Rollers,1,1977
+3130,Sonique,1,2000
+3131,War,1,1974
+3132,Quincy Jones,1,1982
+3133,Five Stairsteps,1,1970
+3134,Dionne Warwick,1,1983
+3135,Gladys Knight and the Pips,1,1971
+3136,Tamia,1,2001
+3137,Mouth and MacNeal,1,1972
+3138,Mariah Carey,3,1991
+3139,Stevie Nicks,2,1982
+3140,Stevie Nicks,1,1981
+3141,Al Green,1,1971
+3142,Boz Scaggs,1,1977
+3143,Joshua Kadison,1,1994
+3144,Musiq Soulchild,1,2001
+3145,Herb Alpert,1,1979
+3146,Robert Palmer,1,1988
+3147,Bobby Brown,1,1988
+3148,Dennis Coffey,1,1972
+3149,Ludacris,3,2005
+3150,Shanice,1,1992
+3151,Lady Gaga,3,2009
+3152,Cassidy,1,2004
+3153,Jeremih,1,2011
+3154,Lil' Romeo,1,2001
+3155,Joe Jackson,2,1983
+3156,The O'Jays,1,1976
+3157,Paul McCartney,1,1971
+3158,SWV,1,1997
+3159,Demi Lovato,1,2012
+3160,Bobbi Martin,1,1970
+3161,Lil Jon and the East Side Boyz,1,2004
+3162,Cyndi Lauper,1,1986
+3163,Journey,2,1983
+3164,Blackstreet,1,1996
+3165,Enya,1,2001
+3166,Jim Croce,2,1974
+3167,Edwin McCain,1,1998
+3168,K-Ci and JoJo,1,2001
+3169,Nicki Minaj,2,2012
+3170,Olivia Newton-John,3,1974
+3171,Sophie B. Hawkins,1,1992
+3172,Daft Punk,1,2013
+3173,Los del Río,1,1997
+3174,Dionne Warwick,1,1974
+3175,Kenny Chesney,1,2002
+3176,Paul Simon,2,1973
+3177,Alicia Keys,2,2010
+3178,Kid Rock,1,2003
+3179,Heavy D and the Boyz,1,1994
+3180,Paul McCartney,1,1986
+3181,Bobby McFerrin,1,1988
+3182,Britney Spears,2,1999
+3183,Taylor Swift,1,2014
+3184,The Bangles,1,1987
+3185,Rob Thomas,1,2009
+3186,Ciara,2,2007
+3187,Wang Chung,1,1987
+3188,Nas,1,2003
+3189,The Black Eyed Peas,2,2004
+3190,Richie Havens,1,1971
+3191,Michael Murphey,1,1982
+3192,Luther Ingram,1,1972
+3193,Tatyana Ali,1,1998
+3194,Duran Duran,2,1985
+3195,Expose,1,1993
+3196,Kevin Rudolf,1,2010
+3197,The Jets,2,1988
+3198,Lana Del Rey,1,2013
+3199,Tommy Page,1,1990
+3200,The Hollies,1,1970
+3201,Peter Frampton,1,1977
+3202,Michael Jackson,2,1987
+3203,James Brown,1,1986
+3204,Commodores,1,1981
+3205,Foghat,1,1976
+3206,David Cook,1,2008
+3207,Diana Ross,1,1979
+3208,Robin Thicke,1,2007
+3209,Van Halen,1,1986
+3210,Candi Staton,1,1976
+3211,Fall Out Boy,2,2006
+3212,Surface,1,1989
+3213,Walter Egan,1,1978
+3214,Clint Holmes,1,1973
+3215,2 Chainz,1,2013
+3216,Rihanna,1,2005
+3217,Webbie,1,2008
+3218,The O'Jays,1,1973
+3219,Switchfoot,1,2004
+3220,Beck,1,1994
+3221,Walter Murphy,1,1976
+3222,T. Rex,1,1972
+3223,Andrew Gold,1,1977
+3224,"Sammy Davis, Jr.",1,1972
+3225,Pitbull,1,2013
+3226,The Dramatics,1,1972
+3227,Selena Gomez and the Scene,1,2012
+3228,Barry Manilow,2,1975
+3229,Unk,2,2007
+3230,Chris Brown,1,2005
+3231,Mario,1,2009
+3232,J. Holiday,1,2008
+3233,The Honeydrippers,1,1985
+3234,John Waite,1,1984
+3235,Buckner and Garcia,1,1982
+3236,Def Leppard,2,1988
+3237,Michael Bolton,1,1994
+3238,Sisqó,2,2000
+3239,Billy Joel,1,1979
+3240,Mary J. Blige,1,2008
+3241,Bob Seger and The Silver Bullet Band,2,1978
+3242,Justin Timberlake,4,2007
+3243,Aretha Franklin,1,1987
+3244,Lil' Kim,2,2003
+3245,Amanda Perez,1,2003
+3246,Culture Beat,1,1994
+3247,Maroon 5,2,2014
+3248,The Time,1,1990
+3249,Nicki French,1,1995
+3250,Az Yet,2,1997
+3251,UB40,1,1993
+3252,Outkast,1,2002
+3253,Pink,2,2007
+3254,Michelle Branch,1,2002
+3255,LeVert,1,1987
+3256,Eric Carmen,2,1988
+3257,Luke,1,1998
+3258,Toby Keith,1,2001
+3259,Michel'le,1,1990
+3260,Paula Abdul,2,1990
+3261,Janet Jackson,1,1991
+3262,Tesla,1,1990
+3263,Dan Hill,1,1978
+3264,Madness,1,1983
+3265,Ludacris,1,2003
+3266,Frankie J,1,2003
+3267,Inner Circle,2,1993
+3268,Boy Krazy,1,1993
+3269,Bee Gees,1,1977
+3270,New Boyz,1,2010
+3271,Chicago,2,1974
+3272,Paperboy,1,1993
+3273,Instant Funk,1,1979
+3274,Ray J,1,2008
+3275,Mary Jane Girls,1,1985
+3276,Linda Ronstadt,1,1990
+3277,The Manhattans,1,1980
+3278,Wale,1,2013
+3279,Icona Pop,1,2013
+3280,Babyface,1,1990
+3281,Eagles,2,1977
+3282,Carly Simon,1,1974
+3283,Whitney Houston,2,1987
+3284,Dan Fogelberg,1,1981
+3285,Mary J. Blige,1,2006
+3286,UB40,2,1991
+3287,Silver Convention,2,1976
+3288,Dolly Parton,1,1978
+3289,Incubus,1,2001
+3290,Neil Diamond,1,1971
+3291,Pretty Poison,1,1988
+3292,Paul McCartney and Wings,2,1973
+3293,Crystal Gayle,1,1978
+3294,Diana King,1,1995
+3295,Paul Young,1,1990
+3296,Wyclef Jean,1,2008
+3297,Ini Kamoze,1,1994
+3298,Paul McCartney,1,1984
+3299,Quarterflash,1,1983
+3300,John Cougar Mellencamp,1,1988
+3301,Juice Newton,2,1981
+3302,My Chemical Romance,1,2007
+3303,Bryan Adams,1,1995
+3304,Aretha Franklin,2,1985
+3305,Creedence Clearwater Revival,3,1970
+3306,Jefferson Starship,1,1978
+3307,The Supremes,1,1970
+3308,Brian McKnight,1,1997
+3309,Maxine Nightingale,1,1976
+3310,Ollie and Jerry,1,1984
+3311,Van Halen,1,1982
+3312,Trey Songz,1,2010
+3313,Kid Rock,1,2000
+3314,Suzi Quatro,1,1979
+3315,Jadakiss,1,2004
+3316,Sade,1,1986
+3317,N2Deep,1,1992
+3318,Aretha Franklin,1,1974
+3319,Elliott Yamin,1,2007
+3320,New Kids on the Block,2,1990
+3321,Madonna,2,1997
+3322,Jodeci,1,1994
+3323,Golden Earring,1,1974
+3324,Gorillaz,1,2006
+3325,Maroon 5,2,2012
+3326,Gregory Abbott,1,1987
+3327,Eminem,1,2009
+3328,Mike Jones,1,2005
+3329,Sia,1,2014
+3330,Tesla,1,1991
+3331,The Rolling Stones,1,1982
+3332,Taio Cruz,1,2011
+3333,Hot Chelle Rae,1,2011
+3334,Billy Swan,1,1975
+3335,Patti Smith Group,1,1978
+3336,Badfinger,1,1972
+3337,T.I.,2,2006
+3338,The Police,1,1983
+3339,Enigma,1,1994
+3340,Ohio Players,1,1975
+3341,Michael Jackson,1,1984
+3342,The Brotherhood of Man,1,1970
+3343,Bachman–Turner Overdrive,1,1975
+3344,50 Cent,4,2005
+3345,Prince,1,1991
+3346,Digital Underground,1,1990
+3347,Santana,1,1999
+3348,Asia,1,1983
+3349,Jon Bon Jovi,1,1990
+3350,Mariah Carey,3,2005
+3351,Gin Blossoms,1,1993
+3352,The Human League,1,1986
+3353,Brooks and Dunn,1,2003
+3354,The Jacksons,1,1984
+3355,"Earth, Wind and Fire",3,1979
+3356,BoDeans,1,1996
+3357,Joan Osborne,1,1996
+3358,K-Ci and JoJo,1,1998
+3359,Godspell,1,1972
+3360,Sugar Ray,2,1999
+3361,Gerry Rafferty,1,1978
+3362,Dr. Dre,1,1995
+3363,Redbone,1,1974
+3364,Vanessa Carlton,1,2002
+3365,Eminem,2,2003
+3366,Timbaland,2,2010
+3367,Blu Cantrell,1,2001
+3368,Ann Wilson,1,1989
+3369,Cyndi Lauper,1,1985
+3370,Fergie,2,2008
+3371,FireHouse,1,1995
+3372,Mumford and Sons,1,2013
+3373,Jason Aldean,1,2014
+3374,Genesis,3,1987
+3375,Toby Keith,1,2004
+3376,The Rolling Stones,1,1978
+3377,LeAnn Rimes,1,1997
+3378,Enrique Iglesias,1,2014
+3379,Robert Palmer,1,1979
+3380,Barry White,1,1974
+3381,Huey Lewis and the News,3,1987
+3382,Kristinia DeBarge,1,2009
+3383,Grand Funk Railroad,1,1974
+3384,Murray Head,1,1971
+3385,Sade,1,1985
+3386,LeAnn Rimes,1,1998
+3387,Jennifer Lopez,3,2001
+3388,Taylor Dayne,1,1989
+3389,Robin S.,1,1993
+3390,Alicia Keys,1,2005
+3391,Depeche Mode,1,1990
+3392,The Cover Girls,1,1992
+3393,Lord David Dundas,1,1977
+3394,Queen,1,1992
+3395,Fleetwood Mac,1,1982
+3396,Robert Miles,1,1996
+3397,Love Unlimited,1,1972
+3398,KC and the Sunshine Band,2,1976
+3399,Eddie Money,1,1982
+3400,The Brothers Johnson,1,1980
+3401,H-Town,1,1993
+3402,Warrant,1,1991
+3403,The Script,1,2010
+3404,Luther Vandross,1,1994
+3405,Linkin Park,2,2004

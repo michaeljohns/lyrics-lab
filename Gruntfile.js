@@ -3,15 +3,12 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    // uglify: {
-    //   options: {
-    //     banner: '/*! <%= pkg.name %> <%= grunt.template.today('yyyy-mm-dd') %> */\n'
-    //   },
-    //   build: {
-    //     src: 'src/<%= pkg.name %>.js',
-    //     dest: 'build/<%= pkg.name %>.min.js'
-    //   }
-    // },
+    watch: {
+      css: {
+        files: ['style/**/*.less'],
+        tasks: ['less']
+      }
+    },
     less: {
       development: {
         options: {
@@ -24,13 +21,13 @@ module.exports = function(grunt) {
     }
   });
 
-  // Load the plugin that provides the 'uglify' task.
-  //grunt.loadNpmTasks('grunt-contrib-uglify');
+  // Load the plugin that provides file watching.
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Load the plugin that provides the 'LESS' task.
   grunt.loadNpmTasks('grunt-contrib-less');
 
   // Default task(s).
-  grunt.registerTask('default', ['less']);
+  grunt.registerTask('default', ['less', 'watch']);
 
 };

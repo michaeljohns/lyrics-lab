@@ -1,0 +1,27 @@
+@import "bootstrap.less";
+
+.navbar {
+  border-radius: 0;
+  margin-top: -50px;
+  transition: margin 0s;
+
+  .navbar-brand {
+    padding-top: 2px;
+    padding-bottom: 0;
+  }
+
+  &.affix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    transition: margin 0.75s;
+  }
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: @sec;
+  color: @supportTextLightEmphasis;
+}
