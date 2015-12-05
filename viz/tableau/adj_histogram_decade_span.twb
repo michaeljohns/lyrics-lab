@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9100.15.1106.2334                                -->
+<workbook source-platform='win' version='9.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='noun_decade_count' inline='true' name='textscan.42342.728039548609' version='9.1'>
+      <connection class='textscan' directory='C:/Users/mjohns/Documents/GitHub/lyrics-lab/viz/data' filename='adj_decade_count.csv' password='' server='' username=''>
+        <relation name='adj_decade_count#csv' table='[adj_decade_count#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='1-decade' ordinal='0' />
+            <column datatype='integer' name='2-decade' ordinal='1' />
+            <column datatype='integer' name='3-decade' ordinal='2' />
+            <column datatype='integer' name='4-decade' ordinal='3' />
+            <column datatype='integer' name='5-decade' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>1-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1-decade]</local-name>
+            <parent-name>[adj_decade_count#csv]</parent-name>
+            <remote-alias>1-decade</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2-decade]</local-name>
+            <parent-name>[adj_decade_count#csv]</parent-name>
+            <remote-alias>2-decade</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3-decade]</local-name>
+            <parent-name>[adj_decade_count#csv]</parent-name>
+            <remote-alias>3-decade</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4-decade]</local-name>
+            <parent-name>[adj_decade_count#csv]</parent-name>
+            <remote-alias>4-decade</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5-decade]</local-name>
+            <parent-name>[adj_decade_count#csv]</parent-name>
+            <remote-alias>5-decade</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[adj_decade_count#csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='1-Decade' datatype='integer' name='[1-decade]' role='measure' type='quantitative' />
+      <column caption='2-Decade' datatype='integer' name='[2-decade]' role='measure' type='quantitative' />
+      <column caption='3-Decade' datatype='integer' name='[3-decade]' role='measure' type='quantitative' />
+      <column caption='4-Decade' datatype='integer' name='[4-decade]' role='measure' type='quantitative' />
+      <column caption='5-Decade' datatype='integer' name='[5-decade]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Histogram of Adjectives Spanning Decades</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Histogram of adjectives appearing in as low as only 1 decade, up to all 5 decades.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='noun_decade_count' name='textscan.42342.728039548609' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.42342.728039548609'>
+            <column caption='1-Decade' datatype='integer' name='[1-decade]' role='measure' type='quantitative' />
+            <column caption='2-Decade' datatype='integer' name='[2-decade]' role='measure' type='quantitative' />
+            <column caption='3-Decade' datatype='integer' name='[3-decade]' role='measure' type='quantitative' />
+            <column caption='4-Decade' datatype='integer' name='[4-decade]' role='measure' type='quantitative' />
+            <column caption='5-Decade' datatype='integer' name='[5-decade]' role='measure' type='quantitative' />
+            <column-instance column='[1-decade]' derivation='Sum' name='[sum:1-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2-decade]' derivation='Sum' name='[sum:2-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[3-decade]' derivation='Sum' name='[sum:3-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[4-decade]' derivation='Sum' name='[sum:4-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[5-decade]' derivation='Sum' name='[sum:5-decade:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[textscan.42342.728039548609].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:1-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:2-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:3-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:4-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:5-decade:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[textscan.42342.728039548609].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[textscan.42342.728039548609].[Multiple Values]</rows>
+        <cols>[textscan.42342.728039548609].[:Measure Names]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='56'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[textscan.42342.728039548609].[:Measure Names]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      QZ0F0QAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

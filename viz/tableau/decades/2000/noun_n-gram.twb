@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9100.15.1106.2334                                -->
+<workbook source-platform='win' version='9.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='9.1'>
+      <aliases enabled='yes' />
+      <column caption='Parameter 1' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='100'>
+        <calculation class='tableau' formula='100' />
+        <range max='100' min='1' />
+      </column>
+      <column caption='25' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='25'>
+        <calculation class='tableau' formula='25' />
+        <range max='100' min='1' />
+      </column>
+    </datasource>
+    <datasource caption='noun-n-gram' inline='true' name='textscan.42342.443703819445' version='9.1'>
+      <connection class='textscan' directory='C:/Users/mjohns/Documents/GitHub/lyrics-lab/viz/data/decades/2000' filename='noun-n-gram.csv' password='' server='' username=''>
+        <relation name='noun-n-gram#csv' table='[noun-n-gram#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='count' ordinal='0' />
+            <column datatype='string' name='word' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count]</local-name>
+            <parent-name>[noun-n-gram#csv]</parent-name>
+            <remote-alias>count</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>word</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[word]</local-name>
+            <parent-name>[noun-n-gram#csv]</parent-name>
+            <remote-alias>word</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[noun-n-gram#csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Count' datatype='integer' name='[count]' role='measure' type='quantitative' />
+      <column caption='Word' datatype='string' name='[word]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='noun'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>N-Gram: Nouns (Corpus Count for 2000s)</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>N-Gram of top 25 nouns for the 2000s (of 2,789 total) based on total number of appearances within the lyrics corpus.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='noun-n-gram' name='textscan.42342.443703819445' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='25' datatype='integer' name='[Parameter 2]' param-domain-type='range' role='measure' type='quantitative' value='25'>
+              <calculation class='tableau' formula='25' />
+              <range max='100' min='1' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='textscan.42342.443703819445'>
+            <column-instance column='[count]' derivation='Attribute' name='[attr:count:qk]' pivot='key' type='quantitative' />
+            <column caption='Count' datatype='integer' name='[count]' role='measure' type='quantitative' />
+            <column-instance column='[word]' derivation='None' name='[none:word:nk]' pivot='key' type='nominal' />
+            <column-instance column='[count]' derivation='Sum' name='[sum:count:qk]' pivot='key' type='quantitative' />
+            <column caption='Word' datatype='string' name='[word]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[textscan.42342.443703819445].[none:word:nk]'>
+            <groupfilter count='[Parameters].[Parameter 2]' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([count])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:word:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <sort class='computed' column='[textscan.42342.443703819445].[none:word:nk]' direction='DESC' using='[textscan.42342.443703819445].[sum:count:qk]' />
+          <filter class='quantitative' column='[textscan.42342.443703819445].[sum:count:qk]' included-values='all' />
+          <slices>
+            <column>[textscan.42342.443703819445].[sum:count:qk]</column>
+            <column>[textscan.42342.443703819445].[none:word:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[textscan.42342.443703819445].[attr:count:qk]</rows>
+        <cols>[textscan.42342.443703819445].[none:word:nk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='noun'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[Parameters].[Parameter 2]' type='parameter' />
+            <card mode='typeinlist' param='[textscan.42342.443703819445].[none:word:nk]' type='filter' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='56'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[textscan.42342.443703819445].[none:word:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='noun' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

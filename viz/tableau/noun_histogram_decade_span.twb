@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9100.15.1106.2334                                -->
+<workbook source-platform='win' version='9.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='noun_decade_count' inline='true' name='textscan.42342.728039548609' version='9.1'>
+      <connection class='textscan' directory='C:/Users/mjohns/Documents/GitHub/lyrics-lab/viz/data' filename='noun_decade_count.csv' password='' server='' username=''>
+        <relation name='noun_decade_count#csv' table='[noun_decade_count#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='1-decade' ordinal='0' />
+            <column datatype='integer' name='2-decade' ordinal='1' />
+            <column datatype='integer' name='3-decade' ordinal='2' />
+            <column datatype='integer' name='4-decade' ordinal='3' />
+            <column datatype='integer' name='5-decade' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>1-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1-decade]</local-name>
+            <parent-name>[noun_decade_count#csv]</parent-name>
+            <remote-alias>1-decade</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2-decade]</local-name>
+            <parent-name>[noun_decade_count#csv]</parent-name>
+            <remote-alias>2-decade</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3-decade]</local-name>
+            <parent-name>[noun_decade_count#csv]</parent-name>
+            <remote-alias>3-decade</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4-decade]</local-name>
+            <parent-name>[noun_decade_count#csv]</parent-name>
+            <remote-alias>4-decade</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5-decade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5-decade]</local-name>
+            <parent-name>[noun_decade_count#csv]</parent-name>
+            <remote-alias>5-decade</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[noun_decade_count#csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Histogram of Nouns Spanning Decades</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Histogram of nouns appearing in as low as only 1 decade, up to all 5 decades.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='noun_decade_count' name='textscan.42342.728039548609' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.42342.728039548609'>
+            <column datatype='integer' name='[1-decade]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[2-decade]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[3-decade]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[4-decade]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[5-decade]' role='measure' type='quantitative' />
+            <column-instance column='[1-decade]' derivation='Sum' name='[sum:1-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2-decade]' derivation='Sum' name='[sum:2-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[3-decade]' derivation='Sum' name='[sum:3-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[4-decade]' derivation='Sum' name='[sum:4-decade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[5-decade]' derivation='Sum' name='[sum:5-decade:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[textscan.42342.728039548609].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:1-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:2-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:3-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:4-decade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[textscan.42342.728039548609].[sum:5-decade:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[textscan.42342.728039548609].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[textscan.42342.728039548609].[Multiple Values]</rows>
+        <cols>[textscan.42342.728039548609].[:Measure Names]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='56'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[textscan.42342.728039548609].[:Measure Names]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AGKaAhDT/g0em+hnjA8TpwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
