@@ -6947,9 +6947,102 @@ ul.plain {
 ul.plain li {
   list-style: none;
 }
+.image-set .image-set-thumbnails {
+  background-color: #444;
+  margin-bottom: 0px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+}
+.image-set .image-set-thumbnails .thumbnail {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+  border: 5px solid transparent;
+}
+.image-set .image-set-thumbnails .thumbnail img {
+  width: 150px;
+}
+.image-set .image-set-thumbnails .thumbnail.active .caption,
+.image-set .image-set-thumbnails .thumbnail:hover .caption {
+  background-color: #00BCD4;
+  color: #eee;
+}
+.image-set .image-set-thumbnails .thumbnail:hover {
+  border-color: #00BCD4;
+}
+.image-set .image-set-thumbnails .thumbnail.active {
+  border-color: transparent;
+}
+.image-set .image-set-thumbnails .thumbnail.active .caption {
+  color: #fff;
+}
+.image-set .image-set-thumbnails .thumbnail.active .caption::after {
+  position: absolute;
+  content: '';
+  border-top: 15px solid #00BCD4;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: -15px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 15px;
+}
+.image-set .image-set-thumbnails .caption {
+  position: relative;
+  text-align: center;
+  font-size: 32px;
+  font-weight: lighter;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: 0.25s background-color;
+}
+.image-set .image-set-full {
+  position: relative;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #444;
+  padding: 20px;
+  background-color: #fff;
+}
+.image-set .image-set-full .image-set-full-content {
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+.image-set .image-set-full .image-set-full-content.in {
+  opacity: 1;
+}
+.image-set .image-set-full .image-set-full-content.empty {
+  opacity: 1;
+  height: auto;
+  text-align: center;
+  color: #999;
+  font-weight: bold;
+  font-size: 28px;
+}
+.image-set .image-set-full .image-set-full-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 25px;
+  padding: 0 10px;
+  color: #ddd;
+  background-color: #303F9F;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 3px;
+}
+div.center,
+p.center {
+  text-align: center;
+}
 footer {
   border-top: 1px solid #222;
-  background-color: #080808;
+  background-color: rgba(8, 8, 8, 0.7);
   color: #eee;
   padding: 30px 0 50px;
   box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.5);
@@ -6962,8 +7055,19 @@ footer h5,
 footer h6 {
   color: #00BCD4;
 }
+footer hr {
+  border-top-color: #444;
+}
+.footer-wrap {
+  background-image: url('../images/footer.jpg');
+  background-size: cover;
+}
+.lead-wrap {
+  background: url('../images/header.jpg');
+  background-size: cover;
+}
 .page-lead {
-  background: linear-gradient(-10deg, #303F9F 10%, #00BCD4 90%);
+  background: linear-gradient(-10deg, rgba(48, 63, 159, 0.7) 10%, rgba(0, 188, 212, 0.7) 90%);
   text-align: center;
   text-shadow: 0 1px 4px #000000;
   padding: 50px;
@@ -7085,8 +7189,8 @@ footer h6 {
   font: 10px sans-serif;
 }
 .bar-chart .brush rect.extent {
-  fill: #00BCD4;
-  fill-opacity: .125;
+  fill: transparent;
+  stroke: #444;
 }
 .bar-chart .brush .resize path {
   fill: #444;

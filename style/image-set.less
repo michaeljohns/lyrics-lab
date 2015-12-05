@@ -1,0 +1,118 @@
+@import 'vars.less';
+
+.image-set {
+  .image-set-thumbnails {
+    background-color: @supportFillDark;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+
+    // The top corners
+    border-radius: @border-radius-base @border-radius-base 0 0;
+
+    .thumbnail {
+      display: inline-block;
+      cursor: pointer;
+      margin: 10px;
+      border: 5px solid transparent;
+
+      img {
+        width: 150px;
+      }
+
+      &.active,
+      &:hover {
+        .caption {
+          background-color: @sec;
+          color: @supportTextLight;
+        }
+      }
+
+      &:hover {
+        border-color: @sec;
+      }
+
+      &.active {
+        border-color: transparent;
+
+        .caption {
+          color: @supportTextLightEmphasis;
+
+          &::after {
+            position: absolute;
+            content: '';
+            border-top: 15px solid @sec;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            bottom: -15px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            width: 15px;
+          }
+        }
+      }
+    }
+
+    .caption {
+      position: relative;
+      text-align: center;
+      font-size: 32px;
+      font-weight: lighter;
+      margin-top: 5px;
+      border-radius: @border-radius-base;
+      transition: .25s background-color;
+    }
+  }
+
+  .image-set-full {
+    position: relative;
+
+    // The bottom corners
+    border-radius: 0 0 @border-radius-base @border-radius-base;
+
+    border: 1px solid @supportFillDark;
+    padding: 20px;
+    background-color: #fff;
+
+    // img {
+    //   max-height: 600px;
+    // }
+    .image-set-full-content {
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      opacity: 0;
+      transition: opacity 0.5s ease-in;
+
+      &.in {
+        opacity: 1;
+      }
+
+      &.empty {
+        opacity: 1;
+        height: auto;
+        text-align: center;
+        color: #999;
+        font-weight: bold;
+        font-size: 28px;
+      }
+    }
+
+    .image-set-full-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      height: 25px;
+      //width: 25px;
+      padding: 0 10px;
+      color: @supportFillLight;
+      background-color: @pri;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 3px;
+    }
+  }
+}

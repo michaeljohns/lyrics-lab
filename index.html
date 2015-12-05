@@ -7,15 +7,17 @@
 </head>
 <body data-spy="scroll" data-target="#nav-primary">
 
-  <div class="page-lead">
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Modern Music<br/>Sentiment Analysis</h1>
-        <br/>
-        <h2>Team Lyrics Lab</h2>
-        <p>
-          Michael Johns, Scott Stephens, and Kevin Buhrer
-        </p>
+  <div class="lead-wrap">
+    <div class="page-lead">
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Modern Music<br/>Sentiment Analysis</h1>
+          <br/>
+          <h2>Team Lyrics Lab</h2>
+          <p>
+            Michael Johns, Scott Stephens, and Kevin Buhrer
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -84,6 +86,92 @@
       <p>
         Nam turpis lectus, efficitur et pretium ut, vestibulum id ipsum. Etiam vel ex odio. Pellentesque sed sem dictum, porttitor massa vitae, sollicitudin leo. Sed blandit tellus sed mauris aliquam sagittis. Nullam molestie erat purus, sed molestie risus mollis sit amet. Donec a posuere quam, ut cursus enim. Suspendisse scelerisque enim elit, at vehicula arcu eleifend interdum. Donec sit amet quam consequat, volutpat enim non, facilisis urna. Praesent sagittis ante neque, eu accumsan enim lacinia eget.
       </p>
+
+      <div>
+        <h2>Top Adjectives Over the Decades</h2>
+        <p>
+          An introduction about the adjectives.
+        </p>
+        <div class="image-set">
+          <div class="image-set-thumbnails">
+            <div class="thumbnail" data-src="charts/adj_decade_comp_1970.png">
+              <img src="charts/adj_decade_comp_1970.png" />
+              <div class="caption">
+                1970s
+              </div>
+            </div>
+            <div class="thumbnail" data-src="charts/adj_decade_comp_1980.png">
+              <img src="charts/adj_decade_comp_1980.png" />
+              <div class="caption">
+                1980s
+              </div>
+            </div>
+            <div class="thumbnail" data-src="charts/adj_decade_comp_1990.png">
+              <img src="charts/adj_decade_comp_1990.png" />
+              <div class="caption">
+                1990s
+              </div>
+            </div>
+            <div class="thumbnail" data-src="charts/adj_decade_comp_2000.png">
+              <img src="charts/adj_decade_comp_2000.png" />
+              <div class="caption">
+                2000s
+              </div>
+            </div>
+            <div class="thumbnail" data-src="charts/adj_decade_comp_2010.png">
+              <img src="charts/adj_decade_comp_2010.png" />
+              <div class="caption">
+                2010s
+              </div>
+            </div>
+          </div>
+          <div class="image-set-full">
+            <!-- <div class="image-set-full-close">X</div> -->
+          </div>
+        </div>
+      </div>
+
+      <h2>Top Nouns Over the Decades</h2>
+      <p>
+        An introduction about the nouns.
+      </p>
+      <div class="image-set">
+        <div class="image-set-thumbnails">
+          <div class="thumbnail" data-src="charts/noun_decade_comp_1970.png">
+            <img src="charts/noun_decade_comp_1970.png" />
+            <div class="caption">
+              1970s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_1980.png">
+            <img src="charts/noun_decade_comp_1980.png" />
+            <div class="caption">
+              1980s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_1990.png">
+            <img src="charts/noun_decade_comp_1990.png" />
+            <div class="caption">
+              1990s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_2000.png">
+            <img src="charts/noun_decade_comp_2000.png" />
+            <div class="caption">
+              2000s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_2010.png">
+            <img src="charts/noun_decade_comp_2010.png" />
+            <div class="caption">
+              2010s
+            </div>
+          </div>
+        </div>
+        <div class="image-set-full">
+        </div>
+      </div>
+
     </div>
   </div>
   <div class="aside pri visible-delay">
@@ -112,7 +200,7 @@
       <p>
         Morbi ut accumsan turpis. Pellentesque euismod <b>efficitur velit</b>, a maximus elit elementum quis. Donec accumsan scelerisque egestas. Proin consectetur sagittis efficitur. Aliquam laoreet ultrices congue. Nullam in fringilla justo. Mauris a lectus et velit blandit suscipit in nec metus. Phasellus commodo vehicula mollis. Sed in nisi pulvinar, elementum arcu sit amet, accumsan quam. Nullam dapibus lectus diam, vel iaculis enim venenatis nec. Aliquam at est iaculis, dignissim mauris at, bibendum lacus. Quisque tincidunt, neque ut laoreet sagittis, nisi velit posuere sem, gravida scelerisque enim erat semper leo. Nullam suscipit, tellus non vestibulum placerat, lacus purus mattis odio, in imperdiet ante dolor eget massa. Etiam aliquet sem dui, at cursus ipsum venenatis eget.
       </p>
-      <p>
+      <p class="center">
         <img src="charts/artists_with_songs_trans.png" />
       </p>
     </div>
@@ -125,7 +213,7 @@
         <p>Use the chart below to filter the time period (<i>click and drag to create a selection box</i>). Use the table beneath to view a listing.</p>
         <div id="chart-yasc" class="chart bar-chart"></div>
 
-        <div id="totals"><b id="active">-</b> of <i id="total">-</i> songs selected. Filter: start of <b id="start-year"></b> through end of <b id="end-year"></b></div>
+        <div id="totals"><b id="active">-</b> of <i id="total">-</i> artists selected (includes duplicates for artists in multiple years). Filter: start of <b id="start-year"></b> through end of <b id="end-year"></b></div>
         <div id="lists">
           <table class="table table-striped table-hover">
             <thead><th>Artist</th><th>Total Songs</th><th># Chartings Years</th></thead>
@@ -280,31 +368,67 @@
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="class-info col-md-4">
-          <h3>Project</h3>
-          <div>Modern Music Sentiment Analysis</div>
-          <div>by team Lyrics Lab</div>
+  <div class="footer-wrap">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="class-info col-md-4">
+            <h3>Project</h3>
+            <div>Modern Music Sentiment Analysis</div>
+            <div>by team Lyrics Lab</div>
+          </div>
+          <div class="team-members col-md-4">
+            <h3>Team Members</h3>
+            <ul class="plain">
+              <li>Kevin Buhrer</li>
+              <li>Michael Johns</li>
+              <li>Scott Stephens</li>
+            </ul>
+          </div>
+          <div class="class-info col-md-4">
+            <h3>Course Information</h3>
+            <div>CSCI E-109 Data Science</div>
+            <div>Harvard University</div>
+            <div>Fall 2015</div>
+          </div>
         </div>
-        <div class="team-members col-md-4">
-          <h3>Team Members</h3>
-          <ul class="plain">
-            <li>Kevin Buhrer</li>
-            <li>Michael Johns</li>
-            <li>Scott Stephens</li>
-          </ul>
-        </div>
-        <div class="class-info col-md-4">
-          <h3>Course Information</h3>
-          <div>CSCI E-109 Data Science</div>
-          <div>Harvard University</div>
-          <div>Fall 2015</div>
+        <hr>
+        <div class="row">
+          <div class="disclosures col-md-6">
+            <h3>Licensing &amp; Disclosures</h3>
+            <h4>Copyright</h4>
+            <div>Copyright &copy; 2015, All Rights Reserved.</div>
+            <div>All copyrights for all lyrics are held by their respective owners.</div>
+
+            <h4>Licensing</h4>
+            <div>TBD</div>
+
+            <h4>Attributions</h4>
+            <div>
+              "Most Succesful Artists Over Time" chart is based on work from Square's Crossfilter
+              library <a href="http://square.github.io/crossfilter/index.html">demonstration</a>.
+              The content of the demonstration is licensed under the
+              <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>.
+            </div>
+          </div>
+          <div class="background-images col-md-6">
+            <h3>Background Images</h3>
+
+            <h4>Header</h4>
+            <div>Arjen van Houwelingen, <a href="http://www.stockvault.net/photo/106474/notes-and-piano">http://www.stockvault.net/photo/106474/notes-and-piano</a></div>
+
+            <h4>Footer</h4>
+            <div>Juna Gih, <a href="http://www.stockvault.net/photo/101726/guitar-2">http://www.stockvault.net/photo/101726/guitar-2</a></div>
+
+            <h4>Usage</h4>
+            <div>
+              Usage of the images falls under the 'Non-commercial' clause of Stockvault.net's <a href="http://www.stockvault.net/terms-of-use">Terms of Use</a>.
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -312,29 +436,16 @@
   <script src="bower_components/throttle-debounce/dist/throttle-debounce.min.js"></script>
   <script src="lib/crossfilter.min.js"></script>
   <script src="scripts/charts.js"></script>
+  <script src="scripts/imageSet.js"></script>
   <script>
-	$('nav').affix({
-		offset: {
-			top: $('.page-lead').outerHeight(true) - ($('nav').outerHeight(true) / 2)
-		}
-	});
-
-	// var $intro = $('.page-lead .container'),
-	// 	introHeight = $intro.outerHeight(),
-	// 	$jumbo = $('.jumbotron');
-	// $(window).on('scroll', function(e) {
-	// 	//$intro.css('top', window.scrollY * -1 * (window.scrollY / (introHeight * 2)) );
-  //
-	// 	$jumbo.css('margin-top', (window.scrollY * 1 / 10));
-	// });
-	//
-
   function checkVisibility() {
     var $visItems = $('.visible-delay');
 
     if ($visItems.length === 0)  {
       // Deactivate the scroll listener once everything is in view.
-      window.scrollListener.off('scroll.visdelay');
+      if (window.scrollListener) {
+        window.scrollListener.off('scroll.visdelay');
+      }
     }
     else {
       $visItems.each(function() {
@@ -350,6 +461,12 @@
   }
 
   $(document).ready(function() {
+    $('nav').affix({
+      offset: {
+        top: $('.page-lead').outerHeight(true) - ($('nav').outerHeight(true) / 2)
+      }
+    });
+
     checkVisibility();
     window.scrollListener = $(window).on('scroll.visdelay', $.throttle(250, checkVisibility));
   });
