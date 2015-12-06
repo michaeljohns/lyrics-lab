@@ -130,6 +130,7 @@ footer {
 }
 
 .chart-wrap {
+  position: relative;
   background-color: #fff;
   border: 1px solid @lighterGrey;
   border-radius: @border-radius-base;
@@ -138,6 +139,47 @@ footer {
 
   img {
     max-width: 100%;
+  }
+
+  &.half-width {
+    max-width: 45%;
+    margin-left: 5%;
+  }
+
+  &.third-width {
+    max-width: 30%;
+    margin-left: 5%;
+  }
+
+  .fade-edge {
+    //content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    background: linear-gradient(90deg, transparent 0, #eee 90%);
+  }
+
+  .scroll-hort {
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    img {
+      max-width: initial;
+      max-height: 600px;
+      margin-right: 100px;
+    }
+
+    &::after {
+      position: absolute;
+      content: 'Scroll >';
+      top: 10px;
+      right: 10px;
+      color: @mediumGrey;
+      font-size: 0.85em;
+      font-variant: small-caps;
+    }
   }
 }
 

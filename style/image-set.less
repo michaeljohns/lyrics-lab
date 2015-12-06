@@ -2,6 +2,70 @@
 
 .image-set {
     @wellColor: @lighterGrey;
+    position: relative;
+
+    &.h-500 {
+      height: 500px;
+    }
+
+    .image-set-list {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      height: 500px;
+      width: 200px;
+      background-color: @wellColor;
+
+      // The left corners
+      border-radius: @border-radius-base 0 0 @border-radius-base;
+
+      .image-set-item {
+        position: relative;
+        cursor: pointer;
+
+        background-color: #fff;
+        margin: 10px;
+        padding: 0 5px;
+        border-radius: @border-radius-base;
+
+        &.active,
+        &:hover {
+          background-color: @sec;
+          color: @supportTextLight;
+        }
+
+        &.active {
+          color: @supportTextLightEmphasis;
+
+          &::after {
+            position: absolute;
+            content: '';
+            border-left: 9px solid @sec;
+            border-top: 9px solid transparent;
+            border-bottom: 10px solid transparent;
+            bottom: 0;
+            margin: 0 auto;
+            top: 0;
+            right: -13px;
+            width: 15px;
+          }
+        }
+      }
+
+      + .image-set-full {
+        position: absolute;
+        top: 0;
+        left: 200px;
+        bottom: 0;
+        right: 0;
+        height: 500px;
+
+        .image-set-full-content {
+          height: 311px;
+        }
+      }
+    }
 
   .image-set-thumbnails {
     background-color: @wellColor;

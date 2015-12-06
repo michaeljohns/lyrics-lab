@@ -6994,6 +6994,61 @@ ul.tonal li {
 .item-listing li:hover {
   color: #fff;
 }
+.image-set {
+  position: relative;
+}
+.image-set.h-500 {
+  height: 500px;
+}
+.image-set .image-set-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 500px;
+  width: 200px;
+  background-color: #eee;
+  border-radius: 4px 0 0 4px;
+}
+.image-set .image-set-list .image-set-item {
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+  margin: 10px;
+  padding: 0 5px;
+  border-radius: 4px;
+}
+.image-set .image-set-list .image-set-item.active,
+.image-set .image-set-list .image-set-item:hover {
+  background-color: #00BCD4;
+  color: #eee;
+}
+.image-set .image-set-list .image-set-item.active {
+  color: #fff;
+}
+.image-set .image-set-list .image-set-item.active::after {
+  position: absolute;
+  content: '';
+  border-left: 9px solid #00BCD4;
+  border-top: 9px solid transparent;
+  border-bottom: 10px solid transparent;
+  bottom: 0;
+  margin: 0 auto;
+  top: 0;
+  right: -13px;
+  width: 15px;
+}
+.image-set .image-set-list + .image-set-full {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  bottom: 0;
+  right: 0;
+  height: 500px;
+}
+.image-set .image-set-list + .image-set-full .image-set-full-content {
+  height: 311px;
+}
 .image-set .image-set-thumbnails {
   background-color: #eee;
   margin-bottom: 0px;
@@ -7221,6 +7276,7 @@ footer hr {
   opacity: 0;
 }
 .chart-wrap {
+  position: relative;
   background-color: #fff;
   border: 1px solid #eee;
   border-radius: 4px;
@@ -7229,6 +7285,40 @@ footer hr {
 }
 .chart-wrap img {
   max-width: 100%;
+}
+.chart-wrap.half-width {
+  max-width: 45%;
+  margin-left: 5%;
+}
+.chart-wrap.third-width {
+  max-width: 30%;
+  margin-left: 5%;
+}
+.chart-wrap .fade-edge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  background: linear-gradient(90deg, transparent 0, #eee 90%);
+}
+.chart-wrap .scroll-hort {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.chart-wrap .scroll-hort img {
+  max-width: initial;
+  max-height: 600px;
+  margin-right: 100px;
+}
+.chart-wrap .scroll-hort::after {
+  position: absolute;
+  content: 'Scroll >';
+  top: 10px;
+  right: 10px;
+  color: #999;
+  font-size: 0.85em;
+  font-variant: small-caps;
 }
 .bar-chart .background.bar {
   fill: #ccc;

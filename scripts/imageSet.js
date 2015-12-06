@@ -4,6 +4,10 @@ $(document).ready(function() {
     var $full = $set.find('.image-set-full');
     var $thumbs = $set.find('.image-set-thumbnails').children('.thumbnail');
 
+    if (!$thumbs.length) {
+      $thumbs = $set.find('.image-set-list').children('.image-set-item');
+    }
+
     var $empty = $('<div/>')
                   .appendTo($full)
                   .addClass('image-set-full-content')
