@@ -6797,7 +6797,7 @@ button.close {
   background-color: #00BCD4;
   color: #fff;
   margin-bottom: 35px;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: lighter;
   width: 50%;
 }
@@ -6823,6 +6823,22 @@ button.close {
 .text-bubble.tri {
   background-color: #E91E63;
 }
+.text-bubble h1,
+.text-bubble h2,
+.text-bubble h3,
+.text-bubble h4,
+.text-bubble h5,
+.text-bubble h6 {
+  font-weight: normal;
+  margin-top: 0;
+}
+.text-bubble .standard-text {
+  font-size: 14px;
+  font-weight: normal;
+}
+.text-bubble.fill {
+  width: 100%;
+}
 .text-bubble.pri::after {
   border-left-color: #303F9F;
 }
@@ -6847,8 +6863,14 @@ button.close {
   border-bottom: 25px solid transparent;
   border-left: 25px solid #00BCD4;
 }
+.text-bubble.no-top-margin {
+  margin-top: 0;
+}
 .text-bubble.right {
   margin-left: 50%;
+}
+.text-bubble.right.no-left-margin {
+  margin-left: 0;
 }
 .text-bubble.right.pri::after {
   border-right-color: #303F9F;
@@ -6947,8 +6969,33 @@ ul.plain {
 ul.plain li {
   list-style: none;
 }
+ul.inline li {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+ul.tonal li {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 0 10px;
+}
+.item-listing {
+  margin: 0;
+  padding: 0;
+}
+.item-listing li {
+  list-style: none;
+  display: inline-block;
+  background-color: #00BCD4;
+  color: #eee;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 0 10px 10px 0;
+}
+.item-listing li:hover {
+  color: #fff;
+}
 .image-set .image-set-thumbnails {
-  background-color: #444;
+  background-color: #eee;
   margin-bottom: 0px;
   padding: 10px;
   text-align: center;
@@ -7001,7 +7048,7 @@ ul.plain li {
 .image-set .image-set-full {
   position: relative;
   border-radius: 0 0 4px 4px;
-  border: 1px solid #444;
+  border: 1px solid #eee;
   padding: 20px;
   background-color: #fff;
 }
@@ -7172,6 +7219,16 @@ footer hr {
 }
 .visible-delay .container {
   opacity: 0;
+}
+.chart-wrap {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.chart-wrap img {
+  max-width: 100%;
 }
 .bar-chart .background.bar {
   fill: #ccc;

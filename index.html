@@ -193,8 +193,123 @@
         Proin dapibus vestibulum sapien ac fermentum. Fusce placerat magna eget ante laoreet, facilisis rutrum justo aliquam. Donec a massa porttitor, semper risus et, sagittis urna. Sed eu odio lectus. Sed malesuada pharetra libero vel sollicitudin. Curabitur iaculis dignissim dictum. Aenean id fringilla eros. Donec sit amet metus magna. In at ex nibh. Suspendisse eleifend tristique dapibus. Donec quis dui at nisi maximus efficitur. Mauris et tellus non arcu consequat egestas at nec velit.
       </p>
 
-      <div class="text-bubble tri right">
-        Something interesting that is quotable from a song from the right side.
+      <h2>Adjectives Spanning Decades</h2>
+      <div class="row">
+        <div class="col-md-5 center">
+          <div class="chart-wrap">
+            <img src="charts/adj_histogram_decade_span.png" height="500" />
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="text-bubble sec right no-left-margin no-top-margin fill">
+            <h3>Five-decade Spanning Adjective List</h3>
+            <p class="standard-text">20 words, in alphabetical order:</p>
+
+            <ul class="plain inline tonal">
+                <li>american</li>
+                <li>animal</li>
+                <li>baddest</li>
+                <li>break</li>
+                <li>clean</li>
+                <li>dry</li>
+                <li>fake</li>
+                <li>fresher</li>
+                <li>golden</li>
+                <li>hotter</li>
+                <li>lean</li>
+                <li>light</li>
+                <li>movin</li>
+                <li>nervous</li>
+                <li>rich</li>
+                <li>twisted</li>
+                <li>wait</li>
+                <li>welcome</li>
+                <li>wet</li>
+                <li>worth</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div>&nbsp;</div>
+
+      <h2>Nouns Spanning Decades</h2>
+      <div class="row">
+      <div class="col-md-5 center">
+        <div class="chart-wrap">
+          <img src="charts/noun_histogram_decade_span.png" height="500" />
+        </div>
+      </div>
+        <div class="col-md-7">
+          <div class="text-bubble sec right no-left-margin no-top-margin fill">
+            <h3>Five-decade Spanning Noun List</h3>
+            <p class="standard-text">47 words, in alphabetical order:</p>
+
+            <ul class="plain inline tonal">
+              <li>animal</li>
+              <li>bag</li>
+              <li>ball</li>
+              <li>beauty</li>
+              <li>beer</li>
+              <li>brain</li>
+              <li>building</li>
+              <li>buzz</li>
+              <li>cloud</li>
+              <li>college</li>
+              <li>crack</li>
+              <li>dress</li>
+              <li>drunk</li>
+              <li>end</li>
+              <li>feelin</li>
+              <li>flow</li>
+              <li>gon</li>
+              <li>half</li>
+              <li>hater</li>
+              <li>high</li>
+              <li>ice</li>
+              <li>jump</li>
+              <li>kick</li>
+              <li>livin</li>
+              <li>memory</li>
+              <li>morning</li>
+              <li>mouth</li>
+              <li>ooh</li>
+              <li>phone</li>
+              <li>plan</li>
+              <li>pop</li>
+              <li>pound</li>
+              <li>record</li>
+              <li>sippin</li>
+              <li>skirt</li>
+              <li>sound</li>
+              <li>start</li>
+              <li>suit</li>
+              <li>tattoo</li>
+              <li>team</li>
+              <li>trippin</li>
+              <li>trouble</li>
+              <li>type</li>
+              <li>water</li>
+              <li>wine</li>
+              <li>wish</li>
+              <li>work</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div>&nbsp;</div>
+
+      <p>
+        Morbi ut accumsan turpis. Pellentesque euismod <b>efficitur velit</b>, a maximus elit elementum quis. Donec accumsan scelerisque egestas. Proin consectetur sagittis efficitur. Aliquam laoreet ultrices congue. Nullam in fringilla justo. Mauris a lectus et velit blandit suscipit in nec metus. Phasellus commodo vehicula mollis. Sed in nisi pulvinar, elementum arcu sit amet, accumsan quam. Nullam dapibus lectus diam, vel iaculis enim venenatis nec. Aliquam at est iaculis, dignissim mauris at, bibendum lacus. Quisque tincidunt, neque ut laoreet sagittis, nisi velit posuere sem, gravida scelerisque enim erat semper leo. Nullam suscipit, tellus non vestibulum placerat, lacus purus mattis odio, in imperdiet ante dolor eget massa. Etiam aliquet sem dui, at cursus ipsum venenatis eget.
+      </p>
+
+      <h2>Word Count Reduction Motivation</h2>
+      <div class="chart-wrap">
+        <img src="charts/adj_n-grams_combined.png" />
+      </div>
+      <div class="chart-wrap">
+        <img src="charts/noun_n-grams_combined.png" />
       </div>
 
       <p>
@@ -213,17 +328,20 @@
         <p>Use the chart below to filter the time period (<i>click and drag to create a selection box</i>). Use the table beneath to view a listing.</p>
         <div id="chart-yasc" class="chart bar-chart"></div>
 
-        <div id="totals"><b id="active">-</b> of <i id="total">-</i> artists selected (includes duplicates for artists in multiple years). Filter: start of <b id="start-year"></b> through end of <b id="end-year"></b></div>
+        <div id="totals">
+          <!--<b id="active">-</b> of <i id="total">-</i> artists selected (includes duplicates for artists in multiple years). -->
+          <h3>Top 10 Artists from <b id="start-year">1970</b> through <b id="end-year">2014</b></h3>
+        </div>
         <div id="lists">
           <table class="table table-striped table-hover">
-            <thead><th>Artist</th><th>Total Songs</th><th># Chartings Years</th></thead>
+            <thead><th>Rank</th><th>Artist</th><th>Total Songs</th><th># Chartings Years</th></thead>
             <tbody id="yasc-list" class="list"></tbody>
           </table>
         </div>
       </div>
     </div>
   </div>
-  <div class="section visible-delay" id="grp-ex-elem">
+  <!--<div class="section visible-delay" id="grp-ex-elem">
     <div class="container">
       <h1>Example Elements</h1>
 
@@ -352,7 +470,7 @@
 
       <p>The content could be of any size, but probably shouldn't interfere with overall flow. Some thumbnails of charts could work well that expand when clicked.</p>
     </div>
-  </div>
+  </div>-->
   <div class="section last" id="grp-conclude">
     <div class="container">
       <h1>Conclusion</h1>

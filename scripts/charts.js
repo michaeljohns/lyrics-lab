@@ -134,16 +134,6 @@ d3.csv("data/year_artist_song_count.csv", function(error, data) {
   }
 
   function generateListing(div) {
-    // var songCountByYear = nestByYear.entries(year.top(10));
-    // console.log(artist);
-    // console.log(artists);
-    // console.log(years);
-    // console.log(all);
-
-    // results.forEach(function(i) {
-    //   console.log(i);
-    // });
-
     div.each(function() {
       var results = artists.reduce(reduceAdd, reduceRemove, reduceInitial).order(function(p) {
           return (1000 + p.total) + p.artist; // First use totals and then use alphabetical to break ties.
@@ -154,16 +144,14 @@ d3.csv("data/year_artist_song_count.csv", function(error, data) {
 
       var artist = artistResultsEl.selectAll(".artist").data(results);
 
-      // Clean up old
-      //artist.remove();
-
-      // var header = artistResultsEl.append('tr').attr('class', 'header');
-      // header.append('th').text('Artist');
-      // header.append('th').text('Total Songs');
-      // header.append('th').text('Different Years');
-
       var artistEnter = artist.enter().append("tr")
           .attr("class", "artist");
+
+      artistEnter.append("td")
+          .attr("class", "ranking-position")
+          .text(function(d, i) {
+            return i + 1; // Convert from zero-based indexing
+          });
 
       artistEnter.append("td")
           .attr("class", "artist-name")
