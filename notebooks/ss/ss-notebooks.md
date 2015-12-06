@@ -5,8 +5,10 @@ Contents of this directory-
 ### Notebooks:
 **GetGenres** acquires song metadata from 1970 to 2014 directly from wikipedia ala HW1. Produces 
   "master_lyrics_with_all_years_genres.csv" a dataframe with metadata, column for each genre with true or false, and joined on song_key with the lyrics set. It is in the local directory and in lyrics-lab/data/conditioned. Notebook contains explanatory text only. Stores files in /tempdata subdirectory which should be ignored. 
-  -songsbygenre.json  a dict keyed by genre and returning a list of each song_key in that genre
-  -genresbysong.json  keyed by song_key, returns list of genres
+  
+  -master_lyrics_with_all_years_genres.csv  
+  -songsbygenre.json  a dict keyed by genre and returning a list of each song_key in that genre  
+  -genresbysong.json  keyed by song_key, returns list of genres  
 
 
 **Word_Clouds**  uses the above-mentioned dataframe to build word clouds. obtains aggregate word ferequency across years and genres, and frequencies from decade subsets and from genre subsets. It produces wordclouds from [the python library published by Andreas Mueller](https://github.com/amueller/word_cloud). They are not pretty. Accordingly the frequency data is stored in one json object for data partitioned by decade called "decade_word_frequency.json", and another for data partitioned by genre, "genre_word_frequency.json."       
@@ -18,8 +20,9 @@ Contents of this directory-
 -lsi_decade_topics.json  
 -lda_decade_topics.json  
 
-**LexicalDiversity** This one looks at the vocabulary-to-wordcount ratio and calls its inverse the repetition index. It currently operates only at the decade level, with genre level operation expected soon. At present it leaves behind several small json object:
+**LexicalDiversity** This one looks at the vocabulary-to-wordcount ratio and calls its inverse the repetition index. It currently operates only at the decade level, with genre level operation expected soon. At present it leaves behind a big ass all-inclusive data set, all_years_and genres_with_lyrics_and_wordcount_and_vocabulary.csv, and several small json object:
 
 -wordcount_by_decade.json  
 -wordset_by_decade.json  
--wordset_by_year.json  
+-wordset_by_year.json 
+-all_years_and genres_with_lyrics_and_wordcount_and_vocabulary.csv
