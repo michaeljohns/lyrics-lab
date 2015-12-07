@@ -7038,6 +7038,9 @@ ul.tonal li {
   color: #999;
   margin-left: 10px;
 }
+.image-set .image-set-subheader.header-vspace {
+  margin-top: 10px;
+}
 .image-set .image-set-list {
   position: absolute;
   top: 0;
