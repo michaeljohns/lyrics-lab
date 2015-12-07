@@ -12,6 +12,12 @@
       border-top-color: @lightGrey;
     }
 
+    .image-set-subheader {
+      font-weight: bold;
+      color: @mediumGrey;
+      margin-left: 10px;
+    }
+
     .image-set-list {
       position: absolute;
       top: 0;
@@ -64,6 +70,9 @@
         bottom: 0;
         right: 0;
         height: 500px;
+
+        // The right corners
+        border-radius: 0 @border-radius-base @border-radius-base 0;
 
         .image-set-full-content {
           height: 311px;

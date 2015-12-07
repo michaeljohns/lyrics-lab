@@ -6768,9 +6768,10 @@ button.close {
   border-radius: 0;
   margin-top: -50px;
   transition: margin 0s;
+  text-align: center;
 }
 .navbar .navbar-brand {
-  padding-top: 2px;
+  padding-top: 5px;
   padding-bottom: 0;
 }
 .navbar.affix {
@@ -6782,13 +6783,16 @@ button.close {
   margin-top: 0;
   transition: margin 0.75s;
 }
+.navbar .container-fluid {
+  display: inline-block;
+}
 .table-hover > tbody > tr:hover {
   background-color: #00BCD4;
   color: #fff;
 }
 .text-bubble,
 .note-box {
-  border-radius: 10px;
+  border-radius: 4px;
   margin: 10px;
   padding: 20px;
 }
@@ -6822,6 +6826,9 @@ button.close {
 }
 .text-bubble.tri {
   background-color: #E91E63;
+}
+.text-bubble.dim {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .text-bubble h1,
 .text-bubble h2,
@@ -6920,26 +6927,35 @@ button.close {
 .note-box.tri {
   background-color: #E91E63;
 }
+.note-box.dim {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.note-box .dim h1,
 .note-box .dark h1,
 .note-box .pri h1,
 .note-box .sec h1,
 .note-box .tri h1,
+.note-box .dim h2,
 .note-box .dark h2,
 .note-box .pri h2,
 .note-box .sec h2,
 .note-box .tri h2,
+.note-box .dim h3,
 .note-box .dark h3,
 .note-box .pri h3,
 .note-box .sec h3,
 .note-box .tri h3,
+.note-box .dim h4,
 .note-box .dark h4,
 .note-box .pri h4,
 .note-box .sec h4,
 .note-box .tri h4,
+.note-box .dim h5,
 .note-box .dark h5,
 .note-box .pri h5,
 .note-box .sec h5,
 .note-box .tri h5,
+.note-box .dim h6,
 .note-box .dark h6,
 .note-box .pri h6,
 .note-box .sec h6,
@@ -6978,6 +6994,9 @@ ul.tonal li {
   border-radius: 4px;
   padding: 0 10px;
 }
+.note-box-set .note-box {
+  max-width: none;
+}
 .item-listing {
   margin: 0;
   padding: 0;
@@ -7002,6 +7021,11 @@ ul.tonal li {
 }
 .image-set hr {
   border-top-color: #ddd;
+}
+.image-set .image-set-subheader {
+  font-weight: bold;
+  color: #999;
+  margin-left: 10px;
 }
 .image-set .image-set-list {
   position: absolute;
@@ -7048,6 +7072,7 @@ ul.tonal li {
   bottom: 0;
   right: 0;
   height: 500px;
+  border-radius: 0 4px 4px 0;
 }
 .image-set .image-set-list + .image-set-full .image-set-full-content {
   height: 311px;
@@ -7193,7 +7218,7 @@ footer hr {
 .section {
   color: #444;
   background-color: #f8f8f9;
-  padding: 20px 20px 50px;
+  padding: 50px 20px;
 }
 .section:nth-child(odd) {
   background-color: #fff;
@@ -7238,6 +7263,9 @@ footer hr {
 .aside.tri {
   background-color: #E91E63;
 }
+.aside.dim {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .aside h1,
 .aside h2,
 .aside h3,
@@ -7269,6 +7297,9 @@ footer hr {
 .aside.no-header {
   padding-bottom: 20px;
 }
+.light {
+  font-weight: lighter;
+}
 .vspace {
   height: 50px;
 }
@@ -7285,6 +7316,9 @@ footer hr {
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 20px;
+}
+.chart-wrap.no-r-pad {
+  padding-right: 0;
 }
 .chart-wrap img {
   max-width: 100%;
@@ -7303,7 +7337,7 @@ footer hr {
   bottom: 0;
   right: 0;
   width: 100px;
-  background: linear-gradient(90deg, transparent 0, #eee 90%);
+  background: linear-gradient(90deg, transparent 0, #f0f0f0 100%);
 }
 .chart-wrap .scroll-hort {
   overflow-x: auto;
@@ -7347,5 +7381,5 @@ footer hr {
   stroke: transparent;
 }
 #chart-yasc {
-  width: 920px;
+  text-align: center;
 }

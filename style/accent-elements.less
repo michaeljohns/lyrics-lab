@@ -1,6 +1,6 @@
 @import 'vars.less';
 
-@accentBorderRadius: 10px;
+@accentBorderRadius: @border-radius-base; // 10px;
 @accentPadding: 20px;
 @accentMargin: 10px;
 
@@ -118,7 +118,7 @@
 
   .palette-opts();
 
-  .dark, .pri, .sec, .tri {
+  .dim, .dark, .pri, .sec, .tri {
     .header-color(#fff);
   }
 
@@ -156,10 +156,16 @@ ul {
 
   &.tonal {
     li {
-      background-color: rgba(0,0,0, 0.1);
+      background-color: @dimFill;
       border-radius: @border-radius-base;
       padding: 0 10px;
     }
+  }
+}
+
+.note-box-set {
+  .note-box {
+    max-width: none;
   }
 }
 
