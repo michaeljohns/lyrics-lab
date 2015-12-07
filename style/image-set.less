@@ -6,6 +6,20 @@
 
     &.h-500 {
       height: 500px;
+
+      .image-set-list,
+      .image-set-full {
+        height: 500px;
+      }
+    }
+
+    &.h-650 {
+      height: 650px;
+
+      .image-set-list,
+      .image-set-full {
+        height: 650px;
+      }
     }
 
     hr {
@@ -23,7 +37,7 @@
       top: 0;
       left: 0;
       bottom: 0;
-      height: 500px;
+      //height: 500px;
       width: 200px;
       background-color: @wellColor;
 
@@ -69,16 +83,17 @@
         left: 200px;
         bottom: 0;
         right: 0;
-        height: 500px;
 
         // The right corners
         border-radius: 0 @border-radius-base @border-radius-base 0;
-
-        .image-set-full-content {
-          height: 311px;
-        }
       }
     }
+
+  &.word-cloud {
+    .image-set-full .image-set-full-content {
+      height: 311px;
+    }
+  }
 
   .image-set-thumbnails {
     background-color: @wellColor;

@@ -7019,6 +7019,17 @@ ul.tonal li {
 .image-set.h-500 {
   height: 500px;
 }
+.image-set.h-500 .image-set-list,
+.image-set.h-500 .image-set-full {
+  height: 500px;
+}
+.image-set.h-650 {
+  height: 650px;
+}
+.image-set.h-650 .image-set-list,
+.image-set.h-650 .image-set-full {
+  height: 650px;
+}
 .image-set hr {
   border-top-color: #ddd;
 }
@@ -7032,7 +7043,6 @@ ul.tonal li {
   top: 0;
   left: 0;
   bottom: 0;
-  height: 500px;
   width: 200px;
   background-color: #eee;
   border-radius: 4px 0 0 4px;
@@ -7071,10 +7081,9 @@ ul.tonal li {
   left: 200px;
   bottom: 0;
   right: 0;
-  height: 500px;
   border-radius: 0 4px 4px 0;
 }
-.image-set .image-set-list + .image-set-full .image-set-full-content {
+.image-set.word-cloud .image-set-full .image-set-full-content {
   height: 311px;
 }
 .image-set .image-set-thumbnails {
@@ -7221,7 +7230,7 @@ footer hr {
   padding: 50px 20px;
 }
 .section:nth-child(odd) {
-  background-color: #fff;
+  background-color: #f4f4f4;
 }
 .section.last {
   padding-bottom: 100px;

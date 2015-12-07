@@ -34,6 +34,7 @@
       <ul class="nav navbar-nav" role="tablist">
         <li><a href="#grp-overview">Overview</a></li>
         <li><a href="#grp-1">Data Conditioning</a></li>
+        <li><a href="#grp-broad">Broad Trends</a></li>
         <li><a href="#grp-2">Word Variation</a></li>
         <li><a href="#grp-3">Word Consistency</a></li>
         <li><a href="#grp-4">Synonyms</a></li>
@@ -54,7 +55,7 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <div class="section" id="grp-overview">
+  <div class="section" id="grp-overview visible-delay">
     <div class="container">
       <h1>Overview</h1>
 
@@ -95,12 +96,14 @@
       </div>
       <!-- /Interactive Chart -->
 
+      <div class="vspace"></div>
+
       <!-- Word Clouds -->
       <h2>Words Clouds</h2>
       <p>
         An introduction about the clouds.
       </p>
-      <div class="image-set h-500">
+      <div class="image-set word-cloud h-500">
         <div class="image-set-list">
           <div class="image-set-item default-item" data-src="charts/word_clouds/all_genres_all_decades.png">
             Entire Corpus
@@ -108,7 +111,7 @@
 
           <hr>
           <div class="image-set-subheader">
-            Top 10 Artists
+            Top 10 Artists (1970-2014)
           </div>
 
           <div class="image-set-item" data-src="charts/word_clouds/madonna.png">
@@ -147,12 +150,6 @@
         </div>
       </div>
       <!-- /Word Clouds -->
-
-      <!-- Top Artist Distrobution -->
-      <p class="center">
-        <img src="charts/artists_with_songs_trans.png" />
-      </p>
-      <!-- /Top Artist Distrobution -->
 
     </div>
   </div>
@@ -213,6 +210,90 @@
       <div class="chart-wrap">
         <img src="charts/noun_n-grams_combined.png" />
       </div>
+    </div>
+  </div>
+
+  <div class="section visible-delay" id="grp-broad">
+    <div class="container">
+      <h1>Broad Trends</h1>
+
+      <!-- Top Artist Distrobution -->
+      <h2>Contributions by Artists</h2>
+      <p>
+        Most of the artists appeared in the corpus only once, but some occurred many times.
+      </p>
+      <div class="image-set h-650">
+        <div class="image-set-list">
+          <div class="image-set-subheader">
+            Songs / Artists Distrobution
+          </div>
+
+          <div class="image-set-item default-item" data-src="charts/artists_with_songs_trans.png">
+            &nbsp;All
+          </div>
+          <div class="image-set-item" data-src="charts/artists_with_songs_over2.png">
+            &nbsp;&gt; 2
+          </div>
+          <div class="image-set-item" data-src="charts/artists_with_songs_over10.png">
+            &nbsp;&gt; 10
+          </div>
+        </div>
+        <div class="image-set-full">
+        </div>
+      </div>
+      <!-- /Top Artist Distrobution -->
+
+      <!-- Word Counts -->
+      <h2>Word Counts</h2>
+      <p>
+        Blurb about counts over time.
+      </p>
+      <div class="image-set">
+        <div class="image-set-thumbnails">
+          <div class="thumbnail default-item" data-src="charts/trends/songs_combined_word_count.png">
+            <img src="charts/trends/songs_combined_word_count.png" />
+            <div class="caption">
+              Overview
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/trends/songs_raw_word_count.png">
+            <img src="charts/trends/songs_raw_word_count.png" />
+            <div class="caption">
+              Raw Words
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/trends/songs_unique_word_count.png">
+            <img src="charts/trends/songs_unique_word_count.png" />
+            <div class="caption">
+              Unique words
+            </div>
+          </div>
+        </div>
+        <div class="image-set-full"></div>
+      </div>
+      <!-- /Word Counts -->
+
+      <div class="vspace"></div>
+
+      <!-- Repetition & Diversity -->
+      <div class="image-set">
+        <div class="image-set-thumbnails">
+          <div class="thumbnail default-item" data-src="charts/trends/lexical_diversity.png">
+            <img src="charts/trends/lexical_diversity.png" />
+            <div class="caption">
+              Lexical Diversity
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/trends/word_repetition.png">
+            <img src="charts/trends/word_repetition.png" />
+            <div class="caption">
+              Word Repetition
+            </div>
+          </div>
+        </div>
+        <div class="image-set-full"></div>
+      </div>
+      <!-- /Repetition -->
     </div>
   </div>
 
