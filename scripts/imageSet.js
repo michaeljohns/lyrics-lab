@@ -43,5 +43,7 @@ $(document).ready(function() {
         }, 10);
       });
     });
+
+    $thumbs.filter('.default-item').trigger('click');
   });
 });

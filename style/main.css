@@ -7000,6 +7000,9 @@ ul.tonal li {
 .image-set.h-500 {
   height: 500px;
 }
+.image-set hr {
+  border-top-color: #ddd;
+}
 .image-set .image-set-list {
   position: absolute;
   top: 0;
