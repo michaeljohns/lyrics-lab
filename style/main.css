@@ -6767,6 +6767,7 @@ button.close {
 .navbar {
   border-radius: 0;
   margin-top: -50px;
+  margin-bottom: 0px;
   transition: margin 0s;
   text-align: center;
 }
@@ -6842,6 +6843,13 @@ button.close {
 .text-bubble .standard-text {
   font-size: 14px;
   font-weight: normal;
+}
+.text-bubble.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-bubble.three-fourths-width {
+  width: 75%;
 }
 .text-bubble.fill {
   width: 100%;
@@ -6994,6 +7002,56 @@ ul.tonal li {
   border-radius: 4px;
   padding: 0 10px;
 }
+ul.legend {
+  margin-left: 0;
+  padding-left: 0;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px 10px 0;
+}
+ul.legend li {
+  list-style: none;
+}
+ul.legend.inline {
+  display: inline-block;
+}
+ul.legend li {
+  position: relative;
+  padding-left: 25px;
+  line-height: 16px;
+}
+ul.legend li.title {
+  color: #999;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+ul.legend li.light::before,
+ul.legend li.dark::before,
+ul.legend li.pri::before,
+ul.legend li.sec::before,
+ul.legend li.tri::before {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  left: 0;
+  border-radius: 2px;
+}
+ul.legend li.dark::before {
+  background-color: #444;
+}
+ul.legend li.light::before {
+  background-color: #ddd;
+}
+ul.legend li.pri::before {
+  background-color: #303F9F;
+}
+ul.legend li.sec::before {
+  background-color: #00BCD4;
+}
+ul.legend li.tri::before {
+  background-color: #E91E63;
+}
 .note-box-set .note-box {
   max-width: none;
 }
@@ -7012,6 +7070,38 @@ ul.tonal li {
 }
 .item-listing li:hover {
   color: #fff;
+}
+.quote {
+  position: relative;
+  margin: 50px;
+  padding: 50px 0;
+  font-size: 48px;
+}
+.quote q {
+  quotes: "“" "”" "‘" "’";
+}
+.quote q:before {
+  content: open-quote;
+}
+.quote q:after {
+  content: close-quote;
+}
+.quote .attribution {
+  font-size: 14px;
+}
+.quote q::before,
+.quote q::after {
+  position: absolute;
+  color: #00BCD4;
+  font-size: 96px;
+}
+.quote q::before {
+  top: 0;
+  left: -50px;
+}
+.quote q::after {
+  bottom: 0;
+  right: -40px;
 }
 .image-set {
   position: relative;
@@ -7252,6 +7342,7 @@ footer hr {
   background-color: #444;
   color: #eee;
   padding: 20px 20px 50px;
+  box-shadow: inset 0 15px 15px -15px rgba(0, 0, 0, 0.6), inset 0 -15px 15px -15px rgba(0, 0, 0, 0.6);
 }
 .aside.light {
   background-color: #ddd;
@@ -7309,7 +7400,7 @@ footer hr {
 .aside.no-header {
   padding-bottom: 20px;
 }
-.light {
+.light-text {
   font-weight: lighter;
 }
 .vspace {

@@ -35,6 +35,15 @@
     font-weight: normal;
   }
 
+  &.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.three-fourths-width {
+    width: 75%;
+  }
+
   &.fill {
     width: 100%;
   }
@@ -161,6 +170,61 @@ ul {
       padding: 0 10px;
     }
   }
+
+  &.legend {
+    .plain;
+
+    &.inline {
+      display: inline-block;
+    }
+
+    border: 1px solid @lighterGrey;
+    border-radius: @border-radius-base;
+    padding: 10px 10px 0;
+
+    li {
+      position: relative;
+      padding-left: 25px;
+      line-height: 16px;
+
+      &.title {
+        color: @mediumGrey;
+        font-variant: small-caps;
+        font-weight: bold;
+      }
+
+      &.light, &.dark, &.pri, &.sec, &.tri {
+        &::before {
+          position: absolute;
+          content: '';
+          width: 16px;
+          height: 16px;
+          left: 0;
+          border-radius: 2px;
+        }
+      }
+
+      &.dark::before {
+        background-color: @supportFillDark;
+      }
+
+      &.light::before {
+        background-color: @supportFillLight;
+      }
+
+      &.pri::before {
+        background-color: @pri;
+      }
+
+      &.sec::before {
+        background-color: @sec;
+      }
+
+      &.tri::before {
+        background-color: @tri;
+      }
+    }
+  }
 }
 
 .note-box-set {
@@ -187,5 +251,47 @@ ul {
     &:hover {
       color: @supportTextLightEmphasis;
     }
+  }
+}
+
+.quote {
+  position: relative;
+  margin: 50px;
+  padding: 50px 0;
+  font-size: 48px;
+
+  q {
+    quotes: "“" "”" "‘" "’";
+  }
+
+  q:before {
+    content: open-quote;
+  }
+
+  q:after {
+    content: close-quote;
+  }
+
+  .attribution {
+    font-size: 14px;
+  }
+
+  q::before,
+  q::after {
+    position: absolute;
+    color: @sec;
+    font-size: 96px;
+  }
+
+  q::before {
+    //content: '&ldquo;';
+    top: 0;
+    left: -50px;
+  }
+
+  q::after {
+    //content: '"';
+    bottom: 0;
+    right: -40px;
   }
 }
