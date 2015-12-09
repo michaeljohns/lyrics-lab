@@ -7002,6 +7002,74 @@ ul.tonal li {
   border-radius: 4px;
   padding: 0 10px;
 }
+ul.timeline {
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+  padding: 40px 0 50px;
+  margin-left: 20px;
+  border-left: 5px solid #ddd;
+}
+ul.timeline li {
+  list-style: none;
+}
+ul.timeline::before,
+ul.timeline::after {
+  position: absolute;
+  content: '';
+  left: -16px;
+  border-radius: 14px;
+  width: 28px;
+  height: 28px;
+  background-color: #00BCD4;
+  border: 5px solid #ddd;
+}
+ul.timeline::before {
+  top: 0;
+}
+ul.timeline::after {
+  bottom: 0;
+}
+ul.timeline li {
+  position: relative;
+  padding-left: 40px;
+  color: #777777;
+}
+ul.timeline li.year {
+  font-weight: lighter;
+  font-size: 24px;
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #444;
+}
+ul.timeline li.year::before {
+  position: absolute;
+  content: '';
+  left: -8px;
+  top: 12px;
+  border-radius: 6px;
+  width: 12px;
+  height: 12px;
+  background-color: #303F9F;
+  border: 1px solid #fff;
+}
+ul.timeline li.year::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 17px;
+  width: 18px;
+  height: 1px;
+  border-top: 1px solid #303F9F;
+}
+ul.timeline .word {
+  font-weight: bold;
+  color: #000;
+}
+ul.timeline .song,
+ul.timeline .artist {
+  color: #444;
+}
 ul.legend {
   margin-left: 0;
   padding-left: 0;
@@ -7333,6 +7401,7 @@ footer hr {
   font-variant: small-caps;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
+  font-size: 48px;
 }
 .section b,
 .section i {

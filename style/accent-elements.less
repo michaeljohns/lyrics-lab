@@ -171,6 +171,81 @@ ul {
     }
   }
 
+  &.timeline {
+    .plain;
+
+    position: relative;
+    padding: 40px 0 50px;
+    margin-left: 20px;
+    border-left: 5px solid @lightGrey;
+
+    &::before,
+    &::after {
+      position: absolute;
+      content: '';
+      left: -16px;
+      border-radius: 14px;
+      width: 28px;
+      height: 28px;
+      background-color: @sec;
+      border: 5px solid @lightGrey;
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+
+    li {
+      position: relative;
+      padding-left: 40px;
+      color: lighten(@mainText, 20%);
+
+      &.year {
+        font-weight: lighter;
+        font-size: 24px;
+        margin-top: 20px;
+        padding-left: 20px;
+        color: @mainText;
+
+        &::before {
+          position: absolute;
+          content: '';
+          left: -8px;
+          top: 12px;
+          border-radius: 6px;
+          width: 12px;
+          height: 12px;
+          background-color: @pri;
+          border: 1px solid #fff;
+        }
+
+        &::after {
+          position: absolute;
+          content: '';
+          left: 0;
+          top: 17px;
+          width: 18px;
+          height: 1px;
+          border-top: 1px solid @pri;
+        }
+      }
+    }
+
+    .word {
+      font-weight: bold;
+      color: @mainTextEmphasis;
+    }
+
+    .song,
+    .artist {
+      color: @mainText;
+    }
+  }
+
   &.legend {
     .plain;
 
