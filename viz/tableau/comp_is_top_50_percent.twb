@@ -1,0 +1,1541 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9100.15.1106.2334                                -->
+<workbook source-platform='win' version='9.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='comp!is!top!50!percent (comp_is_top_50_percent)' inline='true' name='excel-direct.42346.597224328703' version='9.1'>
+      <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:\Users\mjohns\Documents\GitHub\lyrics-lab\viz\data\comp_is_top_50_percent.xlsx' interpretationMode='0' password='' server='' username='' validate='no'>
+        <relation name='comp_is_top_50_percent$' table='[comp_is_top_50_percent$]' type='table'>
+          <columns gridOrigin='A1:P96:no:A1:P96' header='yes' lost='0' outcome='1' processed='1140'>
+            <column datatype='string' name='song_key' ordinal='0' />
+            <column datatype='integer' name='position' ordinal='1' />
+            <column datatype='date' name='date' ordinal='2' />
+            <column datatype='integer' name='results' ordinal='3' />
+            <column datatype='string' name='noun_vector' ordinal='4' />
+            <column datatype='integer' name='prediction_noun_vector' ordinal='5' />
+            <column datatype='integer' name='calc_success_noun_vector' ordinal='6' />
+            <column datatype='real' name='bayes_success_noun_vector' ordinal='7' />
+            <column datatype='string' name='noun_syn_vector' ordinal='8' />
+            <column datatype='integer' name='prediction_noun_syn_vector' ordinal='9' />
+            <column datatype='integer' name='calc_success_noun_syn_vector' ordinal='10' />
+            <column datatype='real' name='bayes_success_noun_syn_vector' ordinal='11' />
+            <column datatype='string' name='noun_syn_hype_vector' ordinal='12' />
+            <column datatype='integer' name='prediction_noun_syn_hype_vector' ordinal='13' />
+            <column datatype='integer' name='calc_success_noun_syn__hype_vector' ordinal='14' />
+            <column datatype='real' name='bayes_success_noun_syn_hype_vector' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>song_key</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[song_key]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>song_key</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>position</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[position]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>position</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>results</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[results]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>results</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>noun_vector</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[noun_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>noun_vector</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prediction_noun_vector</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[prediction_noun_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>prediction_noun_vector</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calc_success_noun_vector</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[calc_success_noun_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>calc_success_noun_vector</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bayes_success_noun_vector</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bayes_success_noun_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>bayes_success_noun_vector</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>noun_syn_vector</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[noun_syn_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>noun_syn_vector</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prediction_noun_syn_vector</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[prediction_noun_syn_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>prediction_noun_syn_vector</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calc_success_noun_syn_vector</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[calc_success_noun_syn_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>calc_success_noun_syn_vector</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bayes_success_noun_syn_vector</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bayes_success_noun_syn_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>bayes_success_noun_syn_vector</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>noun_syn_hype_vector</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[noun_syn_hype_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>noun_syn_hype_vector</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prediction_noun_syn_hype_vector</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[prediction_noun_syn_hype_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>prediction_noun_syn_hype_vector</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calc_success_noun_syn__hype_vector</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[calc_success_noun_syn__hype_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>calc_success_noun_syn__hype_vector</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bayes_success_noun_syn_hype_vector</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bayes_success_noun_syn_hype_vector]</local-name>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias>bayes_success_noun_syn_hype_vector</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[comp_is_top_50_percent$]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P96:no:A1:P96&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1140</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn__hype_vector:qk]&quot;' value='Syn+Hype' />
+          <alias key='&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn_vector:qk]&quot;' value='Syn' />
+          <alias key='&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_vector:qk]&quot;' value='All Nouns' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Number of Records (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Number of Records]' peg='0' size='1' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Results (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='-1' formula='[results]' peg='0' size='0.303' />
+        <aliases>
+          <alias key='0' value='Bottom 50' />
+          <alias key='3' value='Top 50' />
+        </aliases>
+      </column>
+      <column caption='Bayes Success Noun Syn Hype Vector' datatype='real' name='[bayes_success_noun_syn_hype_vector]' role='measure' type='quantitative' />
+      <column caption='Bayes Success Noun Syn Vector' datatype='real' name='[bayes_success_noun_syn_vector]' role='measure' type='quantitative' />
+      <column caption='Bayes Success Noun Vector' datatype='real' name='[bayes_success_noun_vector]' role='measure' type='quantitative' />
+      <column caption='Calc_Success_Noun_Syn__Hype_Vector' datatype='integer' name='[calc_success_noun_syn__hype_vector]' role='measure' type='quantitative' />
+      <column caption='Calc Success Noun Syn Vector' datatype='integer' name='[calc_success_noun_syn_vector]' role='dimension' type='ordinal' />
+      <column caption='Calc Success Noun Vector' datatype='integer' name='[calc_success_noun_vector]' role='dimension' type='ordinal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Noun Syn Hype Vector' datatype='string' default-role='measure' default-type='ordinal' name='[noun_syn_hype_vector]' role='dimension' type='nominal' />
+      <column caption='Noun Syn Vector' datatype='string' default-role='measure' default-type='ordinal' name='[noun_syn_vector]' role='dimension' type='nominal' />
+      <column caption='Noun Vector' datatype='string' default-role='measure' default-type='ordinal' name='[noun_vector]' role='dimension' type='nominal' />
+      <column caption='Position' datatype='integer' name='[position]' role='measure' type='quantitative' />
+      <column caption='Prediction Noun Syn Hype Vector' datatype='integer' name='[prediction_noun_syn_hype_vector]' role='measure' type='quantitative' />
+      <column caption='Prediction Noun Syn Vector' datatype='integer' name='[prediction_noun_syn_vector]' role='measure' type='quantitative' />
+      <column caption='Prediction Noun Vector' datatype='integer' name='[prediction_noun_vector]' role='measure' type='quantitative' />
+      <column caption='Results' datatype='integer' name='[results]' role='measure' type='quantitative' />
+      <column caption='Song Key' datatype='string' name='[song_key]' role='dimension' type='nominal' />
+      <column-instance column='[bayes_success_noun_syn_hype_vector]' derivation='Attribute' name='[attr:bayes_success_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_syn_vector]' derivation='Attribute' name='[attr:bayes_success_noun_syn_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_vector]' derivation='Attribute' name='[attr:bayes_success_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[calc_success_noun_vector]' derivation='Attribute' name='[attr:calc_success_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[prediction_noun_syn_hype_vector]' derivation='Attribute' name='[attr:prediction_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[prediction_noun_vector]' derivation='Attribute' name='[attr:prediction_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_syn_hype_vector]' derivation='Avg' name='[avg:bayes_success_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_syn_hype_vector]' derivation='Count' name='[cnt:bayes_success_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_syn_vector]' derivation='Count' name='[cnt:bayes_success_noun_syn_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[results]' derivation='Count' name='[cnt:results:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[calc_success_noun_vector]' derivation='None' name='[none:calc_success_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[prediction_noun_vector]' derivation='None' name='[none:prediction_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_syn_hype_vector]' derivation='Sum' name='[sum:bayes_success_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_syn_vector]' derivation='Sum' name='[sum:bayes_success_noun_syn_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bayes_success_noun_vector]' derivation='Sum' name='[sum:bayes_success_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[calc_success_noun_syn__hype_vector]' derivation='Sum' name='[sum:calc_success_noun_syn__hype_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[calc_success_noun_syn_vector]' derivation='Sum' name='[sum:calc_success_noun_syn_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[calc_success_noun_vector]' derivation='Sum' name='[sum:calc_success_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[prediction_noun_syn_hype_vector]' derivation='Sum' name='[sum:prediction_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[prediction_noun_syn_vector]' derivation='Sum' name='[sum:prediction_noun_syn_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[prediction_noun_vector]' derivation='Sum' name='[sum:prediction_noun_vector:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[results]' derivation='Sum' name='[sum:results:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;[excel-direct.42346.597224328703]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[attr:bayes_success_noun_syn_hype_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[avg:bayes_success_noun_syn_hype_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[cnt:bayes_success_noun_syn_hype_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#2c69b0'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#2c69b0'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[attr:bayes_success_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:prediction_noun_syn_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:results:qk]&quot;</bucket>
+            </map>
+            <map to='#9c0824'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[attr:calc_success_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#9c0824'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[none:calc_success_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#9c0824'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:prediction_noun_syn_hype_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#b5c8e2'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#b5c8e2'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn__hype_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[attr:prediction_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[none:prediction_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:prediction_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#f02720'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:bayes_success_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#f02720'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[attr:bayes_success_noun_syn_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[attr:prediction_noun_syn_hype_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[cnt:bayes_success_noun_syn_vector:qk]&quot;</bucket>
+            </map>
+            <map to='#ffb6b0'>
+              <bucket>&quot;[excel-direct.42346.597224328703].[cnt:results:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='predictions' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='predictions' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='predictions'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>2014 Top 50 vs Bottom 50: Bayesian Probabilities over Prediction Models &#10;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>The trends of sum of Bayes Success Noun Syn Hype Vector, sum of Bayes Success Noun Syn Vector and sum of Bayes Success Noun Vector for Position. As anticipated, synonym w/ hypernym replacement scored the best 61% success, followed by synonym with 50.5% success, and a close third standard vocabulary with 49.5% success at posterior probability for position 100.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='comp!is!top!50!percent (comp_is_top_50_percent)' name='excel-direct.42346.597224328703' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.42346.597224328703'>
+            <column caption='Bayes Success Noun Syn Hype Vector' datatype='real' name='[bayes_success_noun_syn_hype_vector]' role='measure' type='quantitative' />
+            <column caption='Bayes Success Noun Syn Vector' datatype='real' name='[bayes_success_noun_syn_vector]' role='measure' type='quantitative' />
+            <column caption='Bayes Success Noun Vector' datatype='real' name='[bayes_success_noun_vector]' role='measure' type='quantitative' />
+            <column-instance column='[position]' derivation='None' name='[none:position:qk]' pivot='key' type='quantitative' />
+            <column caption='Position' datatype='integer' name='[position]' role='measure' type='quantitative' />
+            <column-instance column='[bayes_success_noun_syn_hype_vector]' derivation='Sum' name='[sum:bayes_success_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bayes_success_noun_syn_vector]' derivation='Sum' name='[sum:bayes_success_noun_syn_vector:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bayes_success_noun_vector]' derivation='Sum' name='[sum:bayes_success_noun_vector:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.42346.597224328703].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_vector:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42346.597224328703].[sum:bayes_success_noun_vector:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[excel-direct.42346.597224328703].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[excel-direct.42346.597224328703].[none:position:qk]' field-type='quantitative' max='101' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[excel-direct.42346.597224328703].[none:position:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[excel-direct.42346.597224328703].[none:position:qk]' scope='cols' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[excel-direct.42346.597224328703].[sum:bayes_success_noun_vector:qk]' palette='tableau-red-blue' type='interpolated' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.42346.597224328703].[:Measure Names]' />
+              <lod column='[excel-direct.42346.597224328703].[:Measure Names]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f1923e' />
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='size' value='1' />
+                <format attr='mark-transparency' value='193' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.42346.597224328703].[Multiple Values]</rows>
+        <cols>[excel-direct.42346.597224328703].[none:position:qk]</cols>
+        <annotations>
+          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>&#10;Posterior Probability: </run>
+              <run bold='true'>&lt;[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]&gt;</run>
+              <run fontcolor='#787878'>&#10;Position: </run>
+              <run bold='true'>&lt;[excel-direct.42346.597224328703].[none:position:qk]&gt;</run>
+              <run fontcolor='#787878'>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[excel-direct.42346.597224328703].[none:position:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[excel-direct.42346.597224328703].[none:position:qk]</field>
+                      <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]</field>
+                      <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_vector:qk]</field>
+                      <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_vector:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>100</value>
+                    <value>0.61052631578947369</value>
+                    <value>0.50526315789473686</value>
+                    <value>0.49473684210526314</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-35' y='-52' />
+          </annotation>
+          <annotation class='point' id='4' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Posterior Probability: </run>
+              <run bold='true'>&lt;[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]&gt;</run>
+              <run fontcolor='#787878'>&#10;Position: </run>
+              <run bold='true'>&lt;[excel-direct.42346.597224328703].[none:position:qk]&gt;</run>
+              <run fontcolor='#787878'>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[excel-direct.42346.597224328703].[none:position:qk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[excel-direct.42346.597224328703].[none:position:qk]</field>
+                      <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]</field>
+                      <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_vector:qk]</field>
+                      <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_vector:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>50</value>
+                    <value>0.63829787234042556</value>
+                    <value>0.55319148936170215</value>
+                    <value>0.65957446808510634</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='2' y='65' />
+          </annotation>
+        </annotations>
+      </table>
+    </worksheet>
+    <worksheet name='prob vs pred'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>2014 Top 50 vs Bottom 50: Synonym+Hypernym Bayesian Probability vs Prediction</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>All posterior probabilities, as bars, of the best peforming model which leverages synonyms with hypernym replacement. Predictions are shown as a lines. Missing bars indicate absence of lyric data for the position.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='comp!is!top!50!percent (comp_is_top_50_percent)' name='excel-direct.42346.597224328703' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.42346.597224328703'>
+            <column caption='Bayes Success Noun Syn Hype Vector' datatype='real' name='[bayes_success_noun_syn_hype_vector]' role='measure' type='quantitative' />
+            <column-instance column='[position]' derivation='None' name='[none:position:qk]' pivot='key' type='quantitative' />
+            <column caption='Position' datatype='integer' name='[position]' role='measure' type='quantitative' />
+            <column caption='Prediction Noun Syn Hype Vector' datatype='integer' name='[prediction_noun_syn_hype_vector]' role='measure' type='quantitative' />
+            <column-instance column='[bayes_success_noun_syn_hype_vector]' derivation='Sum' name='[sum:bayes_success_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[prediction_noun_syn_hype_vector]' derivation='Sum' name='[sum:prediction_noun_syn_hype_vector:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[excel-direct.42346.597224328703].[sum:prediction_noun_syn_hype_vector:qk]' field-type='quantitative' max='2' min='-1' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]' field-type='quantitative' max='1.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]' scope='rows' value='true' />
+            <format attr='subtitle' class='0' field='[excel-direct.42346.597224328703].[sum:prediction_noun_syn_hype_vector:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[excel-direct.42346.597224328703].[sum:prediction_noun_syn_hype_vector:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' field='[excel-direct.42346.597224328703].[none:position:qk]' field-type='quantitative' max='101' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[excel-direct.42346.597224328703].[none:position:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[excel-direct.42346.597224328703].[none:position:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' y-axis-name='[excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#1f77b4' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' y-axis-name='[excel-direct.42346.597224328703].[sum:prediction_noun_syn_hype_vector:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-color' value='#d8504c' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([excel-direct.42346.597224328703].[sum:bayes_success_noun_syn_hype_vector:qk] + [excel-direct.42346.597224328703].[sum:prediction_noun_syn_hype_vector:qk])</rows>
+        <cols>[excel-direct.42346.597224328703].[none:position:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='totals'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>2014 Predictions for Top 50 versus Bottom 50</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Results of tuning and training a Spark Vector Ensemble Pipeline over years 1970-2013 with standard, synonym, and synonym w/ hypernym replacement vocabularies to predict 2014 Top 50 versus Bottom 50 based on lyric noun content. As anticipated, synonym w/ hypernym replacement scored the best 61% success, followed by synonym with 50.5% success, and a close third standard vocabulary with 49.5% success.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='comp!is!top!50!percent (comp_is_top_50_percent)' name='excel-direct.42346.597224328703' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.42346.597224328703'>
+            <column datatype='integer' name='[Results (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='-1' formula='[results]' peg='0' size='0.303' />
+              <aliases>
+                <alias key='0' value='Bottom 50' />
+                <alias key='3' value='Top 50' />
+              </aliases>
+            </column>
+            <column caption='Calc_Success_Noun_Syn__Hype_Vector' datatype='integer' name='[calc_success_noun_syn__hype_vector]' role='measure' type='quantitative' />
+            <column caption='Calc Success Noun Syn Vector' datatype='integer' name='[calc_success_noun_syn_vector]' role='dimension' type='ordinal' />
+            <column caption='Calc Success Noun Vector' datatype='integer' name='[calc_success_noun_vector]' role='dimension' type='ordinal' />
+            <column-instance column='[results]' derivation='Count' name='[cnt:results:qk]' pivot='key' type='quantitative' />
+            <column caption='Results' datatype='integer' name='[results]' role='measure' type='quantitative' />
+            <column-instance column='[calc_success_noun_syn__hype_vector]' derivation='Sum' name='[sum:calc_success_noun_syn__hype_vector:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[calc_success_noun_syn_vector]' derivation='Sum' name='[sum:calc_success_noun_syn_vector:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[calc_success_noun_vector]' derivation='Sum' name='[sum:calc_success_noun_vector:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.42346.597224328703].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn_vector:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_vector:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn__hype_vector:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.42346.597224328703].[cnt:results:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[excel-direct.42346.597224328703].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn_vector:qk]&quot;</bucket>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn__hype_vector:qk]&quot;</bucket>
+              <bucket>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_vector:qk]&quot;</bucket>
+              <bucket>&quot;[excel-direct.42346.597224328703].[cnt:results:qk]&quot;</bucket>
+            </dictionary>
+          </sort>
+          <sort class='manual' column='[excel-direct.42346.597224328703].[Results (bin)]' direction='ASC'>
+            <dictionary>
+              <bucket>3</bucket>
+              <bucket>0</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <slices>
+            <column>[excel-direct.42346.597224328703].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[excel-direct.42346.597224328703].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[excel-direct.42346.597224328703].[Multiple Values]</rows>
+        <cols>([excel-direct.42346.597224328703].[Results (bin)] / [excel-direct.42346.597224328703].[:Measure Names])</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn_vector:qk]&quot;</value>
+                <value>26.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn__hype_vector:qk]&quot;</value>
+                <value>30.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_vector:qk]&quot;</value>
+                <value>31.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[excel-direct.42346.597224328703].[cnt:results:qk]&quot;</value>
+                <value>47.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0</value>
+                <value>&quot;[excel-direct.42346.597224328703].[cnt:results:qk]&quot;</value>
+                <value>48.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0</value>
+                <value>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_vector:qk]&quot;</value>
+                <value>16.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0</value>
+                <value>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn__hype_vector:qk]&quot;</value>
+                <value>28.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                    <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+                  <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+                  <field>[excel-direct.42346.597224328703].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0</value>
+                <value>&quot;[excel-direct.42346.597224328703].[sum:calc_success_noun_syn_vector:qk]&quot;</value>
+                <value>22.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='1' name='totals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+            <card pane-specification-id='0' param='[excel-direct.42346.597224328703].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='56'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[excel-direct.42346.597224328703].[:Measure Names]</field>
+          <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+          <field>[excel-direct.42346.597224328703].[none:noun_syn_hype_vector:nk]</field>
+          <field>[excel-direct.42346.597224328703].[none:song_key:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+    <window auto-hidden='0' class='worksheet' maximized='0' name='predictions'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+            <card pane-specification-id='2' param='[excel-direct.42346.597224328703].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='56'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[excel-direct.42346.597224328703].[Results (bin)]</field>
+          <field>[excel-direct.42346.597224328703].[cnt:Number of Records:qk]</field>
+          <field>[excel-direct.42346.597224328703].[none:song_key:nk]</field>
+          <field>[excel-direct.42346.597224328703].[sum:bayes_success_noun_vector:qk]</field>
+          <field>[excel-direct.42346.597224328703].[yr:date:ok]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+    <window auto-hidden='0' class='worksheet' maximized='0' name='prob vs pred'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='56'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight field='[excel-direct.42346.597224328703].[:Measure Names]'>
+        <bucket-selection />
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='totals' width='192'>
+      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
+      7eIGIwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='predictions' width='192'>
+      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
+      hPn/MBhOxh4Yoo0AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='prob vs pred' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
