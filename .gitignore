@@ -97,6 +97,7 @@ data/harvested/lw-raw-lyrics-error
 data/conditioned/*
 !data/conditioned/*.7z
 !data/conditioned/*.csv
+!data/conditioned/*.xlsx
 !data/conditioned/*.md
 !data/conditioned/*/
 
