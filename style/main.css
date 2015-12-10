@@ -7003,6 +7003,23 @@ button.close {
   margin-left: 0;
   padding-left: 20px;
 }
+.note-box .quote {
+  font-size: 20px;
+  margin: 20px;
+  padding: 0;
+}
+.note-box .quote q::before,
+.note-box .quote q::after {
+  font-size: 48px;
+}
+.note-box .quote q::before {
+  top: -20px;
+  left: -30px;
+}
+.note-box .quote q::after {
+  bottom: -20px;
+  right: -20px;
+}
 ul.plain {
   margin-left: 0;
   padding-left: 0;

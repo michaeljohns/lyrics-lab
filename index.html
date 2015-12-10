@@ -38,7 +38,7 @@
         <li><a href="#grp-word-use">Word Use</a></li>
         <li><a href="#grp-nlp">NLP</a></li>
         <li><a href="#grp-offensive-words">Offensive Words</a></li>
-        <li><a href="#grp-latent-factors">Latent Factors</a></li>
+        <li><a href="#grp-latent-factors">Topic Modeling</a></li>
         <li><a href="#grp-prediction">Prediction</a></li>
         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Example Elements <span class="caret"></span></a>
@@ -82,7 +82,7 @@
         We studied the third ingredient, words, which have received comparatively less attention.
       </p>
 
-      <p>
+      <!-- <p>
         Studying song lyrics is different than general sentiment analysis of, say, a culture’s literature.
         Lyrics can have attributes that would be out of place in literature or formal prose, such as repetition, rhyming, and rhythmic delivery.
         Moreover, one might speculate that lyrics may have a higher tendency to be formulaic or even clichéd, making them more amenable to pattern analysis than prose generally.
@@ -92,7 +92,7 @@
         Over most of the history of cultural musicology, research was hampered by the lack of available data.
         And when songs themselves became data stored on Compact Discs, the computing power necessary to conduct analysis was being devoted to other uses.
         Only recently has the abundance of storage and computational capacity made it feasible to study music’s messages empirically.
-      </p>
+      </p> -->
 
       <h2>Trendy or Timeless?</h2>
       <p>
@@ -327,7 +327,7 @@
         While examples of <i>change</i> are readily available, is it the most prevalent?
         Using the word frequency displays from above, one can conclude that <i>love</i> is the most persistent theme in popular music.
         At this cursory level of analysis there does not appear to be any other one concept that comes close.
-        Accordingly, deeper levels of analysis will be employed to see if deeper insight can be attained.
+        Accordingly, deeper levels of analysis will be presented to see if deeper insight can be attained.
         The process involves some complicated analysis of the lyrics data.
         The study continues by describing the data and the transformations made to make it amenable to analysis.
       </p>
@@ -346,7 +346,18 @@
   <div class="section visible-delay" id="grp-data">
     <div class="container">
       <h1>Data</h1>
-      <p></p>
+      <p>
+        Song lyrics offer an accessible corpus to analyze for topics and sentiments.
+        <a href="https://en.wikipedia.org/wiki/Billboard_charts">Billboard</a> provide numerous ranked charts that capture popularity of music.
+        The charts consider both genre / sub-genre and artist and are backed by airplay, sales, digital downloads (since 2005), and streaming (since 2007).
+        Though Billboard no longer supports a public API, Wikipedia preserves the lists.
+        We have chosen Billboard’s <a href="https://en.wikipedia.org/wiki/Billboard_Year-End">US Year-End Hot 100 Singles</a> as the foundation data source for this project, which has been maintained since 1951 (only top 30 available from 1951 to 1955).
+      </p>
+      <p>
+        Due to variations in song content if we were to cover the entire 60+ years of available chart data, we chose to focus on 1970 to the 2014, as 2014 is the most current year with year end charting.
+        We were able to obtain lyrics from <a href="http://lyrics.wikia.com/">lyrics.wikia</a> using their public API. We were also able to locate some partial data from a student named Samantha Stephens at <a href="http://www.hec.edu/">HEC Paris</a> who is doing her dissertation on environmental messages put forward by various artists.
+        Samantha’s work filled in some lyric gaps, but not all. After accounting for instrumental music in the charts as well as other unavailable lyrics, the actual lyric corpus usable for text analysis was reduced to 4341 from the 4500 songs charted over the time period of interest.
+      </p>
     </div>
   </div>
 
@@ -397,9 +408,18 @@
 
   <div class="section visible-delay" id="grp-data-cont">
     <div class="container">
-      <p></p>
-
       <h2>Word Count Reduction Motivation</h2>
+      <p>
+        As will be drawn out further in subsequent sections, lyrics can be quite <a href="http://www.vh1.com/news/52468/15-most-repetitive-songs-ever/">repetitive</a>.
+        Using a raw, or straight-forward, count when the corpus includes a small number of songs which heavily repeat select words can skew certain analytics and measures if methods do not account for such repetition.
+        An example effect would be using the raw count of each word to establish decade spanning nouns and adjectives in <a href="#grp-nlp">NLP</a>.
+        In this use, we want to understand and convey the diversity of songs using a word at least one time but do not want to allow any song with heavy word use to dominate the measure.
+        For this, and similar purposes, we established a <b>reduced</b> corpus having the same number of unique words but only counting word appearances a maximum of one time per song.
+        If a song had “baby, baby…”, baby would only be counted one time.
+        At other times, repeating words use is of interest to our methods, such as the finding appearing in <a href="#grp-word-use">Word Use</a>.
+      </p>
+
+      <div class="vspace v50"></div>
 
       <div class="image-set">
         <div class="image-set-thumbnails">
@@ -809,6 +829,19 @@
     <div class="container">
       <h1>Offensive and Slang Words</h1>
 
+      <div class="note-box right">
+        <h2>"The Art Of The ‘Clean Version’"</h2>
+
+        Radio edits are becoming increasingly common.
+        A recent NPR article from from November 8th, 2015 entitled <a href="http://www.npr.org/2015/11/08/454606994/the-art-of-the-clean-version">The Art Of The ‘Clean Version’</a>
+        discusses how many outlets address offensive language and their varying techniques.
+
+        <div class="quote">
+          <q>When I spoke with Guerini [Radio Disney], he said almost half of the more than 50 songs on rotation at the time had been edited.</q>
+          <div class="attribution">&mdash;Priska Neely</div>
+        </div>
+      </div>
+
       <p>
         Until the end of the 1990s, vulgar or obscene lyrical content was almost entirely absent from the top selling songs.
         Even artists as avant garde as Frank Zappa toned down some of their lyrics to find commercial success.
@@ -836,6 +869,7 @@
         coupled with reduced cultural morays resulted in a steady climb in offensive language use in the 90s forward to current music in the 2010s.
       </p>
 
+      <div class="clearfix"></div>
       <div class="vspace v50"></div>
 
       <div class="chart-wrap no-r-pad">
@@ -919,11 +953,24 @@
 
 
 
-  <div class="section last" id="grp-conclude">
+  <div class="section last" id="grp-prediction">
     <div class="container">
       <h1>Prediction</h1>
 
       <h2>Top 50 versus Bottom 50</h2>
+      <p>
+        While we understand that a song’s lyrics are not generally causal to where a given song might land on the charts, we had a hunch that there might at least be a correlation between a song’s position and its lyric content that we could model, train, and ultimately do some prediction.
+        Having already explored Topic Modeling with Latent Factors as shown in the previous section, we wanted to separately focus on supervised learning techniques that would be more readily interpretable. Ultimately, we landed on predicting the ‘Top 50 versus Bottom 50’ positions on the 2014 charts, a balanced set of positives and negatives, also offering a binary prediction, where positives values indicate  ‘In the Top 50’ and negative values indicate ‘In the Bottom 50’.
+        We also wanted to again leverage the cluster computing framework <a href="http://spark.apache.org/">Spark</a> as we had usesd previously in establishing the [Vocabularies].
+        For prediction, we were interested in its <a href="http://spark.apache.org/docs/latest/ml-guide.html">Machine Learning APIs</a>.
+        After some trial, error, and tuning, we used Spark’s Pipeline API to apply Logistic Regression learning algorithm, or estimator, which turned out to be a solid choice for this exploration as it favors binary, balanced data.
+        More in-depth information for our approach and results can be found at <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/mj/Vector-Ensemble.ipynb">Vector Ensemble Notebook</a> in addition to more cursory information in the project Master notebook.
+      </p>
+
+      <p>
+        First, we tuned and fit models against noun vectors derived from all 3 [Vocabularies] -- Initial, Shrunken-1, and Shrunken-2 -- training on all data from 1970-2013 using the tuned hyperparameters.
+        Then we predicted ‘Top 50 versus Bottom 50’ exclusively for 2014 using the same models derived from the 3 vocabularies.
+      </p>
 
       <div class="row">
         <div class="col-md-4">
@@ -948,6 +995,12 @@
         </div>
       </div>
 
+      <div class="vspace"></div>
+
+      <p>
+        Prediction yielded the results shown in the table below. Note: only 95 of 100 songs in 2014 had populated noun vectors for all three vocabularies.
+      </p>
+
       <div class="chart-wrap">
         <table class="table table-striped table-hover">
           <thead>
@@ -960,23 +1013,170 @@
           </thead>
           <tbody>
             <tr>
-              <td>Initial</td>
+              <td>Initial (Nouns)</td>
               <td>49.47</td>
               <td>47</td>
               <td>48</td>
             </tr>
             <tr>
 
-              <td>Shrunken-1</td>
+              <td>Shrunken-1 (Nouns Synonyms)</td>
               <td>50.53</td>
               <td>48</td>
               <td>47</td>
             </tr>
             <tr>
-              <td>Shrunken-2</td>
+              <td>Shrunken-2 (Nouns Synonym with Hypernym Replacement)</td>
               <td>61.05</td>
               <td>58</td>
               <td>37</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        At least to the degree that lyrics and position are correlated, the results of predicting the top / bottom splits are consistent with our intuitions. Initial vocabulary (vectorized to allow only each unique noun 1x  max per song) was the least performant, slightly improved upon by model fit to Shrunken-1 (nouns with synonym replacement, also vectorized using same reduction rules as Initial), then a significant performance gain realized by Shrunken-2 noun vocabulary (synonyms with hypernym replacement, vectorized using same rules). Shrunken-2 correctly predicted 58 of 95 non-empty lyrics in 2014.
+      </p>
+
+      <div class="vspace v50"></div>
+
+      <h2>Phrase to Genre Prediction</h2>
+
+      <p>
+        Our final analytical technique uses a classifier to predict the genre that an ad-hoc, snippet of text is most likely to have come from. For this we use the Natural Language Tool Kit [NLTK](http://www.nltk.org/) python library and its Positive Naive Bayes Classifier module. We split the data into a training set and a testing set, and for each of the top 15 genres constructed a classifier using songs identified with the genre as the positive examples, and all other songs in the training set as negative examples.
+      </p>
+
+      <p>
+        For each included genre, a prior probability is calculated by calculating the relative frequency of songs within that genre in the training set multiplied by 0.097, the number of genres divided by the total number of songs.  To see whether the choice of prior influences the quality of the model's predictions, the process is run with several other values for the prior, which are uniform and arbitrarily set. In the table, the "v' stands for a variable prior based on the genre-specific calculation; the others are uniform, meaning the same prior was used regardless of the relative frequency of songs in the relevant genre.
+      </p>
+
+      <div class="chart-wrap">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <td>0.5</td>
+              <td>0.2</td>
+              <td>0.3</td>
+              <td>0.1</td>
+              <td>0.05</td>
+              <td>0.01</td>
+              <td>0.02</td>
+              <td>0.097</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>true positive: </th>
+              <td>1102</td>
+              <td>385</td>
+              <td>642</td>
+              <td>221</td>
+              <td>152</td>
+              <td>49</td>
+              <td>65</td>
+              <td>106</td>
+            </tr>
+            <tr>
+              <th>false positive:</th>
+              <td>6370</td>
+              <td>1837</td>
+              <td>3199</td>
+              <td>873</td>
+              <td>330</td>
+              <td>73</td>
+              <td>127</td>
+              <td>169</td>
+            </tr>
+            <tr>
+              <th>false negative:</th>
+              <td>496</td>
+              <td>1234</td>
+              <td>1003</td>
+              <td>1449</td>
+              <td>1492</td>
+              <td>1625</td>
+              <td>1636</td>
+              <td>1511</td>
+            </tr>
+            <tr>
+              <th>true negative:</th>
+              <td>4527</td>
+              <td>9039</td>
+              <td>7651</td>
+              <td>9952</td>
+              <td>10521</td>
+              <td>10748</td>
+              <td>10667</td>
+              <td>10709</td>
+            </tr>
+            <tr>
+              <th>Right/Total</th>
+              <td>0.450</td>
+              <td>0.754</td>
+              <td>0.663</td>
+              <td>0.814</td>
+              <td>0.854</td>
+              <td>0.854</td>
+              <td>0.858</td>
+              <td>0.865</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <b>Results</b>
+        <div>Total Positive: 1598</div>
+        <div>Total negative: 10897</div>
+        <div>Pct Positive: 0.128</div>
+      </div>
+
+      <div class="vspace"></div>
+
+      <p>
+        These results indicate that the data are highly unbalanced in the negative direction, and indeed a simple baseline that always predicts negative would have a success rate comparable to the best prior's success rate, which was the variable prior based on the genre's overall prevalence.
+      </p>
+
+      <p>
+        Inspired by the adage that "all models are wrong, but some models are are useful,"  we resort to the obvious deployment of this battery of classifiers: Can it match arbitrarily chosen text to the genre from which it would come?  These results suggest the answer is a <i>qualified yes</i>.
+      </p>
+
+      <div class="chart-wrap">
+        <table class="table-striped table-hover">
+          <thead><tr><th>Input</th><th>Response</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>'how about we dance first'</td>
+              <td>Dance_music</td>
+            </tr>
+
+            <tr>
+              <td>'beat the bitch with a bat'</td>
+              <td>Hip_hop_music</td>
+            </tr>
+
+
+            <tr>
+              <td>'you know i love you forever and ever'&nbsp;</td>
+              <td>Soft_rock</td>
+            </tr>
+
+
+            <tr>
+              <td>'gun shoot baby'</td>
+              <td>Hard_rock</td>
+            </tr>
+
+
+            <tr>
+              <td>'gun shoot'</td>
+              <td>Hard_rock</td>
+            </tr>
+
+
+            <tr>
+              <td>'woman left me, took my truck'</td>
+              <td>Country_music</td>
             </tr>
           </tbody>
         </table>
@@ -1046,11 +1246,6 @@
               Usage of the images falls under the 'Non-commercial' clause of Stockvault.net's <a href="http://www.stockvault.net/terms-of-use">Terms of Use</a>.
             </div>
           </div>
-        </div>
-
-        <div class="quote">
-          <q>Being considered Crazy by those who are still victims of cultural conditioning is a compliment.</q>
-          <div class="attribution">&mdash;Jason Hairston (2014)</div>
         </div>
       </div>
     </footer>
