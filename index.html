@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lyrics Lab</title>
+  <title>Modern Music Sentiment Analysis by Team Lyrics Lab</title>
 
   <link rel="stylesheet" href="style/main.css">
 </head>
@@ -529,56 +529,20 @@
 
   <div class="section visible-delay" id="grp-nlp">
     <div class="container">
-      <h1>NLP</h1>
+      <h1>NLP: Natural Language Processing</h1>
 
-      <h2>Top Nouns Over the Decades</h2>
+      <h2>Word Variation</h2>
       <p>
-        An introduction about the nouns.
+        To put a finer point on the word usage inquiry considered in [Word Use], we consider that words, like styles, have differing popularity levels at different times.
+        The words contained in song lyrics were separated into adjectives and nouns with the other words being discarded.
+        The words were evaluated for how often each appears per decade, understanding that the “decade” labeled 2010 is for only half a decade (2010 through the end of 2014).
+        Again we see that love is the most dominant and persistent theme, though time, baby, and girl begin to eclipse love starting in 2000.
       </p>
-      <div class="image-set">
-        <div class="image-set-thumbnails">
-          <div class="thumbnail" data-src="charts/noun_decade_comp_1970.png">
-            <img src="charts/noun_decade_comp_1970.png" />
-            <div class="caption">
-              1970s
-            </div>
-          </div>
-          <div class="thumbnail" data-src="charts/noun_decade_comp_1980.png">
-            <img src="charts/noun_decade_comp_1980.png" />
-            <div class="caption">
-              1980s
-            </div>
-          </div>
-          <div class="thumbnail" data-src="charts/noun_decade_comp_1990.png">
-            <img src="charts/noun_decade_comp_1990.png" />
-            <div class="caption">
-              1990s
-            </div>
-          </div>
-          <div class="thumbnail" data-src="charts/noun_decade_comp_2000.png">
-            <img src="charts/noun_decade_comp_2000.png" />
-            <div class="caption">
-              2000s
-            </div>
-          </div>
-          <div class="thumbnail" data-src="charts/noun_decade_comp_2010.png">
-            <img src="charts/noun_decade_comp_2010.png" />
-            <div class="caption">
-              2010s
-            </div>
-          </div>
-        </div>
-        <div class="image-set-full">
-        </div>
-      </div>
 
-      <div class="vspace v50"></div>
+      <div class="vspace"></div>
 
       <div>
-        <h2>Top Adjectives Over the Decades</h2>
-        <p>
-          An introduction about the adjectives.
-        </p>
+        <h3>Top Adjectives Over the Decades</h3>
         <div class="image-set">
           <div class="image-set-thumbnails">
             <div class="thumbnail" data-src="charts/adj_decade_comp_1970.png">
@@ -618,9 +582,53 @@
         </div>
       </div>
 
+      <div class="vspace v50"></div>
+
+      <h3>Top Nouns Over the Decades</h3>
+      <div class="image-set">
+        <div class="image-set-thumbnails">
+          <div class="thumbnail" data-src="charts/noun_decade_comp_1970.png">
+            <img src="charts/noun_decade_comp_1970.png" />
+            <div class="caption">
+              1970s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_1980.png">
+            <img src="charts/noun_decade_comp_1980.png" />
+            <div class="caption">
+              1980s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_1990.png">
+            <img src="charts/noun_decade_comp_1990.png" />
+            <div class="caption">
+              1990s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_2000.png">
+            <img src="charts/noun_decade_comp_2000.png" />
+            <div class="caption">
+              2000s
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_decade_comp_2010.png">
+            <img src="charts/noun_decade_comp_2010.png" />
+            <div class="caption">
+              2010s
+            </div>
+          </div>
+        </div>
+        <div class="image-set-full">
+        </div>
+      </div>
+
       <div class="vspace"></div>
 
-      <h2>Adjectives Spanning Decades</h2>
+      <h2>Timeless Words</h2>
+      A large number of the words found in popular songs don’t make it from one decade to the next. Here we display the number of each type of word having lifespans from 1 to 5 decades, and also display the words spanning or enduring across all five-decade span. This inquiry uses the reduced vocabulary as described in [Data] to mitigate the skewing effects of heavy repeated use of the same word in any given song.
+
+
+      <h3>Adjectives Spanning Decades</h3>
       <div class="row">
         <div class="col-md-4 center">
           <div class="chart-wrap">
@@ -635,9 +643,9 @@
         </div>
       </div>
 
-      <div>&nbsp;</div>
+      <div class="vspace"></div>
 
-      <h2>Nouns Spanning Decades</h2>
+      <h3>Nouns Spanning Decades</h3>
       <div class="row">
         <div class="col-md-4 center">
           <div class="chart-wrap">
@@ -650,8 +658,30 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div>&nbsp;</div>
+      <!-- <div class="vspace v50"></div> -->
+
+  <div class="aside sec visible-delay" >
+    <div class="container">
+      <h1>What is a Hypernym?</h1>
+
+      <p>
+        In general, a hypernym is a <i>superordinate</i> word or phrase (<a href="https://en.wiktionary.org/wiki/hypernym">Wikitionary</a>).
+        In the context of this study a hypernym is a <b>pair of synonyms that share a common parent</b>. They are used to reduce the vocabulary
+        even further.
+      <p>
+    </div>
+  </div>
+
+  <div class="section visible-delay" id="grp-nlp">
+    <div class="container">
+      <h2>Vocabulary</h2>
+
+      Beyond splitting out parts of speech, we also recognized that words are related in various ways and wanted to collapse similar meaning words to a common one for analysis and measuring. We chose synonyms and hypernyms to draw together semantically similar peers (synonyms) and then synonym children to their common parent (hypernyms), accepting the tradeoff of vocabulary consolidation for a slight loss of semantic precision. The primary use in mind for shrinking vocabularies, was to improve the performance of our machine learning techniques. Here is the results for shrinking the nouns first by synonym and then shrinking again by synonym with hypernym replacement. More details on how we established the vocabularies are available in [Vocab-Consolidation](/notebooks/mj/Vocab-Consolidation.ipynb) and [Vocab-Shrunk Notebook](/notebooks/mj/Vocab-Shrunk.ipynb).
+
+      <div class="vspace"></div>
 
       <div class="chart-wrap">
         <table class="table table-striped table-hover">
@@ -690,8 +720,14 @@
         </table>
       </div>
 
+      <div class="vspace v50"></div>
+
       <h2>Synonyms</h2>
       <div>
+        We used Natural Language Tool Kit <a href="http://www.nltk.org/">NLTK</a>, specifically its Synset API, to build synonyms for nouns and adjectives.
+
+        <div class="vspace"></div>
+
         <h3>Adjective Synonyms</h3>
 
         <div class="chart-wrap pull-right third-width">
@@ -699,7 +735,16 @@
         </div>
 
         <p>
+          Here is an example of adjective synonym pairs and how they were shrunk, with “crimson” being the first common synonym for both “scarlet” and “ruby”:
+        </p>
 
+        <div class="simple-wrap inline">
+          <img src="images/example_synonym_adj_collapsing_trans.png" />
+        </div>
+
+        <p>
+          To better understand the effects of synonyms, we measured the total reduced or unique song uses of adjective synonym over the decades, shown to the left.
+          Below, we measure those shared, i.e. “timeless”, adjective synonyms appearing in all decades.
         </p>
 
         <div class="clearfix">&nbsp;</div>
@@ -708,6 +753,7 @@
           <img src="charts/adj_decade_comp_synonyms_spanning.png" />
         </div>
 
+        <div class="vspace "></div>
 
         <h3>Noun Synonyms</h3>
 
@@ -716,8 +762,12 @@
         </div>
 
         <p>
-
+          Here is an example of noun synonym pairs and how they were shrunk, with “chatter” being the first common synonym for “yack”:
         </p>
+
+        <div class="simple-wrap inline">
+          <img src="images/example_synonym_noun_collapsing_trans.png" />
+        </div>
 
         <div class="clearfix">&nbsp;</div>
 
@@ -731,22 +781,16 @@
     </div>
   </div>
 
-  <div class="aside sec visible-delay" >
-    <div class="container">
-      <h1>What is a Hypernym?</h1>
-
-      <p>
-        In general, a hypernym is a <i>superordinate</i> word or phrase (<a href="https://en.wiktionary.org/wiki/hypernym">Wikitionary</a>).
-        In the context of this study a hypernym is a <b>pair of synonyms that share a common parent</b>. They are used to reduce the vocabulary
-        even further.
-      <p>
-    </div>
-  </div>
-
   <div class="section visible-delay">
     <div class="container">
       <h2>Hypernyms</h2>
       <div>
+        <p>
+          We used <a href="http://www.nltk.org/">NLTK</a> Synsets to collapse synonym child pairs to their less-granular semantic parent or most common peer, based on Synset rules.
+        </p>
+
+        <div class="vspace"></div>
+
         <h3>Adjective Hypernyms</h3>
 
         <div class="chart-wrap pull-right third-width">
@@ -754,7 +798,15 @@
         </div>
 
         <p>
+          Here is an example of adjective synonym pairs were shrunk to a common hypernym, with “bare”, “naked”, and “nude” shrunk to hypernym “bare”.
+        </p>
 
+        <div class="simple-wrap inline">
+          <img src="images/example_hypernym_adj_collapsing_trans.png" />
+        </div>
+
+        <p>
+          To better understand the effects of hypernyms, we measured the total reduced or unique song uses of adjective hypernyms over the decades, shown to the left. Below, we measure those shared, i.e. “timeless”, adjective hypernyms appearing in all decades, as well as those appearing 5 or more times, even if not in every decade.
         </p>
 
         <div class="clearfix">&nbsp;</div>
@@ -767,6 +819,7 @@
           <img src="charts/hypernyms/adj_decade_comp_hypernyms_shared_5x.png" />
         </div>
 
+        <div class="vspace"></div>
 
         <h3>Noun Hypernyms</h3>
 
@@ -775,7 +828,15 @@
         </div>
 
         <p>
+          Here is an example of noun synonym pairs being shrunk to their common hypernym, with “aim” and “intent” being shrunk to “purpose”.
+        </p>
 
+        <div class="simple-wrap inline">
+          <img src="images/example_hypernym_noun_collapsing_trans.png" />
+        </div>
+
+        <p>
+          We also measured the total reduced or unique song uses of noun hypernyms over the decades, shown to the left. Below, we measure those shared, i.e. “timeless”, noun hypernyms appearing in all decades, as well as those appearing 5 or more times, even if not in every decade.
         </p>
 
         <div class="clearfix">&nbsp;</div>
@@ -788,6 +849,16 @@
           <img src="charts/hypernyms/noun_decade_comp_hypernyms_shared_5x.png" />
         </div>
       </div>
+
+
+      <div class="vspace v50"></div>
+
+      <h2>Vocabulary Shrinkage</h2>
+
+      <p>
+        An effect of shrinking vocabularies with synonyms and hypernyms is that the vectorization of the words for corpus analysis can produce derived empties, in addition to the missing lyrics described in [Data].
+        The table below shows the further lyric eliminations needed in order to run noun analytics such as demonstrated in [Prediction].
+      </p>
 
       <div class="chart-wrap">
         <table class="table table-striped table-hover">
@@ -830,7 +901,7 @@
       <h1>Offensive and Slang Words</h1>
 
       <div class="note-box right">
-        <h2>"The Art Of The ‘Clean Version’"</h2>
+        <h2>Clean Versions</h2>
 
         Radio edits are becoming increasingly common.
         A recent NPR article from from November 8th, 2015 entitled <a href="http://www.npr.org/2015/11/08/454606994/the-art-of-the-clean-version">The Art Of The ‘Clean Version’</a>
@@ -847,7 +918,7 @@
         Even artists as avant garde as Frank Zappa toned down some of their lyrics to find commercial success.
         In late 1973,  Zappa released the album <i>Overnite Sensation</i>, containing a cut “Dirty Love” with explicit reference to bestiality.
         Another Zappa album, <i>Apostrophe</i>, quickly followed in early 1974, whose most offensive lyric was “don’t eat the yellow snow.”
-        <i>Overnite Sensation</i>, with its explicit lyrics, received no airplay<i>Apostrophe</i> became popular, peaking at no. 10 on the album charts.
+        <i>Overnite Sensation</i>, with its explicit lyrics, received no airplay <i>Apostrophe</i> became popular, peaking at no. 10 on the album charts.
       </p>
 
       <p>
@@ -889,56 +960,52 @@
 
       <div class="vspace"></div>
 
-      <h2>First Appearance of Offensive Words</h2>
+      <div class="center">
+        <h2>First Appearance of Offensive Words</h2>
+        <div class="chart-wrap centered-narrow">
+          <ul class="timeline">
 
-      <div class="row">
-        <!-- <div class="col-md-3"></div> -->
-        <div class="col-md-6">
-          <div class="chart-wrap">
-            <ul class="timeline">
+            <li class="year">1970</li>
+            <li> <span class="word">shit</span> from <span class="song">"American Woman"</span> by <span class="artist">The Guess Who</span>
+            </li>
 
-              <li class="year">1970</li>
-              <li> <span class="word">shit</span> from <span class="song">"American Woman"</span> by <span class="artist">The Guess Who</span>
-              </li>
+            <li class="year">1971</li>
+            <li><span class="word">dick</span> from <span class="song">"Theme from Shaft"</span> by <span class="artist">Isaac Hayes</span></li>
 
-              <li class="year">1971</li>
-              <li><span class="word">dick</span> from <span class="song">"Theme from Shaft"</span> by <span class="artist">Isaac Hayes</span></li>
+            <li class="year">1973</li>
+            <li><span class="word">bullshit</span> from <span class="song">"Money"</span> by <span class="artist">Pink Floyd</span></li>
 
-              <li class="year">1973</li>
-              <li><span class="word">bullshit</span> from <span class="song">"Money"</span> by <span class="artist">Pink Floyd</span></li>
+            <li class="year">1975</li>
+            <li><span class="word">pussy</span> from <span class="song">"Killer Queen"</span> by <span class="artist">Queen</span></li>
 
-              <li class="year">1975</li>
-              <li><span class="word">pussy</span> from <span class="song">"Killer Queen"</span> by <span class="artist">Queen</span></li>
+            <li class="year">1977</li>
+            <li><span class="word">bitch</span> from <span class="song">"Rich Girl"</span> by <span class="artist">Hall and Oates</span></li>
+            <li><span class="word">booty</span> from <span class="song">"Dazz"</span> by <span class="artist">Brick</span></li>
 
-              <li class="year">1977</li>
-              <li><span class="word">bitch</span> from <span class="song">"Rich Girl"</span> by <span class="artist">Hall and Oates</span></li>
-              <li><span class="word">booty</span> from <span class="song">"Dazz"</span> by <span class="artist">Brick</span></li>
+            <li class="year">1983</li>
+            <li><span class="word">ass</span> from <span class="song">"Little Red Corvette"</span> by <span class="artist">Prince</span></li>
 
-              <li class="year">1983</li>
-              <li><span class="word">ass</span> from <span class="song">"Little Red Corvette"</span> by <span class="artist">Prince</span></li>
+            <li class="year">1987</li>
+            <li><span class="word">butt</span> from <span class="song">"Bad"</span> by <span class="artist">Michael Jackson</span></li>
 
-              <li class="year">1987</li>
-              <li><span class="word">butt</span> from <span class="song">"Bad"</span> by <span class="artist">Michael Jackson</span></li>
+            <li class="year">1992</li>
+            <li><span class="word">ho</span> from <span class="song">"Baby Got Back"</span> by <span class="artist">Sir Mix-a-Lot</span></li>
+            <li><span class="word">niggaz</span> from <span class="song">"People Everyday"</span> by <span class="artist">Arrested Development</span></li>
 
-              <li class="year">1992</li>
-              <li><span class="word">ho</span> from <span class="song">"Baby Got Back"</span> by <span class="artist">Sir Mix-a-Lot</span></li>
-              <li><span class="word">niggaz</span> from <span class="song">"People Everyday"</span> by <span class="artist">Arrested Development</span></li>
+            <li class="year">1993</li>
+            <li><span class="word">motherfucker</span> from <span class="song">"Nuthin' but a 'G' Thang"</span> by <span class="artist">Dr. Dre</span></li>
+            <li><span class="word">pimp</span> from <span class="song">"Rebirth of Slick (Cool Like Dat)"</span> by <span class="artist">Digable Planets</span></li>
 
-              <li class="year">1993</li>
-              <li><span class="word">motherfucker</span> from <span class="song">"Nuthin' but a 'G' Thang"</span> by <span class="artist">Dr. Dre</span></li>
-              <li><span class="word">pimp</span> from <span class="song">"Rebirth of Slick (Cool Like Dat)"</span> by <span class="artist">Digable Planets</span></li>
+            <li class="year">1994</li>
+            <li><span class="word">whore</span> from <span class="song">"U.N.I.T.Y."</span> by <span class="artist">Queen Latifah</span></li>
 
-              <li class="year">1994</li>
-              <li><span class="word">whore</span> from <span class="song">"U.N.I.T.Y."</span> by <span class="artist">Queen Latifah</span></li>
+            <li class="year">1996</li>
+            <li><span class="word">pimpin</span> from <span class="song">"Tonite's tha Night"</span> by <span class="artist">Kris Kross</span></li>
 
-              <li class="year">1996</li>
-              <li><span class="word">pimpin</span> from <span class="song">"Tonite's tha Night"</span> by <span class="artist">Kris Kross</span></li>
-
-              <li class="year">1999</li>
-              <li><span class="word">cock</span> from <span class="song">"Can I Get A..."</span> by <span class="artist">Jay-Z</span></li>
-              <li><span class="word">titty</span> from <span class="song">"Back That Azz Up"</span> by <span class="artist">Juvenile</span></li>
-            </ul>
-          </div>
+            <li class="year">1999</li>
+            <li><span class="word">cock</span> from <span class="song">"Can I Get A..."</span> by <span class="artist">Jay-Z</span></li>
+            <li><span class="word">titty</span> from <span class="song">"Back That Azz Up"</span> by <span class="artist">Juvenile</span></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -947,6 +1014,61 @@
   <div class="section visible-delay" id="grp-latent-factors">
     <div class="container">
       <h1>Topic Modeling</h1>
+
+      <p>
+        Moving beyond the use of specific words used in isolation topic modeling techniques seek  to identify the subject matter  of a  body of text by evaluating context or more precisely collocation of words.
+        These methods &mdash; Latent Semantic Indexing (LSI) and Latent Dirichlet Analysis (LDA) &mdash; calculate the frequency with which words appear together combining these measures to  produce groups of words that are likely to indicate a topic contained in the text.
+        The technical details of these processes are contained in ipython notebooks referenced by our <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/master.ipynb">Master Process Notebook</a> that conduct analysis on the entire data set on data partitioned by decade and on data partitioned by genre. We obtained 90 topic estimations for LDA routines and 300 for LSI, and repost only a small fraction of the results in the table:
+      </p>
+
+      <div class="vspace"></div>
+
+      <div class="chart-wrap">
+        <h4>LDA Analysis by Decade and Genre</h4>
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="center">0</th>
+              <th class="center">1</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>all decades and genres</th>
+              <td>hitta, day, shit, ride, finger, trigger</td>
+              <td>love, baby, girl, time, thing, night</td>
+            </tr>
+            <tr>
+              <th>decade: 1970s</th>
+              <td>schoolgirl, glare, passin, monsoon, goner</td>
+              <td>gasp, broken, grate, guitar, pickin</td>
+            </tr>
+            <tr>
+              <th>decade: 2010s</th>
+              <td>serenity, spinnin, iceberg, susie, redhead</td>
+              <td>wrist, whack, mam, jail, order</td>
+            </tr>
+            <tr>
+              <th>genre: country music</th>
+              <td>thank, mistake, sand, ticklin, letter</td>
+              <td>redneck, kid, hell, church, laugh</td>
+            </tr>
+            <tr>
+              <th>genre: hip hop music</th>
+              <td>game, gold, hide-and-seek, rap</td>
+              <td>wish, arm, dynamite, sound, relaxin</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="vspace"></div>
+
+      <p>
+        Similar results were obtained using LSI, and by using both LDA and LSI on synonym-reduced and hypernym-reduced [Vocabulary] sets.
+        Ultimately, the results of topic analysis have to interpreted subjectively; in this case the results for all years and genres combined seem to have more semantic value than the subsets by genre and decade, both of which yielded much smaller sample sizes. For example, topic zero for all decades and genres seems to indicate a violent theme, while topic 1 reinforces the central observation that love is the most timeless value reflected in music.
+      </p>
     </div>
   </div>
 
@@ -964,13 +1086,15 @@
         We also wanted to again leverage the cluster computing framework <a href="http://spark.apache.org/">Spark</a> as we had usesd previously in establishing the [Vocabularies].
         For prediction, we were interested in its <a href="http://spark.apache.org/docs/latest/ml-guide.html">Machine Learning APIs</a>.
         After some trial, error, and tuning, we used Spark’s Pipeline API to apply Logistic Regression learning algorithm, or estimator, which turned out to be a solid choice for this exploration as it favors binary, balanced data.
-        More in-depth information for our approach and results can be found at <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/mj/Vector-Ensemble.ipynb">Vector Ensemble Notebook</a> in addition to more cursory information in the project Master notebook.
+        More in-depth information for our approach and results can be found at <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/mj/Vector-Ensemble.ipynb">Vector Ensemble Notebook</a> in addition to more cursory information in the project <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/master.ipynb">Master Process Notebook</a>.
       </p>
 
       <p>
         First, we tuned and fit models against noun vectors derived from all 3 [Vocabularies] -- Initial, Shrunken-1, and Shrunken-2 -- training on all data from 1970-2013 using the tuned hyperparameters.
         Then we predicted ‘Top 50 versus Bottom 50’ exclusively for 2014 using the same models derived from the 3 vocabularies.
       </p>
+
+      <div class="vspace"></div>
 
       <div class="row">
         <div class="col-md-4">
@@ -1044,26 +1168,29 @@
       <h2>Phrase to Genre Prediction</h2>
 
       <p>
-        Our final analytical technique uses a classifier to predict the genre that an ad-hoc, snippet of text is most likely to have come from. For this we use the Natural Language Tool Kit [NLTK](http://www.nltk.org/) python library and its Positive Naive Bayes Classifier module. We split the data into a training set and a testing set, and for each of the top 15 genres constructed a classifier using songs identified with the genre as the positive examples, and all other songs in the training set as negative examples.
+        Our final analytical technique uses a classifier to predict the genre that an ad-hoc, snippet of text is most likely to have come from.
+        For this we use the Natural Language Tool Kit <a href="http://www.nltk.org/">NLTK</a> Python library and its Positive Naive Bayes Classifier module. We split the data into a training set and a testing set, and for each of the top 15 genres constructed a classifier using songs identified with the genre as the positive examples, and all other songs in the training set as negative examples.
       </p>
 
       <p>
         For each included genre, a prior probability is calculated by calculating the relative frequency of songs within that genre in the training set multiplied by 0.097, the number of genres divided by the total number of songs.  To see whether the choice of prior influences the quality of the model's predictions, the process is run with several other values for the prior, which are uniform and arbitrarily set. In the table, the "v' stands for a variable prior based on the genre-specific calculation; the others are uniform, meaning the same prior was used regardless of the relative frequency of songs in the relevant genre.
       </p>
 
+      <div class="vspace"></div>
+
       <div class="chart-wrap">
         <table class="table table-striped table-hover">
           <thead>
             <tr>
               <th></th>
-              <td>0.5</td>
-              <td>0.2</td>
-              <td>0.3</td>
-              <td>0.1</td>
-              <td>0.05</td>
-              <td>0.01</td>
-              <td>0.02</td>
-              <td>0.097</td>
+              <th>0.5</th>
+              <th>0.2</th>
+              <th>0.3</th>
+              <th>0.1</th>
+              <th>0.05</th>
+              <th>0.01</th>
+              <th>0.02</th>
+              <th>0.097</th>
             </tr>
           </thead>
           <tbody>
@@ -1142,7 +1269,7 @@
       </p>
 
       <div class="chart-wrap">
-        <table class="table-striped table-hover">
+        <table class="table table-striped table-hover">
           <thead><tr><th>Input</th><th>Response</th></tr></thead>
           <tbody>
             <tr>
@@ -1195,15 +1322,17 @@
 
       <div class="quote">
         <q>Music is the vernacular of the human soul</q>
-        <div class="attribution">Geoffrey Latham</div>
+        <div class="attribution">&mdash; Geoffrey Latham</div>
       </div>
 
       <p>
         We applied a number of statistical, natural language processing, and machine learning techniques to gain insights into the content of modern music lyrics. In the matrix below, we indicate which machine learning algorithms we implemented, much of which was presented in previous sections, though additional work was not presented for brevity. However, given the complex and nuanced nature of text analysis, there is much more we would have liked to explore for this project, given more time. The matrix below also indicates a sampling from the myriad other techniques available that might serve useful to obtaining a deeper understanding of modern music.
       </p>
 
+      <div class="vspace"></div>
+
       <!-- ML Image -->
-      <div class="chart-wrap">
+      <div class="chart-wrap center">
         <img src="images/machine_learning_algorithms_used.png" />
         <p>
           Adapted from an example graphic found <a href="https://hackbrightacademy.com/content/uploads/2014/05/ml_algorithms.png">here</a>.
@@ -1214,12 +1343,17 @@
 
       <p>
         Here are primary guiding questions for the project which we approached to varying degrees of success:
-        <ul>
-          <li>What are the topics raised within popular music? Are there any enduring topics? <i>We engaged this question but could have condensed topics down further for more thematic understanding.</i></li>
-          <li>When are select topics present? At what ranks? How long are they present? <i>We engaged this question.</i></li>
-          <li>Some genres of music are criticized for lack of depth (Rap, Pop, and others) while some have greater variation. Are those variations observable? <i>We were not able to engage this question at a granular level.</i></li>
-          <li>What artists, songs, and topics reflect vice? What reflect virtue? What is their sentiment towards vice/virtue? <i>We engaged this question from the offensive word analysis but were not able to pivot further towards more thematic vice / virtue clustering.</i></li>
-          <li>Given any combination of artists, songs, and topics, what else might be of interest? <i>We were not able to explore recommenders.</i></li>
+        <ul class="q-a">
+          <li>What are the topics raised within popular music? Are there any enduring topics?<br />
+            <i>We engaged this question but could have condensed topics down further for more thematic understanding.</i></li>
+          <li>When are select topics present? At what ranks? How long are they present?<br />
+            <i>We engaged this question.</i></li>
+          <li>Some genres of music are criticized for lack of depth (Rap, Pop, and others) while some have greater variation. Are those variations observable?<br />
+            <i>We were not able to engage this question at a granular level.</i></li>
+          <li>What artists, songs, and topics reflect vice? What reflect virtue? What is their sentiment towards vice/virtue?<br />
+            <i>We engaged this question from the offensive word analysis but were not able to pivot further towards more thematic vice / virtue clustering.</i></li>
+          <li>Given any combination of artists, songs, and topics, what else might be of interest?<br />
+            <i>We were not able to explore recommenders.</i></li>
         </ul>
       </p>
 
@@ -1227,11 +1361,15 @@
 
       <p>
         Here are secondary questions, some of which the project assisted in answering:
-        <ul>
-          <li>Given any song’s lyrics, how well might the song perform in select year? Given a sample of text, can we infer what genre it fits, and in what time period? <i>We focused on position and genre prediction but did not infer time period.</i></li>
-          <li>What topics has an artist expressed? Does an artist consistently express any topics? <i>We took a broad view on artist topics.</i></li>
-          <li>What are topic preferences for a given geographic area? <i>We did not engage this question.</i></li>
-          <li>Do musical trends correlate to select cultural trends? Do musical trends correlate to select historic / marked events? <i>We did not engage this question.</i></li>
+        <ul class="q-a">
+          <li>Given any song’s lyrics, how well might the song perform in select year? Given a sample of text, can we infer what genre it fits, and in what time period?
+            <br /><i>We focused on position and genre prediction but did not infer time period.</i></li>
+          <li>What topics has an artist expressed? Does an artist consistently express any topics?
+            <br /><i>We took a broad view on artist topics.</i></li>
+          <li>What are topic preferences for a given geographic area?
+            <br /><i>We did not engage this question.</i></li>
+          <li>Do musical trends correlate to select cultural trends? Do musical trends correlate to select historic / marked events?
+            <br /><i>We did not engage this question.</i></li>
         </ul>
       </p>
 

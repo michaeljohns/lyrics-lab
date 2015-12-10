@@ -153,6 +153,18 @@ footer {
   }
 }
 
+.simple-wrap {
+  // background-color: #fff;
+  // border: 1px solid @lighterGrey;
+  // border-radius: @border-radius-base;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  &.inline {
+    display: inline-block;
+  }
+}
+
 .chart-wrap {
   position: relative;
   background-color: #fff;
@@ -160,6 +172,11 @@ footer {
   border-radius: @border-radius-base;
   padding: 10px;
   margin-bottom: 20px;
+
+  &.centered-narrow {
+    max-width: 60%;
+    margin: 0 auto;
+  }
 
   &.no-r-pad {
     padding-right: 0;

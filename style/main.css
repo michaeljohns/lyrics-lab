@@ -7020,6 +7020,12 @@ button.close {
   bottom: -20px;
   right: -20px;
 }
+ul.q-a li {
+  margin-bottom: 10px;
+}
+ul.q-a li i {
+  margin-left: 15px;
+}
 ul.plain {
   margin-left: 0;
   padding-left: 0;
@@ -7043,6 +7049,7 @@ ul.timeline {
   padding: 40px 0 50px;
   margin-left: 20px;
   border-left: 5px solid #ddd;
+  display: inline-block;
 }
 ul.timeline li {
   list-style: none;
@@ -7068,6 +7075,7 @@ ul.timeline li {
   position: relative;
   padding-left: 40px;
   color: #777777;
+  text-align: left;
 }
 ul.timeline li.year {
   font-weight: lighter;
@@ -7177,7 +7185,7 @@ ul.legend li.tri::before {
   position: relative;
   margin: 0 50px;
   padding: 50px 0;
-  font-size: 32px;
+  font-size: 42px;
   text-align: center;
 }
 .quote q {
@@ -7529,6 +7537,13 @@ footer hr {
 .visible-delay .container {
   opacity: 0;
 }
+.simple-wrap {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.simple-wrap.inline {
+  display: inline-block;
+}
 .chart-wrap {
   position: relative;
   background-color: #fff;
@@ -7536,6 +7551,10 @@ footer hr {
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 20px;
+}
+.chart-wrap.centered-narrow {
+  max-width: 60%;
+  margin: 0 auto;
 }
 .chart-wrap.no-r-pad {
   padding-right: 0;
