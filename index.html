@@ -1108,7 +1108,7 @@
       <p>
         While we understand that a song’s lyrics are not generally causal to where a given song might land on the charts, we had a hunch that there might at least be a correlation between a song’s position and its lyric content that we could model, train, and ultimately do some prediction.
         Having already explored <a href="#grp-latent-factors">Topic Modeling</a> with Latent Factors as shown in the previous section, we wanted to separately focus on supervised learning techniques that would be more readily interpretable. Ultimately, we landed on predicting the ‘Top 50 versus Bottom 50’ positions on the 2014 charts, a balanced set of positives and negatives, also offering a binary prediction, where positives values indicate  ‘In the Top 50’ and negative values indicate ‘In the Bottom 50’.
-        We also wanted to again leverage the cluster computing framework <a href="http://spark.apache.org/">Spark</a> as we had usesd previously in establishing the <a href="#grp-nlp-vocab">Vocabularies</a>.
+        We also wanted to again leverage the cluster computing framework <a href="http://spark.apache.org/">Spark</a> as we had used previously in establishing the <a href="#grp-nlp-vocab">Vocabularies</a>.
         For prediction, we were interested in its <a href="http://spark.apache.org/docs/latest/ml-guide.html">Machine Learning APIs</a>.
         After some trial, error, and tuning, we used Spark’s Pipeline API to apply Logistic Regression learning algorithm, or estimator, which turned out to be a solid choice for this exploration as it favors binary, balanced data.
         More in-depth information for our approach and results can be found at <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/mj/Vector-Ensemble.ipynb">Vector Ensemble Notebook</a> in addition to more cursory information in the project <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/master.ipynb">Master Process Notebook</a>.
@@ -1336,6 +1336,8 @@
         </table>
       </div>
 
+      To add your own words or learn more about our approach, see the <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/ss/PositiveNaiveBayesClassifier.ipynb">Positive Naive Bayes Classifier notebook</a>.
+
     </div>
   </div>
 
@@ -1353,7 +1355,7 @@
       </div>
 
       <p>
-        We applied a number of statistical, natural language processing, and machine learning techniques to gain insights into the content of modern music lyrics. In the matrix below, we indicate which machine learning algorithms we implemented, much of which was presented in previous sections, though additional work was not presented for brevity. However, given the complex and nuanced nature of text analysis, there is much more we would have liked to explore for this project, given more time. The matrix below also indicates a sampling from the myriad other techniques available that might serve useful to obtaining a deeper understanding of modern music.
+        We applied a number of statistical, natural language processing, and machine learning techniques to gain insights into the content of modern music lyrics. In the matrix below, we indicate which machine learning algorithms we implemented, much of which was presented in previous sections, though additional work was not presented for brevity. However, given the complex and nuanced nature of text analysis, there is much more we would have liked to explore for this project, given more time. The matrix below also indicates a sampling from the many other techniques available that might serve useful to obtaining a deeper understanding of modern music.
       </p>
 
       <div class="vspace"></div>
