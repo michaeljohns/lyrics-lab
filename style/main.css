@@ -6787,6 +6787,9 @@ button.close {
 .navbar .container-fluid {
   display: inline-block;
 }
+.navbar .active a {
+  border-radius: 0 0 4px 4px;
+}
 .table-hover > tbody > tr:hover {
   background-color: #00BCD4;
   color: #fff;
@@ -6843,10 +6846,14 @@ button.close {
 .text-bubble .standard-text {
   font-size: 14px;
   font-weight: normal;
+  margin-top: 20px;
 }
 .text-bubble.center {
   margin-left: auto;
   margin-right: auto;
+}
+.text-bubble.under-half {
+  width: 45%;
 }
 .text-bubble.three-fourths-width {
   width: 75%;
