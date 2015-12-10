@@ -242,8 +242,7 @@
 
       <!-- Word Clouds -->
       <h2>Words Clouds</h2>
-      <p>
-      </p>
+
       <div class="image-set word-cloud h-500">
         <div class="image-set-list">
           <div class="image-set-item default-item" data-src="charts/word_clouds/all_genres_all_decades.png">
@@ -415,7 +414,7 @@
         At other times, repeating words use is of interest to our methods, such as the finding appearing in <a href="#grp-word-use">Word Use</a>.
       </p>
 
-      <div class="vspace v50"></div>
+      <div class="vspace"></div>
 
       <div class="image-set">
         <div class="image-set-thumbnails">
@@ -462,7 +461,7 @@
         And we do see declining lexical density, indicating increased repetition. More words with less to say.
       </p>
 
-      <div class="vspace v50"></div>
+      <div class="vspace"></div>
 
       <!-- Repetition & Diversity -->
       <div class="image-set">
@@ -749,7 +748,7 @@
         </table>
       </div>
 
-      <div class="vspace v50"></div>
+      <div class="vspace"></div>
 
       <h2>Synonyms</h2>
       <div>
@@ -1112,7 +1111,7 @@
       <h2>Top 50 versus Bottom 50</h2>
       <p>
         While we understand that a song’s lyrics are not generally causal to where a given song might land on the charts, we had a hunch that there might at least be a correlation between a song’s position and its lyric content that we could model, train, and ultimately do some prediction.
-        Having already explored Topic Modeling with Latent Factors as shown in the previous section, we wanted to separately focus on supervised learning techniques that would be more readily interpretable. Ultimately, we landed on predicting the ‘Top 50 versus Bottom 50’ positions on the 2014 charts, a balanced set of positives and negatives, also offering a binary prediction, where positives values indicate  ‘In the Top 50’ and negative values indicate ‘In the Bottom 50’.
+        Having already explored <a href="#grp-latent-factors">Topic Modeling</a> with Latent Factors as shown in the previous section, we wanted to separately focus on supervised learning techniques that would be more readily interpretable. Ultimately, we landed on predicting the ‘Top 50 versus Bottom 50’ positions on the 2014 charts, a balanced set of positives and negatives, also offering a binary prediction, where positives values indicate  ‘In the Top 50’ and negative values indicate ‘In the Bottom 50’.
         We also wanted to again leverage the cluster computing framework <a href="http://spark.apache.org/">Spark</a> as we had usesd previously in establishing the <a href="#grp-nlp-vocab">Vocabularies</a>.
         For prediction, we were interested in its <a href="http://spark.apache.org/docs/latest/ml-guide.html">Machine Learning APIs</a>.
         After some trial, error, and tuning, we used Spark’s Pipeline API to apply Logistic Regression learning algorithm, or estimator, which turned out to be a solid choice for this exploration as it favors binary, balanced data.
@@ -1193,7 +1192,7 @@
         At least to the degree that lyrics and position are correlated, the results of predicting the top / bottom splits are consistent with our intuitions. Initial vocabulary (vectorized to allow only each unique noun 1x  max per song) was the least performant, slightly improved upon by model fit to Shrunken-1 (nouns with synonym replacement, also vectorized using same reduction rules as Initial), then a significant performance gain realized by Shrunken-2 noun vocabulary (synonyms with hypernym replacement, vectorized using same rules). Shrunken-2 correctly predicted 58 of 95 non-empty lyrics in 2014.
       </p>
 
-      <div class="vspace v50"></div>
+      <div class="vspace"></div>
 
       <h2>Phrase to Genre Prediction</h2>
 
@@ -1288,7 +1287,7 @@
         <div>Pct Positive: 0.128</div>
       </div>
 
-      <div class="vspace"></div>
+      <div class="vspace v10"></div>
 
       <p>
         These results indicate that the data are highly unbalanced in the negative direction, and indeed a simple baseline that always predicts negative would have a success rate comparable to the best prior's success rate, which was the variable prior based on the genre's overall prevalence.
@@ -1297,6 +1296,8 @@
       <p>
         Inspired by the adage that "all models are wrong, but some models are are useful,"  we resort to the obvious deployment of this battery of classifiers: Can it match arbitrarily chosen text to the genre from which it would come?  These results suggest the answer is a <i>qualified yes</i>.
       </p>
+
+      <div class="vspace v20"></div>
 
       <div class="chart-wrap">
         <table class="table table-striped table-hover">
