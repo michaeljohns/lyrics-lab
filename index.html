@@ -70,11 +70,21 @@
         </ul>
       </div>
 
+      <!-- <h2>Trendy or Timeless?</h2>
       <p>
-        <br />
+        Popular music is on the forefront of what the people consider new and cool, but it can also reflect shared values that are more persistent, even timeless.
+        Leaving aside the ancient question of whether art imitates life or life imitates art, are there some concepts so firmly rooted in collective human belief systems that they remain constant across time?
+        While a fully generalizable answer to that question may not be possible, some insights can be obtained from analysis of the content of the lyrics of popular music, and comparing them across time.
       </p>
 
+      <p>
+        We chose to concentrate on the Billboard Year-End Top 100 Charts from 1970 to 2014, a corpus of 4500 songs spanning into 5 decades.
+        By measuring, exploring, and analyzing the lyrics using a variety of techniques &mdash; including statistical, natural language processing, and machine learning &mdash; at multiple levels of abstraction, we were able to draw some preliminary insights, which will be highlighted throughout.
+      </p> -->
+
       <div class="clearfix"></div>
+
+      <div class="vspace"></div>
 
       <div class="text-bubble center three-fourths-width ">
         It’s every generation throws a hero up the pop charts
@@ -84,18 +94,6 @@
         </div>
       </div>
 
-      <p>
-
-      </p>
-
-      <p>
-
-      </p>
-
-      <p>
-
-      </p>
-
     </div>
   </div>
 
@@ -103,12 +101,28 @@
     <div class="container">
       <h1>Artists</h1>
 
+      <h2>Can we learn more by looking at the artists or their words?</h2>
+
+      <p>
+        Artists can and do change over time, but almost all maintain a persona that is for the most part constant.
+        Comparing the artists who have lasted, to the ones who did not can therefore tell us something about the enduring concepts in music.
+        Of course, this gets complicated when an artist like Bob Dylan writes an iconic song celebrating change in one decade only to take the opposite view thirty years later.
+        For the most part, we consider the persistence of an artist over a period of time a signal that the artist’s message continues to resonate with the populace.
+      </p>
+
+      <p>
+        Looking at the composition of the artists, we see that in any one year there are between sixty and ninety different artists represented in the Billboard Year-end charts, but over time a starkly different picture emerges.
+        The vast majority of artists in our data have a small number of top songs--many only a single song--while a few artists have staying power and have many top songs.
+      </p>
+
+      <div class="vspace"></div>
+
       <div class="row">
         <div class="col-md-6">
           <div class="text-bubble sec fill">
             For the times they are a-changin’
             <div class="standard-text">
-              &mdash;Bob Dylan, <a href="http://www.bobdylan.com/us/songs/times-they-are-changin">"For the times they are a-changin’"</a>, http://www.bobdylan.com/us/songs/times-they-are-changin (1963)
+              &mdash;Bob Dylan, <a href="http://www.bobdylan.com/us/songs/times-they-are-changin">"For the times they are a-changin’"</a>, For the times they are a-changin’ (1963)
             </div>
           </div>
         </div>
@@ -123,6 +137,17 @@
           </div>
         </div>
       </div>
+
+      <div class="vspace"></div>
+
+      <p>
+        By contrast, we can also learn something from see how the top artists change over time.
+        With the interactive chart below, you can see that Elton John ruled the 1970s, Madonna was the queen of the 1980s, with Michael Jackson in second place, and Mariah Carey led the 1990s, with Janet Jackson a distant second.
+        In the early 2000s the television show American Idol propelled Kelly Clarkson to the top spot, and rap artists first began to be represented in numbers.
+        Using the interactive chart below you can examine the productivity of the top artists for any time span ranging from the entire 45 years the data set down to a single year.
+      </p>
+
+      <div class="vspace"></div>
 
       <!-- Top Artist Distribution -->
       <h2>Contributions by Artists</h2>
@@ -150,10 +175,23 @@
       </div>
       <!-- /Top Artist Distribution -->
 
+      <div class="vspace"></div>
+
+      <p>
+        By contrast, we can also learn something from see how the top artists change over time.
+        With the interactive chart below, you can see that Elton John ruled the 1970s,  Madonna was the queen of the 1980s, with Michael Jackson in second place, and Mariah Carey led the 1990s, with Janet Jackson a distant second.
+        In the early 2000s the television show American Idol propelled Kelly Clarkson to the top spot, and rap artists first began to be represented in numbers.
+        Using the interactive chart below you can examine the productivity of the top artists for any time span ranging from the entire 45 years the data set down to a single year.
+      </p>
+
+      <div class="vspace"></div>
 
       <!-- Interactive Chart -->
       <h2>Most Succesful Artists Over Time</h2>
-      <p>Use the chart below to filter the time period (<i>click and drag to create a selection box</i>). Use the table beneath to view a listing.</p>
+      <p>
+        Use the chart below to filter the time period (<i>click and drag to create a selection box</i>).
+        Use the table beneath to view a listing of the top 10 artists over the selected time period.
+      </p>
 
       <div class="chart-wrap">
         <div id="chart-yasc" class="chart bar-chart"></div>
@@ -173,10 +211,18 @@
 
       <div class="vspace"></div>
 
+      <p>
+        What is it that these artists are saying?
+        Here we take the collected lyrics of the top ten artists over the entire span of 1970-2014, and visualize their words according to how frequently they are used.
+        There are some obvious patterns, such as the word “Love” appearing most prominently in every artist’s work except Michael Jackson’s.
+        Maybe there are some more subtle patterns that can be discerned?
+      </p>
+
+      <div class="vspace"></div>
+
       <!-- Word Clouds -->
       <h2>Words Clouds</h2>
       <p>
-        An introduction about the clouds.
       </p>
       <div class="image-set word-cloud h-500">
         <div class="image-set-list">
@@ -225,15 +271,50 @@
       </div>
       <!-- /Word Clouds -->
 
-      <p></p>
+      <div class="vspace"></div>
+
+      <p>
+        One theme often seen in popular music is <i>rebellion</i>.
+        Not usually the kind of armed rebellion that led to the Battle of Gettysburg, but rather a rejection of (some) traditional values in favor of new ones.
+        For example, Gil Scott-Heron’s 1971 cut <a href="https://en.wikipedia.org/wiki/The_Revolution_Will_Not_Be_Televised">“The Revolution Will Not Be Televised”</a> has direct references to pop culture of the day and rejects them.
+        Some credit the song as a precursor of modern rap and many artists (rappers and others alike) have referred to it in their own works.
+        Taking on a broader scope than rebellion, we also see change as a common theme.
+        Artists as diverse as Sheryl Crow, Bob Dylan, and Michael Jackson embracing change in different contexts.
+      </p>
+
+      <div class="vspace"></div>
+
+      <!-- [Insert quotes regarding the change theme???] -->
+      <div class="text-bubble dark center three-fourths-width">
+        <div>I'm starting with the man in the mirror</div>
+        <div>I'm asking him to change his ways</div>
+        <div>And no message could have been any clearer</div>
+        <div>If you want to make the world a better place</div>
+        <div>Take a look at yourself, and then make a change</div>
+
+        <div class="standard-text">
+         Michael Jackson, <a href="https://en.wikipedia.org/wiki/Man_in_the_Mirror">"The Man in the Mirror"</a>, Bad (1988),
+        </div>
+      </div>
+
+      <div class="vspace"></div>
+
+      <p>
+        While examples of <i>change</i> are readily available, is it the most prevalent?
+        Using the word frequency displays from above, one can conclude that <i>love</i> is the most persistent theme in popular music.
+        At this cursory level of analysis there does not appear to be any other one concept that comes close.
+        Accordingly, deeper levels of analysis will be employed to see if deeper insight can be attained.
+        The process involves some complicated analysis of the lyrics data.
+        The study continues by describing the data and the transformations made to make it amenable to analysis.
+      </p>
 
 
-      <div class="quote">
+      <!-- <div class="quote">
         <q>Being considered Crazy by those who are still victims of cultural conditioning is a compliment.</q>
         <div class="attribution">&mdash;Jason Hairston (2014)</div>
       </div>
 
-      <p></p>
+      <p></p> -->
 
     </div>
   </div>
@@ -257,19 +338,19 @@
       <div class="row note-box-set">
         <div class="col-md-4">
           <div class="note-box dim">
-            <h2>20 <span class="light-text">Instrumentals</span></h2>
+            <h2>194 <span class="light-text">Multiyear Songs</span></h2>
             <p>
-              Of the 4500 songs <b>20</b> are instrumental and are excluded from the lyrics analysis.
+              Some songs remained popular for over a year: a total of <b>194</b> songs spanned more than more year.
+              No multi-year song spanned more than two years and all occurred on consectutive years.
             </p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="note-box dim">
-            <h2>194 <span class="light-text">Multiyear Songs</span></h2>
+            <h2>20 <span class="light-text">Instrumentals</span></h2>
             <p>
-              Some songs remained popular for over a year: a total of <b>194</b> songs spanned more than more year.
-              No multi-year song spanned more than two years and all occurred on consectutive years.
+              Of the 4500 songs <b>20</b> are instrumental and are excluded from the lyrics analysis.
             </p>
           </div>
         </div>
@@ -282,6 +363,7 @@
               <ul>
                 <li><b>36</b> due to licensing restriction</li>
                 <li><b>103</b> have not been added to our lyric source, <a href="http://lyrics.wikia.com/">lyrics.wikia</a>.
+              </ul>
             </p>
           </div>
         </div>
@@ -291,15 +373,32 @@
 
   <div class="section visible-delay" id="grp-data-cont">
     <div class="container">
-      <h1>Data</h1>
       <p></p>
 
       <h2>Word Count Reduction Motivation</h2>
-      <div class="chart-wrap">
-        <img src="charts/adj_n-grams_combined.png" />
-      </div>
-      <div class="chart-wrap">
-        <img src="charts/noun_n-grams_combined.png" />
+
+      <div class="image-set">
+        <div class="image-set-thumbnails">
+          <div class="thumbnail default-item" data-src="charts/adj_n-grams_combined.png">
+            <img src="charts/adj_n-grams_combined.png" />
+            <div class="caption">
+              Adjective n-grams
+            </div>
+          </div>
+          <div class="thumbnail" data-src="charts/noun_n-grams_combined.png">
+            <img src="charts/noun_n-grams_combined.png" />
+            <div class="caption">
+              Noun n-grams
+            </div>
+          </div>
+        </div>
+        <div class="image-set-full">
+          <ul class="legend inline">
+            <li class="title">Legend</li>
+            <li class="tri">Reduced n-grams</li>
+            <li class="sec">Non-reduced n-grams</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -308,7 +407,22 @@
     <div class="container">
       <h1>Word Use</h1>
 
-      <p></p>
+      <p>
+        Linguists often examine the number of different words used in a text, called lexical diversity or simply, “vocabulary.”
+        For most text, the use of a greater range of words is seen as a measure of superior articulation, but in music that may not be the case.
+        Repetition has rhythmic and other cognitive function in music that renders comparison to the lexical diversity of prose pointless.
+        We can, however, compare a song’s vocabulary to that of other songs, and in particular can see how lexical diversity has changed over time.
+        One could argue that songs with more distinct words are intended to contain more complex meaning, while songs with more repetition are more likely to be using the words as an aural device- that is, for their sound value rather than their semantic content.
+        The words <i>oh</i>, <i>oo</i>, <i>la</i>, and <i>yeah</i> are examples of words more likely to carry sound than meaning.
+      </p>
+
+      <p>
+        Here we depict the changes in word count and lexical density over the years.
+        It appears that the words per song has mostly increased over time, though decreasing since the turn of the century.
+        And we do see declining lexical density, indicating increased repetition. More words with less to say.
+      </p>
+
+      <div class="vspace v50"></div>
 
       <!-- Repetition & Diversity -->
       <div class="image-set">
@@ -330,11 +444,10 @@
       </div>
       <!-- /Repetition -->
 
+      <div class="vspace v50"></div>
+
       <!-- Word Counts -->
       <h2>Word Counts</h2>
-      <p>
-        Blurb about counts over time.
-      </p>
       <div class="image-set">
         <div class="image-set-thumbnails">
           <div class="thumbnail default-item" data-src="charts/trends/songs_combined_word_count.png">
@@ -367,6 +480,12 @@
         </div>
       </div>
       <!-- /Word Counts -->
+    </div>
+  </div>
+
+  <div class="section visible-delay" id="grp-nlp">
+    <div class="container">
+      <h1>NLP</h1>
 
       <h2>Top Nouns Over the Decades</h2>
       <p>
@@ -408,6 +527,8 @@
         <div class="image-set-full">
         </div>
       </div>
+
+      <div class="vspace v50"></div>
 
       <div>
         <h2>Top Adjectives Over the Decades</h2>
@@ -487,13 +608,43 @@
       </div>
 
       <div>&nbsp;</div>
-    </div>
-  </div>
 
-  <div class="section visible-delay" id="grp-nlp">
-    <div class="container">
-      <h1>NLP</h1>
-
+      <div class="chart-wrap">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Vocab Version</th>
+              <th>Vocab Name</th>
+              <th># Unique Nouns</th>
+              <th>Words Consolidated</th>
+              <th>Reduced Word Use (1x max per song)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Initial</td>
+              <td>Word Vector</td>
+              <td>5138</td>
+              <td>0</td>
+              <td>35,120</td>
+            </tr>
+            <tr>
+              <td>Shrunken-1</td>
+              <td>Synonym Vector</td>
+              <td>3230</td>
+              <td>1908</td>
+              <td>7,644</td>
+            </tr>
+            <tr>
+              <td>Shrunken-2</td>
+              <td>Synonym With Hypernym Replacement</td>
+              <td>3215</td>
+              <td>1923</td>
+              <td>494 hypernyms in 7,644</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <h2>Synonyms</h2>
       <div>
@@ -593,14 +744,76 @@
           <img src="charts/hypernyms/noun_decade_comp_hypernyms_shared_5x.png" />
         </div>
       </div>
+
+      <div class="chart-wrap">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Why Empty?</th>
+              <th># Empties</th>
+              <th>Corpus Size: 4500</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Vocab</td>
+              <td>Initial (noun vector)</td>
+              <td>220</td>
+              <td>4,121</td>
+            </tr>
+            <tr>
+              <td>Vocab</td>
+              <td>Shrunken-1 (synonyms)</td>
+              <td>16</td>
+              <td>4,105</td>
+            </tr>
+            <tr>
+              <td>Vocab</td>
+              <td>Shrunken-2 (synonyms w/ hypernym replacement)</td>
+              <td>0</td>
+              <td>4,105</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
     </div>
   </div>
 
   <div class="section visible-delay" id="grp-offensive-words">
     <div class="container">
-      <h1>Offensive Words</h1>
+      <h1>Offensive and Slang Words</h1>
 
-      <h2>Offensive and Slang Words</h2>
+      <p>
+        Until the end of the 1990s, vulgar or obscene lyrical content was almost entirely absent from the top selling songs.
+        Even artists as avant garde as Frank Zappa toned down some of their lyrics to find commercial success.
+        In late 1973,  Zappa released the album <i>Overnite Sensation</i>, containing a cut “Dirty Love” with explicit reference to bestiality.
+        Another Zappa album, <i>Apostrophe</i>, quickly followed in early 1974, whose most offensive lyric was “don’t eat the yellow snow.”
+        <i>Overnite Sensation</i>, with its explicit lyrics, received no airplay<i>Apostrophe</i> became popular, peaking at no. 10 on the album charts.
+      </p>
+
+      <p>
+        Under the regulations of the Federal Communications Commission, vulgar or obscene language is not permitted in material broadcast over the publicly owned electromagnetic spectrum.
+        Artists still used the words, but the result was no radio play, or in some cases altered, sanitized versions for radio.
+        As long as access to the mass market was dependent on radio play, musicians who wanted to reach that market kept the lyrics within bounds.
+      </p>
+
+      <p>
+        Outside of the broadcast context, efforts to ban certain words had the opposite of their intended effect.
+        Hardly anyone had heard of <a href="https://en.wikipedia.org/wiki/2_Live_Crew">2LiveCrew</a> before they were banned in Miami for using offensive language.
+        Sales took off overnight.
+      </p>
+
+      <p>
+        The digital revolution changed everything, especially music. According to Public Enemy’s wikipedia page, they were the first to release an album in the MP3 format.
+        Rapidly the distribution channels became less and less dependent on radio, and the composition of the vocabulary formerly known as offensive began taking on the structure we see today.
+        As is visualized below, while offensive language was in check for the majority of songs charting in the 70s and 80s, the introduction of new channels beyond radio,
+        coupled with reduced cultural morays resulted in a steady climb in offensive language use in the 90s forward to current music in the 2010s.
+      </p>
+
+      <div class="vspace v50"></div>
+
       <div class="chart-wrap no-r-pad">
         <div class="fade-edge"></div>
         <div class="scroll-hort">
@@ -616,55 +829,66 @@
           </ul>
       </div>
 
+      <div class="vspace"></div>
+
       <h2>First Appearance of Offensive Words</h2>
-      <ul class="timeline">
 
-        <li class="year">1970</li>
-        <li> <span class="word">shit</span> from <span class="song">"American Woman"</span> by <span class="artist">The Guess Who</span>
-        </li>
+      <div class="row">
+        <!-- <div class="col-md-3"></div> -->
+        <div class="col-md-6">
+          <div class="chart-wrap">
+            <ul class="timeline">
 
-        <li class="year">1971</li>
-        <li><span class="word">dick</span> from <span class="song">"Theme from Shaft"</span> by <span class="artist">Isaac Hayes</span></li>
+              <li class="year">1970</li>
+              <li> <span class="word">shit</span> from <span class="song">"American Woman"</span> by <span class="artist">The Guess Who</span>
+              </li>
 
-        <li class="year">1973</li>
-        <li><span class="word">bullshit</span> from <span class="song">"Money"</span> by <span class="artist">Pink Floyd</span></li>
+              <li class="year">1971</li>
+              <li><span class="word">dick</span> from <span class="song">"Theme from Shaft"</span> by <span class="artist">Isaac Hayes</span></li>
 
-        <li class="year">1975</li>
-        <li><span class="word">pussy</span> from <span class="song">"Killer Queen"</span> by <span class="artist">Queen</span></li>
+              <li class="year">1973</li>
+              <li><span class="word">bullshit</span> from <span class="song">"Money"</span> by <span class="artist">Pink Floyd</span></li>
 
-        <li class="year">1977</li>
-        <li><span class="word">bitch</span> from <span class="song">"Rich Girl"</span> by <span class="artist">Hall and Oates</span></li>
-        <li><span class="word">booty</span> from <span class="song">"Dazz"</span> by <span class="artist">Brick</span></li>
+              <li class="year">1975</li>
+              <li><span class="word">pussy</span> from <span class="song">"Killer Queen"</span> by <span class="artist">Queen</span></li>
 
-        <li class="year">1983</li>
-        <li><span class="word">ass</span> from <span class="song">"Little Red Corvette"</span> by <span class="artist">Prince</span></li>
+              <li class="year">1977</li>
+              <li><span class="word">bitch</span> from <span class="song">"Rich Girl"</span> by <span class="artist">Hall and Oates</span></li>
+              <li><span class="word">booty</span> from <span class="song">"Dazz"</span> by <span class="artist">Brick</span></li>
 
-        <li class="year">1987</li>
-        <li><span class="word">butt</span> from <span class="song">"Bad"</span> by <span class="artist">Michael Jackson</span></li>
+              <li class="year">1983</li>
+              <li><span class="word">ass</span> from <span class="song">"Little Red Corvette"</span> by <span class="artist">Prince</span></li>
 
-        <li class="year">1992</li>
-        <li><span class="word">ho</span> from <span class="song">"Baby Got Back"</span> by <span class="artist">Sir Mix-a-Lot</span></li>
-        <li><span class="word">niggaz</span> from <span class="song">"People Everyday"</span> by <span class="artist">Arrested Development</span></li>
+              <li class="year">1987</li>
+              <li><span class="word">butt</span> from <span class="song">"Bad"</span> by <span class="artist">Michael Jackson</span></li>
 
-        <li class="year">1993</li>
-        <li><span class="word">motherfucker</span> from <span class="song">"Nuthin' but a 'G' Thang"</span> by <span class="artist">Dr. Dre</span></li>
-        <li><span class="word">pimp</span> from <span class="song">"Rebirth of Slick (Cool Like Dat)"</span> by <span class="artist">Digable Planets</span></li>
+              <li class="year">1992</li>
+              <li><span class="word">ho</span> from <span class="song">"Baby Got Back"</span> by <span class="artist">Sir Mix-a-Lot</span></li>
+              <li><span class="word">niggaz</span> from <span class="song">"People Everyday"</span> by <span class="artist">Arrested Development</span></li>
 
-        <li class="year">1994</li>
-        <li><span class="word">whore</span> from <span class="song">"U.N.I.T.Y."</span> by <span class="artist">Queen Latifah</span></li>
+              <li class="year">1993</li>
+              <li><span class="word">motherfucker</span> from <span class="song">"Nuthin' but a 'G' Thang"</span> by <span class="artist">Dr. Dre</span></li>
+              <li><span class="word">pimp</span> from <span class="song">"Rebirth of Slick (Cool Like Dat)"</span> by <span class="artist">Digable Planets</span></li>
 
-        <li class="year">1996</li>
-        <li><span class="word">pimpin</span> from <span class="song">"Tonite's tha Night"</span> by <span class="artist">Kris Kross</span></li>
+              <li class="year">1994</li>
+              <li><span class="word">whore</span> from <span class="song">"U.N.I.T.Y."</span> by <span class="artist">Queen Latifah</span></li>
 
-        <li class="year">1999</li>
-        <li><span class="word">cock</span> from <span class="song">"Can I Get A..."</span> by <span class="artist">Jay-Z</span></li>
-        <li><span class="word">titty</span> from <span class="song">"Back That Azz Up"</span> by <span class="artist">Juvenile</span></li>
+              <li class="year">1996</li>
+              <li><span class="word">pimpin</span> from <span class="song">"Tonite's tha Night"</span> by <span class="artist">Kris Kross</span></li>
+
+              <li class="year">1999</li>
+              <li><span class="word">cock</span> from <span class="song">"Can I Get A..."</span> by <span class="artist">Jay-Z</span></li>
+              <li><span class="word">titty</span> from <span class="song">"Back That Azz Up"</span> by <span class="artist">Juvenile</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="section visible-delay" id="grp-latent-factors">
     <div class="container">
-      <h1>Latent Factors</h1>
+      <h1>Topic Modeling</h1>
     </div>
   </div>
 
@@ -699,6 +923,41 @@
           </div>
         </div>
       </div>
+
+      <div class="chart-wrap">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Vocabulary</th>
+              <th>Posterior Percent</th>
+              <th>Hits</th>
+              <th>Misses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Initial</td>
+              <td>49.47</td>
+              <td>47</td>
+              <td>48</td>
+            </tr>
+            <tr>
+
+              <td>Shrunken-1</td>
+              <td>50.53</td>
+              <td>48</td>
+              <td>47</td>
+            </tr>
+            <tr>
+              <td>Shrunken-2</td>
+              <td>61.05</td>
+              <td>58</td>
+              <td>37</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
     </div>
   </div>
 

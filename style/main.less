@@ -96,12 +96,25 @@ footer {
   .palette-opts();
   .header-color(@supportTextLightEmphasis);
 
+  a {
+    color: #fff;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   &.light {
     .header-color(@mainText);
 
     b,
     i {
       color: @mainTextEmphasis;
+    }
+
+    a {
+      color: #000;
     }
   }
 
@@ -125,7 +138,11 @@ footer {
 }
 
 .vspace {
-  height: 50px;
+  height: 30px;
+
+  &.v50 {
+    height: 50px;
+  }
 }
 
 .visible-delay {

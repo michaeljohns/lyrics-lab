@@ -53,6 +53,21 @@
     width: 100%;
   }
 
+  a {
+    color: #fff;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &.light {
+    a {
+      color: #000;
+    }
+  }
+
   &.pri::after {
     border-left-color: @pri;
   }

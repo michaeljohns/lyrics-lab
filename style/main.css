@@ -6861,6 +6861,16 @@ button.close {
 .text-bubble.fill {
   width: 100%;
 }
+.text-bubble a {
+  color: #fff;
+  text-decoration: underline;
+}
+.text-bubble a:hover {
+  text-decoration: none;
+}
+.text-bubble.light a {
+  color: #000;
+}
 .text-bubble.pri::after {
   border-left-color: #303F9F;
 }
@@ -7453,6 +7463,13 @@ footer hr {
 .aside h6 {
   color: #fff;
 }
+.aside a {
+  color: #fff;
+  text-decoration: underline;
+}
+.aside a:hover {
+  text-decoration: none;
+}
 .aside.light h1,
 .aside.light h2,
 .aside.light h3,
@@ -7463,6 +7480,9 @@ footer hr {
 }
 .aside.light b,
 .aside.light i {
+  color: #000;
+}
+.aside.light a {
   color: #000;
 }
 .aside h1 {
@@ -7480,6 +7500,9 @@ footer hr {
   font-weight: lighter;
 }
 .vspace {
+  height: 30px;
+}
+.vspace.v50 {
   height: 50px;
 }
 .visible-delay {
