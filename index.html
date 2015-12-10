@@ -319,21 +319,12 @@
       <div class="vspace"></div>
 
       <p>
-        While examples of <i>change</i> are readily available, is it the most prevalent?
-        Using the word frequency displays from above, one can conclude that <i>love</i> is the most persistent theme in popular music.
-        At this cursory level of analysis there does not appear to be any other one concept that comes close.
-        Accordingly, deeper levels of analysis will be presented to see if greater insight can be attained.
-        The process involves some complicated analysis of the lyrics data.
-        The study continues by describing the data and the transformations made to make it amenable to analysis.
+        While uses of the word <i>change</i> are readily available, is <i>change</i> really the most prevalent?
+        Using the word frequency displays from above, one can conclude that <i>love</i> is at least among the most persistent themes in popular music, being measurably in common with prolific artists through the years.
+        Again though, is <i>love</i> really the most prevalent?
+        While a cursory review of top artists lyrics further clarifies our intuition that songs &mdash; and by proxy, artists &mdash; can be linked by lyrics, it does not fully settle the question of timelessness for all charting songs since 1970.
+        With increased confidence, we pursued more rigorous and varied techniques to gain deeper insights into the variety of perspective that have charted across the last five decades, the outcomes of which are presented in the section to follow.
       </p>
-
-
-      <!-- <div class="quote">
-        <q>Being considered Crazy by those who are still victims of cultural conditioning is a compliment.</q>
-        <div class="attribution">&mdash;Jason Hairston (2014)</div>
-      </div>
-
-      <p></p> -->
 
     </div>
   </div>
@@ -362,7 +353,7 @@
 
       <p>
         The corpus covers <b>45 years</b> of songs from the Billboard Year-end Charts. The charts give the top 100
-        songs for each year; yeilding 4500 initial songs.
+        songs for each year, yielding 4500 initial songs.
       <p>
 
       <div class="row note-box-set">
@@ -797,6 +788,11 @@
           <img src="images/example_synonym_noun_collapsing_trans.png" />
         </div>
 
+        <p>
+          We also measured the total reduced or unique song uses of noun synonyms over the decades, shown to the left.
+          Below, we measure those shared, i.e. “timeless”, noun synonyms appearing in all decades.
+        </p>
+
         <div class="clearfix">&nbsp;</div>
 
         <div class="chart-wrap">
@@ -1045,7 +1041,7 @@
       <h1>Topic Modeling</h1>
 
       <p>
-        Moving beyond the use of specific words used in isolation topic modeling techniques seek  to identify the subject matter  of a  body of text by evaluating context or more precisely collocation of words.
+        We now move beyond the use of specific words used in isolation. Topic modeling techniques seek to identify the subject matter of a body of text by evaluating context or more precisely collocation of words.
         These methods &mdash; Latent Semantic Indexing (LSI) and Latent Dirichlet Analysis (LDA) &mdash; calculate the frequency with which words appear together combining these measures to  produce groups of words that are likely to indicate a topic contained in the text.
         The technical details of these processes are contained in ipython notebooks referenced by our <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/master.ipynb">Master Process Notebook</a> that conduct analysis on the entire data set on data partitioned by decade and on data partitioned by genre. We obtained 90 topic estimations for LDA routines and 300 for LSI, and repost only a small fraction of the results in the table:
       </p>
