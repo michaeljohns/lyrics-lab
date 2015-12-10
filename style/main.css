@@ -7231,6 +7231,12 @@ ul.legend li.tri::before {
 .image-set.h-650 .image-set-full {
   height: 650px;
 }
+.image-set.wide-well .image-set-list {
+  width: 225px;
+}
+.image-set.wide-well .image-set-list + .image-set-full {
+  left: 225px;
+}
 .image-set hr {
   border-top-color: #ddd;
 }
@@ -7527,6 +7533,12 @@ footer hr {
 }
 .vspace {
   height: 30px;
+}
+.vspace.v10 {
+  height: 10px;
+}
+.vspace.v20 {
+  height: 20px;
 }
 .vspace.v50 {
   height: 50px;

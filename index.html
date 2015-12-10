@@ -82,7 +82,7 @@
         We studied the third ingredient, words, which have received comparatively less attention.
       </p>
 
-      <!-- <p>
+      <p>
         Studying song lyrics is different than general sentiment analysis of, say, a culture’s literature.
         Lyrics can have attributes that would be out of place in literature or formal prose, such as repetition, rhyming, and rhythmic delivery.
         Moreover, one might speculate that lyrics may have a higher tendency to be formulaic or even clichéd, making them more amenable to pattern analysis than prose generally.
@@ -92,7 +92,7 @@
         Over most of the history of cultural musicology, research was hampered by the lack of available data.
         And when songs themselves became data stored on Compact Discs, the computing power necessary to conduct analysis was being devoted to other uses.
         Only recently has the abundance of storage and computational capacity made it feasible to study music’s messages empirically.
-      </p> -->
+      </p>
 
       <h2>Trendy or Timeless?</h2>
       <p>
@@ -533,7 +533,7 @@
 
       <h2>Word Variation</h2>
       <p>
-        To put a finer point on the word usage inquiry considered in [Word Use], we consider that words, like styles, have differing popularity levels at different times.
+        To put a finer point on the word usage inquiry considered in <a href="#grp-word-use">Word Use</a>, we consider that words, like styles, have differing popularity levels at different times.
         The words contained in song lyrics were separated into adjectives and nouns with the other words being discarded.
         The words were evaluated for how often each appears per decade, understanding that the “decade” labeled 2010 is for only half a decade (2010 through the end of 2014).
         Again we see that love is the most dominant and persistent theme, though time, baby, and girl begin to eclipse love starting in 2000.
@@ -625,11 +625,44 @@
       <div class="vspace"></div>
 
       <h2>Timeless Words</h2>
-      A large number of the words found in popular songs don’t make it from one decade to the next. Here we display the number of each type of word having lifespans from 1 to 5 decades, and also display the words spanning or enduring across all five-decade span. This inquiry uses the reduced vocabulary as described in [Data] to mitigate the skewing effects of heavy repeated use of the same word in any given song.
+      <p>
+        A large number of the words found in popular songs don’t make it from one decade to the next. Here we display the number of each type of word having lifespans from 1 to 5 decades, and also display the words spanning or enduring across all five-decade span. This inquiry uses the reduced vocabulary as described in <a href="#grp-data">Data</a> to mitigate the skewing effects of heavy repeated use of the same word in any given song.
+      </p>
 
+      <div class="vspace"></div>
 
-      <h3>Adjectives Spanning Decades</h3>
-      <div class="row">
+      <!-- <h3>Adjectives Spanning Decades</h3> -->
+      <div class="image-set h-650 wide-well">
+        <div class="image-set-list">
+          <div class="image-set-subheader header-vspace">
+            Adjectives Spanning Decades
+          </div>
+
+          <div class="image-set-item default-item" data-src="charts/adjs_5-decade_spanners.png">
+            5-Decade Spanning
+          </div>
+          <div class="image-set-item" data-src="charts/adj_histogram_decade_span.png">
+            Decade Distribution
+          </div>
+
+          <div class="vspace v10"></div>
+
+          <div class="image-set-subheader header-vspace">
+            Nouns Spanning Decades
+          </div>
+
+          <div class="image-set-item" data-src="charts/nouns_5-decade_spanners.png">
+            5-Decade Spanning
+          </div>
+          <div class="image-set-item" data-src="charts/noun_histogram_decade_span.png">
+            Decade Distribution
+          </div>
+        </div>
+        <div class="image-set-full">
+        </div>
+      </div>
+
+      <!-- <div class="row">
         <div class="col-md-4 center">
           <div class="chart-wrap">
             <img src="charts/adj_histogram_decade_span.png" height="500" />
@@ -641,9 +674,9 @@
           </div>
 
         </div>
-      </div>
+      </div> -->
 
-      <div class="vspace"></div>
+      <!-- <div class="vspace"></div>
 
       <h3>Nouns Spanning Decades</h3>
       <div class="row">
@@ -657,7 +690,7 @@
             <img src="charts/nouns_5-decade_spanners.png" height="750" />
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -675,11 +708,11 @@
     </div>
   </div>
 
-  <div class="section visible-delay" id="grp-nlp">
+  <div class="section visible-delay" id="grp-nlp-cont">
     <div class="container">
-      <h2>Vocabulary</h2>
+      <h2 id="grp-nlp-vocab">Vocabulary</h2>
 
-      Beyond splitting out parts of speech, we also recognized that words are related in various ways and wanted to collapse similar meaning words to a common one for analysis and measuring. We chose synonyms and hypernyms to draw together semantically similar peers (synonyms) and then synonym children to their common parent (hypernyms), accepting the tradeoff of vocabulary consolidation for a slight loss of semantic precision. The primary use in mind for shrinking vocabularies, was to improve the performance of our machine learning techniques. Here is the results for shrinking the nouns first by synonym and then shrinking again by synonym with hypernym replacement. More details on how we established the vocabularies are available in [Vocab-Consolidation](/notebooks/mj/Vocab-Consolidation.ipynb) and [Vocab-Shrunk Notebook](/notebooks/mj/Vocab-Shrunk.ipynb).
+      Beyond splitting out parts of speech, we also recognized that words are related in various ways and wanted to collapse similar meaning words to a common one for analysis and measuring. We chose synonyms and hypernyms to draw together semantically similar peers (synonyms) and then synonym children to their common parent (hypernyms), accepting the tradeoff of vocabulary consolidation for a slight loss of semantic precision. The primary use in mind for shrinking vocabularies, was to improve the performance of our machine learning techniques. Here is the results for shrinking the nouns first by synonym and then shrinking again by synonym with hypernym replacement. More details on how we established the vocabularies are available in <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/mj/Vocab-Consolidation.ipynb">Vocab-Consolidation</a> and <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/mj/Vocab-Shrunk.ipynb">Vocab-Shrunk Notebook</a>.
 
       <div class="vspace"></div>
 
@@ -856,8 +889,8 @@
       <h2>Vocabulary Shrinkage</h2>
 
       <p>
-        An effect of shrinking vocabularies with synonyms and hypernyms is that the vectorization of the words for corpus analysis can produce derived empties, in addition to the missing lyrics described in [Data].
-        The table below shows the further lyric eliminations needed in order to run noun analytics such as demonstrated in [Prediction].
+        An effect of shrinking vocabularies with synonyms and hypernyms is that the vectorization of the words for corpus analysis can produce derived empties, in addition to the missing lyrics described in <a href="#grp-data">Data</a>.
+        The table below shows the further lyric eliminations needed in order to run noun analytics such as demonstrated in <a href="#grp-prediction">Prediction</a>.
       </p>
 
       <div class="chart-wrap">
@@ -1066,7 +1099,7 @@
       <div class="vspace"></div>
 
       <p>
-        Similar results were obtained using LSI, and by using both LDA and LSI on synonym-reduced and hypernym-reduced [Vocabulary] sets.
+        Similar results were obtained using LSI, and by using both LDA and LSI on synonym-reduced and hypernym-reduced <a href="#grp-nlp-vocab">Vocabulary</a> sets.
         Ultimately, the results of topic analysis have to interpreted subjectively; in this case the results for all years and genres combined seem to have more semantic value than the subsets by genre and decade, both of which yielded much smaller sample sizes. For example, topic zero for all decades and genres seems to indicate a violent theme, while topic 1 reinforces the central observation that love is the most timeless value reflected in music.
       </p>
     </div>
@@ -1083,14 +1116,14 @@
       <p>
         While we understand that a song’s lyrics are not generally causal to where a given song might land on the charts, we had a hunch that there might at least be a correlation between a song’s position and its lyric content that we could model, train, and ultimately do some prediction.
         Having already explored Topic Modeling with Latent Factors as shown in the previous section, we wanted to separately focus on supervised learning techniques that would be more readily interpretable. Ultimately, we landed on predicting the ‘Top 50 versus Bottom 50’ positions on the 2014 charts, a balanced set of positives and negatives, also offering a binary prediction, where positives values indicate  ‘In the Top 50’ and negative values indicate ‘In the Bottom 50’.
-        We also wanted to again leverage the cluster computing framework <a href="http://spark.apache.org/">Spark</a> as we had usesd previously in establishing the [Vocabularies].
+        We also wanted to again leverage the cluster computing framework <a href="http://spark.apache.org/">Spark</a> as we had usesd previously in establishing the <a href="#grp-nlp-vocab">Vocabularies</a>.
         For prediction, we were interested in its <a href="http://spark.apache.org/docs/latest/ml-guide.html">Machine Learning APIs</a>.
         After some trial, error, and tuning, we used Spark’s Pipeline API to apply Logistic Regression learning algorithm, or estimator, which turned out to be a solid choice for this exploration as it favors binary, balanced data.
         More in-depth information for our approach and results can be found at <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/mj/Vector-Ensemble.ipynb">Vector Ensemble Notebook</a> in addition to more cursory information in the project <a href="https://github.com/michaeljohns/lyrics-lab/blob/master/notebooks/master.ipynb">Master Process Notebook</a>.
       </p>
 
       <p>
-        First, we tuned and fit models against noun vectors derived from all 3 [Vocabularies] -- Initial, Shrunken-1, and Shrunken-2 -- training on all data from 1970-2013 using the tuned hyperparameters.
+        First, we tuned and fit models against noun vectors derived from all 3 <a href="#grp-nlp-vocab">Vocabularies</a> -- Initial, Shrunken-1, and Shrunken-2 -- training on all data from 1970-2013 using the tuned hyperparameters.
         Then we predicted ‘Top 50 versus Bottom 50’ exclusively for 2014 using the same models derived from the 3 vocabularies.
       </p>
 
@@ -1274,36 +1307,36 @@
           <tbody>
             <tr>
               <td>'how about we dance first'</td>
-              <td>Dance_music</td>
+              <td>Dance Music</td>
             </tr>
 
             <tr>
               <td>'beat the bitch with a bat'</td>
-              <td>Hip_hop_music</td>
+              <td>Hip hop Music</td>
             </tr>
 
 
             <tr>
               <td>'you know i love you forever and ever'&nbsp;</td>
-              <td>Soft_rock</td>
+              <td>Soft Rock</td>
             </tr>
 
 
             <tr>
               <td>'gun shoot baby'</td>
-              <td>Hard_rock</td>
+              <td>Hard Rock</td>
             </tr>
 
 
             <tr>
               <td>'gun shoot'</td>
-              <td>Hard_rock</td>
+              <td>Hard Rock</td>
             </tr>
 
 
             <tr>
               <td>'woman left me, took my truck'</td>
-              <td>Country_music</td>
+              <td>Country Music</td>
             </tr>
           </tbody>
         </table>
