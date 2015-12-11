@@ -10,6 +10,8 @@ This project is now officially finished, though we may always revisit it for oth
 
 **To get a really good understanding of the project outcomes and see some interesting visualizations, visit the [Lyrics Lab Website](http://michaeljohns.github.io/lyrics-lab/#)**
 
+*Also, check out our [2-minute video](https://vimeo.com/148576080) highlighting our process and findings.*
+
 ##Key Repository Structure Information
 * proposal artifacts within [proposal](proposal) folder
   * coordination for Proposal captured [here](https://github.com/michaeljohns/lyrics-lab/blob/master/proposal/LyricsLabProposalCoordination.pdf) with richer formatting
