@@ -4,11 +4,11 @@
 * Scott Stephens, @financedoc
 * Michael Johns, @michaeljohns
 
-## Overview and Finding
+## Overview and Findings
 
 This project is now officially finished, though we may always revisit it for other uses.
 
-**To get a really good understanding of the project, visit the [Lyrics Lab Website](http://michaeljohns.github.io/lyrics-lab/#)**
+**To get a really good understanding of the project outcomes and see some interesting visualizations, visit the [Lyrics Lab Website](http://michaeljohns.github.io/lyrics-lab/#)**
 
 ##Key Repository Structure Information
 * proposal artifacts within [proposal](proposal) folder
@@ -20,8 +20,8 @@ This project is now officially finished, though we may always revisit it for oth
   * [Kevin's working notebook(s)](notebooks/kb) -- working area to avoid commit collisions
   * [Michael's working notebook(s)](notebooks/mj) -- working area to avoid commit collisions
   * [Scott's working notebook(s)](notebooks/ss) -- working area to avoid commit collisions
-  
-# Lyrics Lab Initial Proposal (For Background)
+
+## Lyrics Lab Initial Proposal (For Background)
 
 ##Background and Motivation: Discuss your motivations and reasons for choosing this project, especially any background or research interests that may have influenced your decision.
 
